@@ -13,9 +13,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-01-15T16:06:21.501-05:00
+  lastUpdatedAtString: 2020-01-15T16:09:01.721-05:00
   initializedAtString: 2020-01-15T15:35:22.501-05:00
   log:
+  - commitID: 058d9186e1140db8bc9ffa7fb88fa3cdd5459e5a
+    mergeA: 
+    mergeB: 
+    authorName: Tarun-P
+    authorEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitName: Tarun-P
+    summary: Library
+    description: 
+    timeString: 2020-01-15T16:06:36.000-05:00
+    commitTimeString: 2020-01-15T16:06:36.000-05:00
+    changes:
+    - path: Laika Game\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 0848dcaa7b73c4fb06cd06f7bb1f4a27b1ad2a85
     mergeA: 
     mergeB: 
