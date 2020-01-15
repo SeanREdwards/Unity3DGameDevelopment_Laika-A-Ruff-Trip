@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-01-15T16:56:14.548-05:00
+  lastUpdatedAtString: 2020-01-15T17:09:33.753-05:00
   initializedAtString: 2020-01-15T16:37:25.921-05:00
   entries:
-  - path: Laika Game\Assets\Scenes\SampleScene.unity
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
+  - path: .gitignore
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\.gitignore
+    projectPath: ..\.gitignore
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -28,12 +28,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Laika Game\Library\CrashedAssetImports.txt
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Laika Game\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -64,45 +58,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Laika Game\Library\ShaderCache\2\242ba449865173ddfcd13d0fa2ec2bd7.bin
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\2\242ba449865173ddfcd13d0fa2ec2bd7.bin
-    projectPath: Library\ShaderCache\2\242ba449865173ddfcd13d0fa2ec2bd7.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Library\ShaderCache\3\3b9b75cc7f33677702c25b2fa8143fc5.bin
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\3\3b9b75cc7f33677702c25b2fa8143fc5.bin
-    projectPath: Library\ShaderCache\3\3b9b75cc7f33677702c25b2fa8143fc5.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Library\ShaderCache\9\901cdb032916c9211accdd4019a2ce02.bin
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\9\901cdb032916c9211accdd4019a2ce02.bin
-    projectPath: Library\ShaderCache\9\901cdb032916c9211accdd4019a2ce02.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Library\ShaderCache\9\90b34f4df5811605e54756368c99c346.bin
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\9\90b34f4df5811605e54756368c99c346.bin
-    projectPath: Library\ShaderCache\9\90b34f4df5811605e54756368c99c346.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Library\ShaderCache\a\ad6540778021856608bedef2060a64ea.bin
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\a\ad6540778021856608bedef2060a64ea.bin
-    projectPath: Library\ShaderCache\a\ad6540778021856608bedef2060a64ea.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Library\ShaderCache\e\e7fee8892885a360e1c2bdea12b62ba1.bin
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\e\e7fee8892885a360e1c2bdea12b62ba1.bin
-    projectPath: Library\ShaderCache\e\e7fee8892885a360e1c2bdea12b62ba1.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
+  - path: Laika Game\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

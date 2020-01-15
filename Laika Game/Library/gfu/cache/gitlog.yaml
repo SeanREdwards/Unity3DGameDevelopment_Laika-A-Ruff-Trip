@@ -13,9 +13,105 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-01-15T16:55:29.027-05:00
+  lastUpdatedAtString: 2020-01-15T17:06:34.048-05:00
   initializedAtString: 2020-01-15T16:37:42.297-05:00
   log:
+  - commitID: 15d12f56416533cbc2ca87e2e747872a0b128093
+    mergeA: 
+    mergeB: 
+    authorName: Tarun-P
+    authorEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitName: Tarun-P
+    summary: 3 objects
+    description: 
+    timeString: 2020-01-15T16:56:47.000-05:00
+    commitTimeString: 2020-01-15T16:56:47.000-05:00
+    changes:
+    - path: Laika Game\Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ShaderCache\2\242ba449865173ddfcd13d0fa2ec2bd7.bin
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\2\242ba449865173ddfcd13d0fa2ec2bd7.bin
+      projectPath: Library\ShaderCache\2\242ba449865173ddfcd13d0fa2ec2bd7.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\ShaderCache\3\3b9b75cc7f33677702c25b2fa8143fc5.bin
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\3\3b9b75cc7f33677702c25b2fa8143fc5.bin
+      projectPath: Library\ShaderCache\3\3b9b75cc7f33677702c25b2fa8143fc5.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\ShaderCache\9\901cdb032916c9211accdd4019a2ce02.bin
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\9\901cdb032916c9211accdd4019a2ce02.bin
+      projectPath: Library\ShaderCache\9\901cdb032916c9211accdd4019a2ce02.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\ShaderCache\9\90b34f4df5811605e54756368c99c346.bin
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\9\90b34f4df5811605e54756368c99c346.bin
+      projectPath: Library\ShaderCache\9\90b34f4df5811605e54756368c99c346.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ShaderCache\a\ad6540778021856608bedef2060a64ea.bin
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\a\ad6540778021856608bedef2060a64ea.bin
+      projectPath: Library\ShaderCache\a\ad6540778021856608bedef2060a64ea.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\ShaderCache\e\e7fee8892885a360e1c2bdea12b62ba1.bin
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\e\e7fee8892885a360e1c2bdea12b62ba1.bin
+      projectPath: Library\ShaderCache\e\e7fee8892885a360e1c2bdea12b62ba1.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\assetDatabase3
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 514018eb1eee9a35c9eefbf65f6c8e7a8f23fc0b
     mergeA: 
     mergeB: 
