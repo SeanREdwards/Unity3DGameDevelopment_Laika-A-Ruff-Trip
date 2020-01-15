@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-01-15T15:04:35.088-05:00
-  initializedAtString: 2020-01-15T15:04:35.088-05:00
+  lastUpdatedAtString: 2020-01-15T16:04:19.268-05:00
+  initializedAtString: 2020-01-15T15:31:03.350-05:00
   currentGitRemote:
     name: origin
-    url: https://github.com/nathanrauf/Laika.git
+    url: https://github.com/nathanrauf/Laika
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: tarun
+    tracking: origin/tarun
   currentConfigBranch:
-    name: master
+    name: tarun
     remote:
       name: origin
-      url: https://github.com/nathanrauf/Laika.git
-    trackingBranch: master
+      url: https://github.com/nathanrauf/Laika
+    trackingBranch: tarun
   currentConfigRemote:
     name: origin
-    url: https://github.com/nathanrauf/Laika.git
+    url: https://github.com/nathanrauf/Laika
   currentHead: 
