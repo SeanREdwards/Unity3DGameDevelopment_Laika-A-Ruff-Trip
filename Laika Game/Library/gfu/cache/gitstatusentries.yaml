@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-01-15T16:40:30.850-05:00
+  lastUpdatedAtString: 2020-01-15T16:47:57.221-05:00
   initializedAtString: 2020-01-15T16:37:25.921-05:00
   entries:
+  - path: .gitignore.txt
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\.gitignore.txt
+    projectPath: ..\.gitignore.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Laika Game\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Laika Game\Library\gfu\cache\gitlocks.yaml
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitlocks.yaml
-    projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -43,12 +43,6 @@ MonoBehaviour:
   - path: Laika Game\Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Laika Game\Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\repoinfo.yaml
-    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
