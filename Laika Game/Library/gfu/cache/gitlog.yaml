@@ -13,9 +13,2301 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-01-15T16:33:42.262-05:00
-  initializedAtString: 2020-01-15T16:26:23.720-05:00
+  lastUpdatedAtString: 2020-01-15T16:37:42.297-05:00
+  initializedAtString: 2020-01-15T16:37:42.297-05:00
   log:
+  - commitID: bb3f6f5a6e5d6925ee0d20d13983681d1ab15006
+    mergeA: 
+    mergeB: 
+    authorName: Tarun-P
+    authorEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitName: Tarun-P
+    summary: Commit Before Pull MainMenu
+    description: 
+    timeString: 2020-01-15T16:33:52.000-05:00
+    commitTimeString: 2020-01-15T16:33:52.000-05:00
+    changes:
+    - path: Laika Game\Library\APIUpdater\project-dependencies.graph
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\APIUpdater\project-dependencies.graph
+      projectPath: Library\APIUpdater\project-dependencies.graph
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\EditorInstance.json
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\CHANGELOG.md
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\CHANGELOG.md
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\CHANGELOG.md
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\CHANGELOG.md
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\CHANGELOG.md.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\CHANGELOG.md.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\CHANGELOG.md.meta
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\CHANGELOG.md.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\CONTRIBUTING.md
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\CONTRIBUTING.md
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\CONTRIBUTING.md
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\CONTRIBUTING.md
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\CONTRIBUTING.md.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\CONTRIBUTING.md.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\CONTRIBUTING.md.meta
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\CONTRIBUTING.md.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Documentation~\README.md
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Documentation~\README.md
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Documentation~\README.md
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\Documentation~\README.md
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor.meta
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\Editor.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\AssemblyNameProvider.cs
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\AssemblyNameProvider.cs
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\AssemblyNameProvider.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\AssemblyNameProvider.cs.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\AssemblyNameProvider.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\AssemblyNameProvider.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\FileIO.cs
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\FileIO.cs
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\FileIO.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\FileIO.cs.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\FileIO.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\FileIO.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\GUIDGenerator.cs
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\GUIDGenerator.cs
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\GUIDGenerator.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\GUIDGenerator.cs.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\GUIDGenerator.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\GUIDGenerator.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\ProjectGeneration.cs
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\ProjectGeneration.cs
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\ProjectGeneration.cs
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\Editor\ProjectGeneration.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\ProjectGeneration.cs.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\ProjectGeneration.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\ProjectGeneration\ProjectGeneration.cs.meta
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\Editor\ProjectGeneration.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\Unity.com.unity.vscode.Editor.asmdef
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\Unity.com.unity.vscode.Editor.asmdef
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\Unity.com.unity.vscode.Editor.asmdef
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\Editor\Unity.com.unity.vscode.Editor.asmdef
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\Unity.com.unity.vscode.Editor.asmdef.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\Unity.com.unity.vscode.Editor.asmdef.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\Unity.com.unity.vscode.Editor.asmdef.meta
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\Editor\Unity.com.unity.vscode.Editor.asmdef.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\Utility.cs
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\Utility.cs
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\Utility.cs
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\Editor\Utility.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\Utility.cs.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\Utility.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\Utility.cs.meta
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\Editor\Utility.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\VSCodeDiscovery.cs
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\VSCodeDiscovery.cs
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\VSCodeDiscovery.cs
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\Editor\VSCodeDiscovery.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\VSCodeDiscovery.cs.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\VSCodeDiscovery.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\VSCodeDiscovery.cs.meta
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\Editor\VSCodeDiscovery.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\VSCodeScriptEditor.cs
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\VSCodeScriptEditor.cs
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\VSCodeScriptEditor.cs
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\Editor\VSCodeScriptEditor.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\VSCodeScriptEditor.cs.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\VSCodeScriptEditor.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\Editor\VSCodeScriptEditor.cs.meta
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\Editor\VSCodeScriptEditor.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\LICENSE.md
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\LICENSE.md
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\LICENSE.md
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\LICENSE.md
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\LICENSE.md.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\LICENSE.md.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\LICENSE.md.meta
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\LICENSE.md.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\package.json
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\package.json
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\package.json
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\package.json
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\package.json.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.3\package.json.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.1.3\package.json.meta
+      originalPath: Laika Game\Library\PackageCache\com.unity.ide.vscode@1.1.2\package.json.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\SceneVisibilityState.asset
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.Timeline.dll
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.Timeline.dll
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.Timeline.pdb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.Timeline.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+      projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+      projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\UnityEditor.UI.pdb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\UnityEditor.UI.pdb
+      projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+      projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+      projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptAssemblies\UnityEngine.UI.pdb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\UnityEngine.UI.pdb
+      projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ScriptMapper
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptMapper
+      projectPath: Library\ScriptMapper
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\assetDatabase3
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\00000000000000002000000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\00000000000000002000000000000000
+      projectPath: Library\metadata\00\00000000000000002000000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\00000000000000003000000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\00000000000000003000000000000000
+      projectPath: Library\metadata\00\00000000000000003000000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\00000000000000004000000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\00000000000000004000000000000000
+      projectPath: Library\metadata\00\00000000000000004000000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\00000000000000004100000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\00000000000000004100000000000000
+      projectPath: Library\metadata\00\00000000000000004100000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\00000000000000005000000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\00000000000000005000000000000000
+      projectPath: Library\metadata\00\00000000000000005000000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\00000000000000005100000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\00000000000000005100000000000000
+      projectPath: Library\metadata\00\00000000000000005100000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\00000000000000006000000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\00000000000000006000000000000000
+      projectPath: Library\metadata\00\00000000000000006000000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\00000000000000006100000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\00000000000000006100000000000000
+      projectPath: Library\metadata\00\00000000000000006100000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\00000000000000007000000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\00000000000000007000000000000000
+      projectPath: Library\metadata\00\00000000000000007000000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\00000000000000007100000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\00000000000000007100000000000000
+      projectPath: Library\metadata\00\00000000000000007100000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\00000000000000008000000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\00000000000000008000000000000000
+      projectPath: Library\metadata\00\00000000000000008000000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\00000000000000009000000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\00000000000000009000000000000000
+      projectPath: Library\metadata\00\00000000000000009000000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\0000000000000000a100000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\0000000000000000a100000000000000
+      projectPath: Library\metadata\00\0000000000000000a100000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\0000000000000000b000000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\0000000000000000b000000000000000
+      projectPath: Library\metadata\00\0000000000000000b000000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\0000000000000000b100000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\0000000000000000b100000000000000
+      projectPath: Library\metadata\00\0000000000000000b100000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\0000000000000000c000000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\0000000000000000c000000000000000
+      projectPath: Library\metadata\00\0000000000000000c000000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\00\0000000000000000c100000000000000
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\00\0000000000000000c100000000000000
+      projectPath: Library\metadata\00\0000000000000000c100000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\04\04cc958f40f350044a432c012f320305
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\04\04cc958f40f350044a432c012f320305
+      projectPath: Library\metadata\04\04cc958f40f350044a432c012f320305
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\06\066619c9c9c84f89acb1b48c11a7efe2
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\06\066619c9c9c84f89acb1b48c11a7efe2
+      projectPath: Library\metadata\06\066619c9c9c84f89acb1b48c11a7efe2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\06\06ae1baf5524b314fa65b173b9eca869
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\06\06ae1baf5524b314fa65b173b9eca869
+      projectPath: Library\metadata\06\06ae1baf5524b314fa65b173b9eca869
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\07\07ea0326ed848fb4489187cb58f96113
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\07\07ea0326ed848fb4489187cb58f96113
+      projectPath: Library\metadata\07\07ea0326ed848fb4489187cb58f96113
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\09\09e68d8a529a36340b752b99a1b70f83
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\09\09e68d8a529a36340b752b99a1b70f83
+      projectPath: Library\metadata\09\09e68d8a529a36340b752b99a1b70f83
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\0c\0c04c8cb23b78e04492e0f310cdee93e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\0c\0c04c8cb23b78e04492e0f310cdee93e
+      projectPath: Library\metadata\0c\0c04c8cb23b78e04492e0f310cdee93e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\0c\0cb14878543cf3d4f8472b15f7ecf0e3
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\0c\0cb14878543cf3d4f8472b15f7ecf0e3
+      projectPath: Library\metadata\0c\0cb14878543cf3d4f8472b15f7ecf0e3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\0d\0d9a36012a224080966c7b55896aa0f9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\0d\0d9a36012a224080966c7b55896aa0f9
+      projectPath: Library\metadata\0d\0d9a36012a224080966c7b55896aa0f9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\0f\0f71aeefaa877ae4787e8356f25ad1e5
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\0f\0f71aeefaa877ae4787e8356f25ad1e5
+      projectPath: Library\metadata\0f\0f71aeefaa877ae4787e8356f25ad1e5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\10\1091bc2ad06e3234aac2b2fa2841c09d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\10\1091bc2ad06e3234aac2b2fa2841c09d
+      projectPath: Library\metadata\10\1091bc2ad06e3234aac2b2fa2841c09d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+      projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+      projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\12\12736c98af174f91827a26b66d2b01b9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\12\12736c98af174f91827a26b66d2b01b9
+      projectPath: Library\metadata\12\12736c98af174f91827a26b66d2b01b9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\12\12c42068351bb084abde965d725b9887
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\12\12c42068351bb084abde965d725b9887
+      projectPath: Library\metadata\12\12c42068351bb084abde965d725b9887
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\13\1369382d2c5e64dc5b2ec0b6b0a94531
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\13\1369382d2c5e64dc5b2ec0b6b0a94531
+      projectPath: Library\metadata\13\1369382d2c5e64dc5b2ec0b6b0a94531
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\13\136dc24f151211d438acee17aff4e934
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\13\136dc24f151211d438acee17aff4e934
+      projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\15\151a1d946b98deb4b98445400983ba92
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\15\151a1d946b98deb4b98445400983ba92
+      projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\16\16388ae022a89264b84107f0c1b44680
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\16\16388ae022a89264b84107f0c1b44680
+      projectPath: Library\metadata\16\16388ae022a89264b84107f0c1b44680
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+      projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+      projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\18\18775b51e3bd42299fd30bd036ea982f
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\18\18775b51e3bd42299fd30bd036ea982f
+      projectPath: Library\metadata\18\18775b51e3bd42299fd30bd036ea982f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+      projectPath: Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\19\1999349e7f492c947bb6eb70f624382e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\19\1999349e7f492c947bb6eb70f624382e
+      projectPath: Library\metadata\19\1999349e7f492c947bb6eb70f624382e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\1a\1ac677c5ece15b443b2aaf7fae5842f7
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\1a\1ac677c5ece15b443b2aaf7fae5842f7
+      projectPath: Library\metadata\1a\1ac677c5ece15b443b2aaf7fae5842f7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\1a\1ad55f5ad04d1d045a1f287409c650dd
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\1a\1ad55f5ad04d1d045a1f287409c650dd
+      projectPath: Library\metadata\1a\1ad55f5ad04d1d045a1f287409c650dd
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\1b\1b393f6b29a9ee84c803af1ab4944b71
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\1b\1b393f6b29a9ee84c803af1ab4944b71
+      projectPath: Library\metadata\1b\1b393f6b29a9ee84c803af1ab4944b71
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\1d\1d93ffb668978f7488211a331977b73b
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\1d\1d93ffb668978f7488211a331977b73b
+      projectPath: Library\metadata\1d\1d93ffb668978f7488211a331977b73b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\1d\1d93ffb668978f7488211a331977b73b.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\1d\1d93ffb668978f7488211a331977b73b.info
+      projectPath: Library\metadata\1d\1d93ffb668978f7488211a331977b73b.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\1d\1ddb9e1c877ea80479d1eab4ddaa5d0d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\1d\1ddb9e1c877ea80479d1eab4ddaa5d0d
+      projectPath: Library\metadata\1d\1ddb9e1c877ea80479d1eab4ddaa5d0d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\1f\1f5bbb88ca730434483440cbc0278ef6
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\1f\1f5bbb88ca730434483440cbc0278ef6
+      projectPath: Library\metadata\1f\1f5bbb88ca730434483440cbc0278ef6
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\23\2347243c7aa3e224f9282dc94e6fc3b2
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\23\2347243c7aa3e224f9282dc94e6fc3b2
+      projectPath: Library\metadata\23\2347243c7aa3e224f9282dc94e6fc3b2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\23\239dd6edc8e5cd14585c03e09e86a747
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\23\239dd6edc8e5cd14585c03e09e86a747
+      projectPath: Library\metadata\23\239dd6edc8e5cd14585c03e09e86a747
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\23\23c8bee69b591054094d32918f98facd
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\23\23c8bee69b591054094d32918f98facd
+      projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+      projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\25\256a0ca37fa972840bce7fca446e75e7
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\25\256a0ca37fa972840bce7fca446e75e7
+      projectPath: Library\metadata\25\256a0ca37fa972840bce7fca446e75e7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+      projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+      projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\27\27ed3e221887b3544bd9d6505d4a789f
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\27\27ed3e221887b3544bd9d6505d4a789f
+      projectPath: Library\metadata\27\27ed3e221887b3544bd9d6505d4a789f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\28\28542eca5f1b4c64813acfbd512524b6
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\28\28542eca5f1b4c64813acfbd512524b6
+      projectPath: Library\metadata\28\28542eca5f1b4c64813acfbd512524b6
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\28\28e8b16370ff78c4faca58757271619f
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\28\28e8b16370ff78c4faca58757271619f
+      projectPath: Library\metadata\28\28e8b16370ff78c4faca58757271619f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\2a\2a28c2fab6b1bb745a844ef6b908e7ee
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\2a\2a28c2fab6b1bb745a844ef6b908e7ee
+      projectPath: Library\metadata\2a\2a28c2fab6b1bb745a844ef6b908e7ee
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\2b\2bc8a181dfd9de24388de89bb8db7713
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\2b\2bc8a181dfd9de24388de89bb8db7713
+      projectPath: Library\metadata\2b\2bc8a181dfd9de24388de89bb8db7713
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\2c\2ce4bbcc4722440890a03312706037fe
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\2c\2ce4bbcc4722440890a03312706037fe
+      projectPath: Library\metadata\2c\2ce4bbcc4722440890a03312706037fe
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\2d\2d8485e4e3a2bcb429fc32900ca26d9e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\2d\2d8485e4e3a2bcb429fc32900ca26d9e
+      projectPath: Library\metadata\2d\2d8485e4e3a2bcb429fc32900ca26d9e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\2d\2d9b6ff056b6f484ba6500aa8e06bcf3
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\2d\2d9b6ff056b6f484ba6500aa8e06bcf3
+      projectPath: Library\metadata\2d\2d9b6ff056b6f484ba6500aa8e06bcf3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\2d\2da27f5fe80a3a549ac7331d9f52f5f0
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\2d\2da27f5fe80a3a549ac7331d9f52f5f0
+      projectPath: Library\metadata\2d\2da27f5fe80a3a549ac7331d9f52f5f0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\2f\2fd6421f253b4ef1a19526541f9ffc0c
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\2f\2fd6421f253b4ef1a19526541f9ffc0c
+      projectPath: Library\metadata\2f\2fd6421f253b4ef1a19526541f9ffc0c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\30\305ca32be1aa5504aa182f583895dfe4
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\30\305ca32be1aa5504aa182f583895dfe4
+      projectPath: Library\metadata\30\305ca32be1aa5504aa182f583895dfe4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\31\3174898fbcdf12448963cdb5f5b60a33
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\31\3174898fbcdf12448963cdb5f5b60a33
+      projectPath: Library\metadata\31\3174898fbcdf12448963cdb5f5b60a33
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\32\32e2186f4598cff489784aae586f2215
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\32\32e2186f4598cff489784aae586f2215
+      projectPath: Library\metadata\32\32e2186f4598cff489784aae586f2215
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9
+      projectPath: Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
+      projectPath: Library\metadata\33\33d3e83914445de4d92ab0d77d7fa3f9.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\34\342a0f8aca7f4f0691338912faec0494
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\34\342a0f8aca7f4f0691338912faec0494
+      projectPath: Library\metadata\34\342a0f8aca7f4f0691338912faec0494
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\35\35ff0937876540d3bd4b6a941df62a92
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\35\35ff0937876540d3bd4b6a941df62a92
+      projectPath: Library\metadata\35\35ff0937876540d3bd4b6a941df62a92
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\37\37472f5179ca2004489ac901814cdbc3
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\37\37472f5179ca2004489ac901814cdbc3
+      projectPath: Library\metadata\37\37472f5179ca2004489ac901814cdbc3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\37\37888acc09d9ee848bf9559f06645c45
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\37\37888acc09d9ee848bf9559f06645c45
+      projectPath: Library\metadata\37\37888acc09d9ee848bf9559f06645c45
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\38\380f7372e785c7d408552e2c760d269d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\38\380f7372e785c7d408552e2c760d269d
+      projectPath: Library\metadata\38\380f7372e785c7d408552e2c760d269d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\3a\3a5038547af7c7f46bd90a015862e0b3
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\3a\3a5038547af7c7f46bd90a015862e0b3
+      projectPath: Library\metadata\3a\3a5038547af7c7f46bd90a015862e0b3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\3e\3e8d6af343b383544ba5743d119f4062
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\3e\3e8d6af343b383544ba5743d119f4062
+      projectPath: Library\metadata\3e\3e8d6af343b383544ba5743d119f4062
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\3e\3ee40aa79cd242a5b53b0b0ca4f13f0f
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\3e\3ee40aa79cd242a5b53b0b0ca4f13f0f
+      projectPath: Library\metadata\3e\3ee40aa79cd242a5b53b0b0ca4f13f0f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\3f\3f9202a39620f51418046c7754f215f0
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\3f\3f9202a39620f51418046c7754f215f0
+      projectPath: Library\metadata\3f\3f9202a39620f51418046c7754f215f0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\41\41b96614b2e6494ba995ddcd252d11ae
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\41\41b96614b2e6494ba995ddcd252d11ae
+      projectPath: Library\metadata\41\41b96614b2e6494ba995ddcd252d11ae
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\43\43b1467da3d29ae4597a733828cdd84a
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\43\43b1467da3d29ae4597a733828cdd84a
+      projectPath: Library\metadata\43\43b1467da3d29ae4597a733828cdd84a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\45\4506ac79f5b274cb1b249ed7f4abfb9a
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\45\4506ac79f5b274cb1b249ed7f4abfb9a
+      projectPath: Library\metadata\45\4506ac79f5b274cb1b249ed7f4abfb9a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\45\4584db2acba045742a16942983e7fb96
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\45\4584db2acba045742a16942983e7fb96
+      projectPath: Library\metadata\45\4584db2acba045742a16942983e7fb96
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\46\46646a5562f14984690c85ee7b946bc9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\46\46646a5562f14984690c85ee7b946bc9
+      projectPath: Library\metadata\46\46646a5562f14984690c85ee7b946bc9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5
+      projectPath: Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
+      projectPath: Library\metadata\48\480071253ef427a4cbc55ef1fedca3e5.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\48\48d034c499ee4697af9dd6e327110249
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\48\48d034c499ee4697af9dd6e327110249
+      projectPath: Library\metadata\48\48d034c499ee4697af9dd6e327110249
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\49\49679f302ac6408697f6b9314a38985c
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\49\49679f302ac6408697f6b9314a38985c
+      projectPath: Library\metadata\49\49679f302ac6408697f6b9314a38985c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\49\49d4c2ab7ff0f4442af256bad7c9d57c
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\49\49d4c2ab7ff0f4442af256bad7c9d57c
+      projectPath: Library\metadata\49\49d4c2ab7ff0f4442af256bad7c9d57c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\4a\4ad09461bf994e54da846f726a23118e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\4a\4ad09461bf994e54da846f726a23118e
+      projectPath: Library\metadata\4a\4ad09461bf994e54da846f726a23118e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e
+      projectPath: Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
+      projectPath: Library\metadata\4b\4ba86e5b8d6657b4184ff6b976ac3d3e.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\4c\4c6f60d349ea37048af03504fc872f33
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\4c\4c6f60d349ea37048af03504fc872f33
+      projectPath: Library\metadata\4c\4c6f60d349ea37048af03504fc872f33
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\4c\4cfe5ade9a1375e40aed87618b92bd12
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\4c\4cfe5ade9a1375e40aed87618b92bd12
+      projectPath: Library\metadata\4c\4cfe5ade9a1375e40aed87618b92bd12
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\4d\4ddcdc3816429494a8bea67e973875f7
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\4d\4ddcdc3816429494a8bea67e973875f7
+      projectPath: Library\metadata\4d\4ddcdc3816429494a8bea67e973875f7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\4f\4f9ac6e545d53f94b9f09c85b9576f36
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\4f\4f9ac6e545d53f94b9f09c85b9576f36
+      projectPath: Library\metadata\4f\4f9ac6e545d53f94b9f09c85b9576f36
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\51\51557afa652635743b264a309f0a5c60
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\51\51557afa652635743b264a309f0a5c60
+      projectPath: Library\metadata\51\51557afa652635743b264a309f0a5c60
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\54\5472815444de2ce45bf2053a4af04b9d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\54\5472815444de2ce45bf2053a4af04b9d
+      projectPath: Library\metadata\54\5472815444de2ce45bf2053a4af04b9d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+      projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\56\5673d7b11cb9ad04eb2368068b720c17
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\56\5673d7b11cb9ad04eb2368068b720c17
+      projectPath: Library\metadata\56\5673d7b11cb9ad04eb2368068b720c17
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\57\57ff740bce4ab0c498ada374a8ca1dc0
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\57\57ff740bce4ab0c498ada374a8ca1dc0
+      projectPath: Library\metadata\57\57ff740bce4ab0c498ada374a8ca1dc0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\58\585b70cb75dd43efbfead809c30a1731
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\58\585b70cb75dd43efbfead809c30a1731
+      projectPath: Library\metadata\58\585b70cb75dd43efbfead809c30a1731
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\58\58628227479c34542ac8c5193ccced84
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\58\58628227479c34542ac8c5193ccced84
+      projectPath: Library\metadata\58\58628227479c34542ac8c5193ccced84
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\58\58eb69fc39be3d040b984b4498a820bb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\58\58eb69fc39be3d040b984b4498a820bb
+      projectPath: Library\metadata\58\58eb69fc39be3d040b984b4498a820bb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\5a\5a2082a44711bad4b90f693579c2b336
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\5a\5a2082a44711bad4b90f693579c2b336
+      projectPath: Library\metadata\5a\5a2082a44711bad4b90f693579c2b336
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
+      projectPath: Library\metadata\5a\5a2082a44711bad4b90f693579c2b336.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\5b\5b00473355622524394628f7ec51808d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\5b\5b00473355622524394628f7ec51808d
+      projectPath: Library\metadata\5b\5b00473355622524394628f7ec51808d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\5b\5ba130fc1db953547a50bcf5c162a3e8
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\5b\5ba130fc1db953547a50bcf5c162a3e8
+      projectPath: Library\metadata\5b\5ba130fc1db953547a50bcf5c162a3e8
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\5d\5d7f0d6acfced954682a89e7002c04d9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\5d\5d7f0d6acfced954682a89e7002c04d9
+      projectPath: Library\metadata\5d\5d7f0d6acfced954682a89e7002c04d9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\5e\5e726086cd652f82087d59d67d2c24cd
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\5e\5e726086cd652f82087d59d67d2c24cd
+      projectPath: Library\metadata\5e\5e726086cd652f82087d59d67d2c24cd
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\5e\5ec95f4d5b2d1f14e9ff8682562553f9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\5e\5ec95f4d5b2d1f14e9ff8682562553f9
+      projectPath: Library\metadata\5e\5ec95f4d5b2d1f14e9ff8682562553f9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\5f\5f603f10b9ec26841b2ecb6003dc1d0e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\5f\5f603f10b9ec26841b2ecb6003dc1d0e
+      projectPath: Library\metadata\5f\5f603f10b9ec26841b2ecb6003dc1d0e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\5f\5fc988a1d5b04aee9a5222502b201a45
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\5f\5fc988a1d5b04aee9a5222502b201a45
+      projectPath: Library\metadata\5f\5fc988a1d5b04aee9a5222502b201a45
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\61\61e236e8570a95e4eb754fb291e102e0
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\61\61e236e8570a95e4eb754fb291e102e0
+      projectPath: Library\metadata\61\61e236e8570a95e4eb754fb291e102e0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\64\64b9fad609434c489c32b1cdf2004a1c
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\64\64b9fad609434c489c32b1cdf2004a1c
+      projectPath: Library\metadata\64\64b9fad609434c489c32b1cdf2004a1c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\67\67e9c6cf60c57a54f9f4db1bc33fd2e3
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\67\67e9c6cf60c57a54f9f4db1bc33fd2e3
+      projectPath: Library\metadata\67\67e9c6cf60c57a54f9f4db1bc33fd2e3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\68\68cb547af0187634aad591a09c01cd5b
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\68\68cb547af0187634aad591a09c01cd5b
+      projectPath: Library\metadata\68\68cb547af0187634aad591a09c01cd5b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\69\691475c57a824010be0c6f474caeb7e1
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\69\691475c57a824010be0c6f474caeb7e1
+      projectPath: Library\metadata\69\691475c57a824010be0c6f474caeb7e1
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\6a\6ace62d30f494c948b71d5594afce11d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\6a\6ace62d30f494c948b71d5594afce11d
+      projectPath: Library\metadata\6a\6ace62d30f494c948b71d5594afce11d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\6b\6b1ae1e78552c459d9ce27048ff51c7f
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\6b\6b1ae1e78552c459d9ce27048ff51c7f
+      projectPath: Library\metadata\6b\6b1ae1e78552c459d9ce27048ff51c7f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\6b\6b72875690e0f7343911e06af3145bd5
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\6b\6b72875690e0f7343911e06af3145bd5
+      projectPath: Library\metadata\6b\6b72875690e0f7343911e06af3145bd5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\6c\6c61ba0c209bcc74f83e3650039ebdf9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\6c\6c61ba0c209bcc74f83e3650039ebdf9
+      projectPath: Library\metadata\6c\6c61ba0c209bcc74f83e3650039ebdf9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615
+      projectPath: Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
+      projectPath: Library\metadata\6e\6e4df876417ac4c4f8862a5234b25615.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5
+      projectPath: Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\74\742654cad2425334696ba6ed4495cfef
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\74\742654cad2425334696ba6ed4495cfef
+      projectPath: Library\metadata\74\742654cad2425334696ba6ed4495cfef
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\76\7602252bdb82b8d45ae3483c3a00d3e1
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\76\7602252bdb82b8d45ae3483c3a00d3e1
+      projectPath: Library\metadata\76\7602252bdb82b8d45ae3483c3a00d3e1
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\7a\7a24ec4b5c3e08e47bf50c8298c1fe0d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\7a\7a24ec4b5c3e08e47bf50c8298c1fe0d
+      projectPath: Library\metadata\7a\7a24ec4b5c3e08e47bf50c8298c1fe0d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\7a\7a892c920c8ad2848b469ec9579c5219
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\7a\7a892c920c8ad2848b469ec9579c5219
+      projectPath: Library\metadata\7a\7a892c920c8ad2848b469ec9579c5219
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\7c\7c6295db74da28645bf49db58b7c9c65
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\7c\7c6295db74da28645bf49db58b7c9c65
+      projectPath: Library\metadata\7c\7c6295db74da28645bf49db58b7c9c65
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\7e\7e609b27ad2caa14c83dd9951b6c13c6
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\7e\7e609b27ad2caa14c83dd9951b6c13c6
+      projectPath: Library\metadata\7e\7e609b27ad2caa14c83dd9951b6c13c6
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\7f\7f27709c942d91541be1fd6aa5cb3d78
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\7f\7f27709c942d91541be1fd6aa5cb3d78
+      projectPath: Library\metadata\7f\7f27709c942d91541be1fd6aa5cb3d78
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\81\81ed8c76d2bc4a4c95d092c98af4e58f
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\81\81ed8c76d2bc4a4c95d092c98af4e58f
+      projectPath: Library\metadata\81\81ed8c76d2bc4a4c95d092c98af4e58f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\83\8313ea704470a264295ec9e09aec6ebc
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\83\8313ea704470a264295ec9e09aec6ebc
+      projectPath: Library\metadata\83\8313ea704470a264295ec9e09aec6ebc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\85\850af9f3bf6d14143baf2ecfbf25db52
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\85\850af9f3bf6d14143baf2ecfbf25db52
+      projectPath: Library\metadata\85\850af9f3bf6d14143baf2ecfbf25db52
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\85\853edc343b78a7c4c81cbb3851d48c0a
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\85\853edc343b78a7c4c81cbb3851d48c0a
+      projectPath: Library\metadata\85\853edc343b78a7c4c81cbb3851d48c0a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\86\8620e97e7e9859049934889a52248435
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\86\8620e97e7e9859049934889a52248435
+      projectPath: Library\metadata\86\8620e97e7e9859049934889a52248435
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+      projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\86\86cacab070a0a46e99aedb596a32c4fe
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\86\86cacab070a0a46e99aedb596a32c4fe
+      projectPath: Library\metadata\86\86cacab070a0a46e99aedb596a32c4fe
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\87\877ef3585573ce44eab899298be23158
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\87\877ef3585573ce44eab899298be23158
+      projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+      projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\8b\8b7d06780fca6fc4384580d3ebed9219
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\8b\8b7d06780fca6fc4384580d3ebed9219
+      projectPath: Library\metadata\8b\8b7d06780fca6fc4384580d3ebed9219
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\8b\8b845b123ab418448a8be2935fa804e0
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\8b\8b845b123ab418448a8be2935fa804e0
+      projectPath: Library\metadata\8b\8b845b123ab418448a8be2935fa804e0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\8b\8bc445bb79654bf496c92d0407840a92
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\8b\8bc445bb79654bf496c92d0407840a92
+      projectPath: Library\metadata\8b\8bc445bb79654bf496c92d0407840a92
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\8e\8e78f8a8575e4a04f8337a54e241cdc5
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\8e\8e78f8a8575e4a04f8337a54e241cdc5
+      projectPath: Library\metadata\8e\8e78f8a8575e4a04f8337a54e241cdc5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\91\9129183a42052cd43b9c284d6dbd541e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\91\9129183a42052cd43b9c284d6dbd541e
+      projectPath: Library\metadata\91\9129183a42052cd43b9c284d6dbd541e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\91\919d97c1a707113409177d498d31cf51
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\91\919d97c1a707113409177d498d31cf51
+      projectPath: Library\metadata\91\919d97c1a707113409177d498d31cf51
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\91\91c20d2c22b8b3a4cb6c816bd225591a
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\91\91c20d2c22b8b3a4cb6c816bd225591a
+      projectPath: Library\metadata\91\91c20d2c22b8b3a4cb6c816bd225591a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\92\92027f7f8cfc4feaa477da0dc38d3d46
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\92\92027f7f8cfc4feaa477da0dc38d3d46
+      projectPath: Library\metadata\92\92027f7f8cfc4feaa477da0dc38d3d46
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\92\9288066c33474b94b6ee5465f4df1cc0
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\92\9288066c33474b94b6ee5465f4df1cc0
+      projectPath: Library\metadata\92\9288066c33474b94b6ee5465f4df1cc0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\93\936bea4b2545c4a4fad2e623b0f6371f
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\93\936bea4b2545c4a4fad2e623b0f6371f
+      projectPath: Library\metadata\93\936bea4b2545c4a4fad2e623b0f6371f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\93\936c6340f3468444ebb1785b4c311126
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\93\936c6340f3468444ebb1785b4c311126
+      projectPath: Library\metadata\93\936c6340f3468444ebb1785b4c311126
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\93\93effba7cf7f3824ab0bd048a27a9c02
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\93\93effba7cf7f3824ab0bd048a27a9c02
+      projectPath: Library\metadata\93\93effba7cf7f3824ab0bd048a27a9c02
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\94\945f4ecec6df62244b9ebcc363833642
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\94\945f4ecec6df62244b9ebcc363833642
+      projectPath: Library\metadata\94\945f4ecec6df62244b9ebcc363833642
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\95\950890083f4907541a6ed06d70959e49
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\95\950890083f4907541a6ed06d70959e49
+      projectPath: Library\metadata\95\950890083f4907541a6ed06d70959e49
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\95\95b719082a664ea45bb56759eed1f271
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\95\95b719082a664ea45bb56759eed1f271
+      projectPath: Library\metadata\95\95b719082a664ea45bb56759eed1f271
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\95\95cdf27b47eb82747ba9e51f41e72a35
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\95\95cdf27b47eb82747ba9e51f41e72a35
+      projectPath: Library\metadata\95\95cdf27b47eb82747ba9e51f41e72a35
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\96\96c503bf059df984c86eecf572370347
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\96\96c503bf059df984c86eecf572370347
+      projectPath: Library\metadata\96\96c503bf059df984c86eecf572370347
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\97\97d6c87381e3e51488b49f5891490b70
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\97\97d6c87381e3e51488b49f5891490b70
+      projectPath: Library\metadata\97\97d6c87381e3e51488b49f5891490b70
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\97\97d6c87381e3e51488b49f5891490b70.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\97\97d6c87381e3e51488b49f5891490b70.info
+      projectPath: Library\metadata\97\97d6c87381e3e51488b49f5891490b70.info
+      originalPath: Laika Game\Library\metadata\58\58eb69fc39be3d040b984b4498a820bb.info
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\98\985eed4bc2fbee941b761b8816d9055d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\98\985eed4bc2fbee941b761b8816d9055d
+      projectPath: Library\metadata\98\985eed4bc2fbee941b761b8816d9055d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\98\98d14ab1acf42df4f88a0561822ac807
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\98\98d14ab1acf42df4f88a0561822ac807
+      projectPath: Library\metadata\98\98d14ab1acf42df4f88a0561822ac807
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+      projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\9a\9a3557da07c729b4eb774b8e30e157a4
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\9a\9a3557da07c729b4eb774b8e30e157a4
+      projectPath: Library\metadata\9a\9a3557da07c729b4eb774b8e30e157a4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\9a\9a6069768ff3d8043a79348813f86cba
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\9a\9a6069768ff3d8043a79348813f86cba
+      projectPath: Library\metadata\9a\9a6069768ff3d8043a79348813f86cba
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\9b\9b4f21acd14fdd445b37b76f6587539e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\9b\9b4f21acd14fdd445b37b76f6587539e
+      projectPath: Library\metadata\9b\9b4f21acd14fdd445b37b76f6587539e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\9b\9bedab6f9886aee42b33e424bffdb640
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\9b\9bedab6f9886aee42b33e424bffdb640
+      projectPath: Library\metadata\9b\9bedab6f9886aee42b33e424bffdb640
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\9d\9d816a6ab06c6834480f5f45f440e287
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\9d\9d816a6ab06c6834480f5f45f440e287
+      projectPath: Library\metadata\9d\9d816a6ab06c6834480f5f45f440e287
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\9f\9fc0d4010bbf28b4594072e72b8655ab
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\9f\9fc0d4010bbf28b4594072e72b8655ab
+      projectPath: Library\metadata\9f\9fc0d4010bbf28b4594072e72b8655ab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+      projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\a3\a36d8b72880a8004f96ac54ce4598ff9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\a3\a36d8b72880a8004f96ac54ce4598ff9
+      projectPath: Library\metadata\a3\a36d8b72880a8004f96ac54ce4598ff9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\a6\a6ab6fd2b91214e8a9c8ec2224a528de
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\a6\a6ab6fd2b91214e8a9c8ec2224a528de
+      projectPath: Library\metadata\a6\a6ab6fd2b91214e8a9c8ec2224a528de
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\a7\a73ebdb6c1006364f8c7b37dc53d8ab7
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\a7\a73ebdb6c1006364f8c7b37dc53d8ab7
+      projectPath: Library\metadata\a7\a73ebdb6c1006364f8c7b37dc53d8ab7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\a7\a7ec9e7ad8b847b7ae4510af83c5d868
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\a7\a7ec9e7ad8b847b7ae4510af83c5d868
+      projectPath: Library\metadata\a7\a7ec9e7ad8b847b7ae4510af83c5d868
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+      projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\aa\aa14b70e6a58c5b4fa6663623e3dca91
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\aa\aa14b70e6a58c5b4fa6663623e3dca91
+      projectPath: Library\metadata\aa\aa14b70e6a58c5b4fa6663623e3dca91
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ab\ab93e1a81defc3243a6e9cd0df3cb443
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ab\ab93e1a81defc3243a6e9cd0df3cb443
+      projectPath: Library\metadata\ab\ab93e1a81defc3243a6e9cd0df3cb443
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ac\ac3f13489022aa34d861a0320a6917b9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ac\ac3f13489022aa34d861a0320a6917b9
+      projectPath: Library\metadata\ac\ac3f13489022aa34d861a0320a6917b9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ad\ad70ff8d98b257540b683737743828cb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ad\ad70ff8d98b257540b683737743828cb
+      projectPath: Library\metadata\ad\ad70ff8d98b257540b683737743828cb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ae\ae242449e9279d44789513b922d3178a
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ae\ae242449e9279d44789513b922d3178a
+      projectPath: Library\metadata\ae\ae242449e9279d44789513b922d3178a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\af\af30a361ab68260438b6ec3fb7e64500
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\af\af30a361ab68260438b6ec3fb7e64500
+      projectPath: Library\metadata\af\af30a361ab68260438b6ec3fb7e64500
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\b1\b124f0b8ca43e6e46bdc0322fad15ea3
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\b1\b124f0b8ca43e6e46bdc0322fad15ea3
+      projectPath: Library\metadata\b1\b124f0b8ca43e6e46bdc0322fad15ea3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\b1\b1d8465ba1376b148bdab58965101f47
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\b1\b1d8465ba1376b148bdab58965101f47
+      projectPath: Library\metadata\b1\b1d8465ba1376b148bdab58965101f47
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\b3\b3cdabf2f1e76854d8aab5930305d70d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\b3\b3cdabf2f1e76854d8aab5930305d70d
+      projectPath: Library\metadata\b3\b3cdabf2f1e76854d8aab5930305d70d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\b4\b477d1f29b65a674e9d5cdab4eb72b01
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\b4\b477d1f29b65a674e9d5cdab4eb72b01
+      projectPath: Library\metadata\b4\b477d1f29b65a674e9d5cdab4eb72b01
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\b5\b5d6c28ed7b94775be9e2560f300247c
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\b5\b5d6c28ed7b94775be9e2560f300247c
+      projectPath: Library\metadata\b5\b5d6c28ed7b94775be9e2560f300247c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\b8\b8046f5b741868b458cdb9b358311fa1
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\b8\b8046f5b741868b458cdb9b358311fa1
+      projectPath: Library\metadata\b8\b8046f5b741868b458cdb9b358311fa1
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\b8\b86b117346968ac4d9cc63e4385becb7
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\b8\b86b117346968ac4d9cc63e4385becb7
+      projectPath: Library\metadata\b8\b86b117346968ac4d9cc63e4385becb7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\b8\b8c5993172f27e4419d7d4ed5ef77840
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\b8\b8c5993172f27e4419d7d4ed5ef77840
+      projectPath: Library\metadata\b8\b8c5993172f27e4419d7d4ed5ef77840
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\b9\b9d7bb79ed0c2854a8a5ed7decc3e44f
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\b9\b9d7bb79ed0c2854a8a5ed7decc3e44f
+      projectPath: Library\metadata\b9\b9d7bb79ed0c2854a8a5ed7decc3e44f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ba\bae197be297529d4fa735fbe7c91828d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ba\bae197be297529d4fa735fbe7c91828d
+      projectPath: Library\metadata\ba\bae197be297529d4fa735fbe7c91828d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\bb\bb32bccaf32a6db448d1c0cc99c78688
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\bb\bb32bccaf32a6db448d1c0cc99c78688
+      projectPath: Library\metadata\bb\bb32bccaf32a6db448d1c0cc99c78688
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\bb\bb42b2d967d6427983c901a4ffc8ecd9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\bb\bb42b2d967d6427983c901a4ffc8ecd9
+      projectPath: Library\metadata\bb\bb42b2d967d6427983c901a4ffc8ecd9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\bc\bc9aa6d5a7945f34882c442e9e201537
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\bc\bc9aa6d5a7945f34882c442e9e201537
+      projectPath: Library\metadata\bc\bc9aa6d5a7945f34882c442e9e201537
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\bd\bd3ffb9a97575a44a82f9ca086813154
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\bd\bd3ffb9a97575a44a82f9ca086813154
+      projectPath: Library\metadata\bd\bd3ffb9a97575a44a82f9ca086813154
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\bd\bdb4f6935641b574b984da8dc27cab45
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\bd\bdb4f6935641b574b984da8dc27cab45
+      projectPath: Library\metadata\bd\bdb4f6935641b574b984da8dc27cab45
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\be\bee384ad5b4d1a843a018082e7db53cd
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\be\bee384ad5b4d1a843a018082e7db53cd
+      projectPath: Library\metadata\be\bee384ad5b4d1a843a018082e7db53cd
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c
+      projectPath: Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
+      projectPath: Library\metadata\c0\c0809c8f0ddd4b546939f6fe7a94ac6c.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c1\c16c54fe03afb5740bcc0a2a295cb79d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c1\c16c54fe03afb5740bcc0a2a295cb79d
+      projectPath: Library\metadata\c1\c16c54fe03afb5740bcc0a2a295cb79d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c1\c18cb9388313e4287ad5895ee735c47d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c1\c18cb9388313e4287ad5895ee735c47d
+      projectPath: Library\metadata\c1\c18cb9388313e4287ad5895ee735c47d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c2\c2f7f6a88b4c4f20a53deb72f3d9144c
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c2\c2f7f6a88b4c4f20a53deb72f3d9144c
+      projectPath: Library\metadata\c2\c2f7f6a88b4c4f20a53deb72f3d9144c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c3\c3de99f9efc582a48995bc8e8c2df418
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c3\c3de99f9efc582a48995bc8e8c2df418
+      projectPath: Library\metadata\c3\c3de99f9efc582a48995bc8e8c2df418
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c5\c545241cf2e56ec4997d7677f01ef43d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c5\c545241cf2e56ec4997d7677f01ef43d
+      projectPath: Library\metadata\c5\c545241cf2e56ec4997d7677f01ef43d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c5\c5535d742ea2e4941850b421f9c70a1f
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c5\c5535d742ea2e4941850b421f9c70a1f
+      projectPath: Library\metadata\c5\c5535d742ea2e4941850b421f9c70a1f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+      projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+      projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c7\c76700ea0062413d9f69409b4e9e151b
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c7\c76700ea0062413d9f69409b4e9e151b
+      projectPath: Library\metadata\c7\c76700ea0062413d9f69409b4e9e151b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c7\c779d3735d950f341ba35154e8b3234b
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c7\c779d3735d950f341ba35154e8b3234b
+      projectPath: Library\metadata\c7\c779d3735d950f341ba35154e8b3234b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c7\c779d3735d950f341ba35154e8b3234b.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c7\c779d3735d950f341ba35154e8b3234b.info
+      projectPath: Library\metadata\c7\c779d3735d950f341ba35154e8b3234b.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\c9\c9aabac5924106d4790d7b3a924ca34d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\c9\c9aabac5924106d4790d7b3a924ca34d
+      projectPath: Library\metadata\c9\c9aabac5924106d4790d7b3a924ca34d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ca\ca51b19024094d1b87f3e07edb0a75fb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ca\ca51b19024094d1b87f3e07edb0a75fb
+      projectPath: Library\metadata\ca\ca51b19024094d1b87f3e07edb0a75fb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+      projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ca\cae60a41b37427b48a00027b3e0fc1e6
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ca\cae60a41b37427b48a00027b3e0fc1e6
+      projectPath: Library\metadata\ca\cae60a41b37427b48a00027b3e0fc1e6
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\cc\cc313cc004395df4a9884390556690a5
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\cc\cc313cc004395df4a9884390556690a5
+      projectPath: Library\metadata\cc\cc313cc004395df4a9884390556690a5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\cc\cce613d1538e76a4785658931c7db093
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\cc\cce613d1538e76a4785658931c7db093
+      projectPath: Library\metadata\cc\cce613d1538e76a4785658931c7db093
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ce\ce8da628f68c7594b8b9a597fa52db7b
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ce\ce8da628f68c7594b8b9a597fa52db7b
+      projectPath: Library\metadata\ce\ce8da628f68c7594b8b9a597fa52db7b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\cf\cf97e54bcd5479a46bdbade48da047cc
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\cf\cf97e54bcd5479a46bdbade48da047cc
+      projectPath: Library\metadata\cf\cf97e54bcd5479a46bdbade48da047cc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\cf\cfa73a847eeff06448bb50a8ac6a94e0
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\cf\cfa73a847eeff06448bb50a8ac6a94e0
+      projectPath: Library\metadata\cf\cfa73a847eeff06448bb50a8ac6a94e0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d0\d0cd29fb1ad218b48b814bc3e6d8ac0e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d0\d0cd29fb1ad218b48b814bc3e6d8ac0e
+      projectPath: Library\metadata\d0\d0cd29fb1ad218b48b814bc3e6d8ac0e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d1\d19b75372f4e44d4fa4b2cffbb54124b
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d1\d19b75372f4e44d4fa4b2cffbb54124b
+      projectPath: Library\metadata\d1\d19b75372f4e44d4fa4b2cffbb54124b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d1\d1a0a27327b54c3bac52a08929c33f81
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d1\d1a0a27327b54c3bac52a08929c33f81
+      projectPath: Library\metadata\d1\d1a0a27327b54c3bac52a08929c33f81
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d3\d31e5d760880a4e52a3a75322481d0d2
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d3\d31e5d760880a4e52a3a75322481d0d2
+      projectPath: Library\metadata\d3\d31e5d760880a4e52a3a75322481d0d2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d4\d40a0edbdcdcf9747a420f3bbe0f18db
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d4\d40a0edbdcdcf9747a420f3bbe0f18db
+      projectPath: Library\metadata\d4\d40a0edbdcdcf9747a420f3bbe0f18db
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d4\d437fe60bb34f45728664a5d930c1635
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d4\d437fe60bb34f45728664a5d930c1635
+      projectPath: Library\metadata\d4\d437fe60bb34f45728664a5d930c1635
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d6\d63dd1a776d383248a21ec2a8a6e7868
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d6\d63dd1a776d383248a21ec2a8a6e7868
+      projectPath: Library\metadata\d6\d63dd1a776d383248a21ec2a8a6e7868
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d6\d64d92e4f04a13e4b99ea8d48e9e8ae9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d6\d64d92e4f04a13e4b99ea8d48e9e8ae9
+      projectPath: Library\metadata\d6\d64d92e4f04a13e4b99ea8d48e9e8ae9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d8\d850db319a63d2546932ff76fe55a498
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d8\d850db319a63d2546932ff76fe55a498
+      projectPath: Library\metadata\d8\d850db319a63d2546932ff76fe55a498
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\d9\d9682e749d3efc642af54d789d9090a6
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\d9\d9682e749d3efc642af54d789d9090a6
+      projectPath: Library\metadata\d9\d9682e749d3efc642af54d789d9090a6
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+      projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\db\db34f310723c62440a05d3e69f262a70
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\db\db34f310723c62440a05d3e69f262a70
+      projectPath: Library\metadata\db\db34f310723c62440a05d3e69f262a70
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\de\de9eb5e2046ffc9448f07e495c436506
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\de\de9eb5e2046ffc9448f07e495c436506
+      projectPath: Library\metadata\de\de9eb5e2046ffc9448f07e495c436506
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\de\dec586c160776104da4d9a4e472662bc
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\de\dec586c160776104da4d9a4e472662bc
+      projectPath: Library\metadata\de\dec586c160776104da4d9a4e472662bc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\e0\e05ace3bd15740cda0bad60d89092a5b
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\e0\e05ace3bd15740cda0bad60d89092a5b
+      projectPath: Library\metadata\e0\e05ace3bd15740cda0bad60d89092a5b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\e0\e091bb444874ef244b1ba4a813fc1e34
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\e0\e091bb444874ef244b1ba4a813fc1e34
+      projectPath: Library\metadata\e0\e091bb444874ef244b1ba4a813fc1e34
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\e2\e210c8bf2e9c6514d90a1bd77586af1f
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\e2\e210c8bf2e9c6514d90a1bd77586af1f
+      projectPath: Library\metadata\e2\e210c8bf2e9c6514d90a1bd77586af1f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\e3\e3b0f810fdea84e40ab4ba20f256f7e8
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\e3\e3b0f810fdea84e40ab4ba20f256f7e8
+      projectPath: Library\metadata\e3\e3b0f810fdea84e40ab4ba20f256f7e8
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\e5\e58bd3cca6475e54b93632bb6837aeea
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\e5\e58bd3cca6475e54b93632bb6837aeea
+      projectPath: Library\metadata\e5\e58bd3cca6475e54b93632bb6837aeea
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\e5\e58bd3cca6475e54b93632bb6837aeea.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\e5\e58bd3cca6475e54b93632bb6837aeea.info
+      projectPath: Library\metadata\e5\e58bd3cca6475e54b93632bb6837aeea.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\e6\e6a1d1e3d2384453a7371b4a07a41ca4
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\e6\e6a1d1e3d2384453a7371b4a07a41ca4
+      projectPath: Library\metadata\e6\e6a1d1e3d2384453a7371b4a07a41ca4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\e9\e90cc37a5ccf4a44dbecc5b7172ec512
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\e9\e90cc37a5ccf4a44dbecc5b7172ec512
+      projectPath: Library\metadata\e9\e90cc37a5ccf4a44dbecc5b7172ec512
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\e9\e93ec7eb6de342aabd156833e253f838
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\e9\e93ec7eb6de342aabd156833e253f838
+      projectPath: Library\metadata\e9\e93ec7eb6de342aabd156833e253f838
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ea\ea998292f45ea494d9e100f5f6362f91
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ea\ea998292f45ea494d9e100f5f6362f91
+      projectPath: Library\metadata\ea\ea998292f45ea494d9e100f5f6362f91
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\eb\eb221cf55b3544646b0c3b6bc790080f
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\eb\eb221cf55b3544646b0c3b6bc790080f
+      projectPath: Library\metadata\eb\eb221cf55b3544646b0c3b6bc790080f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\eb\eb221cf55b3544646b0c3b6bc790080f.info
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\eb\eb221cf55b3544646b0c3b6bc790080f.info
+      projectPath: Library\metadata\eb\eb221cf55b3544646b0c3b6bc790080f.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\eb\ebc4d20cc106cea49b1df1153f0b3b5e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\eb\ebc4d20cc106cea49b1df1153f0b3b5e
+      projectPath: Library\metadata\eb\ebc4d20cc106cea49b1df1153f0b3b5e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ec\ec7c645d93308c04d8840982af12101e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ec\ec7c645d93308c04d8840982af12101e
+      projectPath: Library\metadata\ec\ec7c645d93308c04d8840982af12101e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ec\ec817e5e5781e0a4983a1dc8875d1974
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ec\ec817e5e5781e0a4983a1dc8875d1974
+      projectPath: Library\metadata\ec\ec817e5e5781e0a4983a1dc8875d1974
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ec\ece36bb2bc4128d42911bbc757a56860
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ec\ece36bb2bc4128d42911bbc757a56860
+      projectPath: Library\metadata\ec\ece36bb2bc4128d42911bbc757a56860
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ed\ed041e68439749a69d0efa0e3d896c2e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ed\ed041e68439749a69d0efa0e3d896c2e
+      projectPath: Library\metadata\ed\ed041e68439749a69d0efa0e3d896c2e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ee\ee148e281f3c41c5b4ff5f8a5afe5a6c
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ee\ee148e281f3c41c5b4ff5f8a5afe5a6c
+      projectPath: Library\metadata\ee\ee148e281f3c41c5b4ff5f8a5afe5a6c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ef\efad3ddb7270ac241b9b1357ec5ee2f2
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ef\efad3ddb7270ac241b9b1357ec5ee2f2
+      projectPath: Library\metadata\ef\efad3ddb7270ac241b9b1357ec5ee2f2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ef\efcf753a96a07b24dbe5f23a8ad5963d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ef\efcf753a96a07b24dbe5f23a8ad5963d
+      projectPath: Library\metadata\ef\efcf753a96a07b24dbe5f23a8ad5963d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\f5\f525580684527b147b70cf94aaa70dbc
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\f5\f525580684527b147b70cf94aaa70dbc
+      projectPath: Library\metadata\f5\f525580684527b147b70cf94aaa70dbc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\f5\f5600e6ae5a1464da659eca36bef9d64
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\f5\f5600e6ae5a1464da659eca36bef9d64
+      projectPath: Library\metadata\f5\f5600e6ae5a1464da659eca36bef9d64
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\f6\f601c0d674119f74db9c15166b3a58c4
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\f6\f601c0d674119f74db9c15166b3a58c4
+      projectPath: Library\metadata\f6\f601c0d674119f74db9c15166b3a58c4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\f6\f68c7f7359094f045930a108c444e7a4
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\f6\f68c7f7359094f045930a108c444e7a4
+      projectPath: Library\metadata\f6\f68c7f7359094f045930a108c444e7a4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\f6\f6d64d8648793944dbadfd71f0f4b0a1
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\f6\f6d64d8648793944dbadfd71f0f4b0a1
+      projectPath: Library\metadata\f6\f6d64d8648793944dbadfd71f0f4b0a1
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\f8\f8730045d7da0f84cb11c0d868899577
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\f8\f8730045d7da0f84cb11c0d868899577
+      projectPath: Library\metadata\f8\f8730045d7da0f84cb11c0d868899577
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\f8\f8e6a2d47aba4c6c9b3c5a72d9f48da5
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\f8\f8e6a2d47aba4c6c9b3c5a72d9f48da5
+      projectPath: Library\metadata\f8\f8e6a2d47aba4c6c9b3c5a72d9f48da5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\f8\f8ed4321a98682942b9980996131cf26
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\f8\f8ed4321a98682942b9980996131cf26
+      projectPath: Library\metadata\f8\f8ed4321a98682942b9980996131cf26
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\fa\fa1b2f89a134ec841b2687fceb67d2ab
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\fa\fa1b2f89a134ec841b2687fceb67d2ab
+      projectPath: Library\metadata\fa\fa1b2f89a134ec841b2687fceb67d2ab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\fa\fa423365b1ce06a4dbdc6fb4a8597bfa
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\fa\fa423365b1ce06a4dbdc6fb4a8597bfa
+      projectPath: Library\metadata\fa\fa423365b1ce06a4dbdc6fb4a8597bfa
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\fa\fa6bd40a216346b783a4cce741d277a5
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\fa\fa6bd40a216346b783a4cce741d277a5
+      projectPath: Library\metadata\fa\fa6bd40a216346b783a4cce741d277a5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\fb\fb5730e24283d0c489e5c7d0bee023d9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\fb\fb5730e24283d0c489e5c7d0bee023d9
+      projectPath: Library\metadata\fb\fb5730e24283d0c489e5c7d0bee023d9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\fc\fcb9be00baf924c4183fc0313e6185c5
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\fc\fcb9be00baf924c4183fc0313e6185c5
+      projectPath: Library\metadata\fc\fcb9be00baf924c4183fc0313e6185c5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\fd\fd0a39b4d296d4d509b4f1dbd08d0630
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\fd\fd0a39b4d296d4d509b4f1dbd08d0630
+      projectPath: Library\metadata\fd\fd0a39b4d296d4d509b4f1dbd08d0630
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+      projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ff\ff97302ee78d6ad478b433ec557ee303
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ff\ff97302ee78d6ad478b433ec557ee303
+      projectPath: Library\metadata\ff\ff97302ee78d6ad478b433ec557ee303
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ff\ffc6271f08270b64ca0aae9c49235d81
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ff\ffc6271f08270b64ca0aae9c49235d81
+      projectPath: Library\metadata\ff\ffc6271f08270b64ca0aae9c49235d81
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\metadata\ff\ffcbe86028d681144b703991885c535a
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\ff\ffcbe86028d681144b703991885c535a
+      projectPath: Library\metadata\ff\ffcbe86028d681144b703991885c535a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Logs\Packages-Update.log
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Logs\Packages-Update.log
+      projectPath: Logs\Packages-Update.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Packages\manifest.json
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-17a9e8c5bc994c9438c5d6587dc84763
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-17a9e8c5bc994c9438c5d6587dc84763
+      projectPath: Temp\UnityTempFile-17a9e8c5bc994c9438c5d6587dc84763
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-1b1c6c073e4ab5943a1659fc87c22856
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-1b1c6c073e4ab5943a1659fc87c22856
+      projectPath: Temp\UnityTempFile-1b1c6c073e4ab5943a1659fc87c22856
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-1f5ef66e4ee18114ab87afd03b2566b7
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-1f5ef66e4ee18114ab87afd03b2566b7
+      projectPath: Temp\UnityTempFile-1f5ef66e4ee18114ab87afd03b2566b7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-26e523092a707264ba795830e35aa011
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-26e523092a707264ba795830e35aa011
+      projectPath: Temp\UnityTempFile-26e523092a707264ba795830e35aa011
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-2cce828a975c42d46961b531ecb3eb40
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-2cce828a975c42d46961b531ecb3eb40
+      projectPath: Temp\UnityTempFile-2cce828a975c42d46961b531ecb3eb40
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-36498966e1e80f6449cb937343d54d29
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-36498966e1e80f6449cb937343d54d29
+      projectPath: Temp\UnityTempFile-36498966e1e80f6449cb937343d54d29
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-415fca023c344a441b2949dd2be20294
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-415fca023c344a441b2949dd2be20294
+      projectPath: Temp\UnityTempFile-415fca023c344a441b2949dd2be20294
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-6d6cb7e96d9d1b04f9f4caba69975043
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-6d6cb7e96d9d1b04f9f4caba69975043
+      projectPath: Temp\UnityTempFile-6d6cb7e96d9d1b04f9f4caba69975043
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-79df1914bb8f7ae489f60ec769c2721c
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-79df1914bb8f7ae489f60ec769c2721c
+      projectPath: Temp\UnityTempFile-79df1914bb8f7ae489f60ec769c2721c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-81d8971a0c6415b47ad660d4293c0dd9
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-81d8971a0c6415b47ad660d4293c0dd9
+      projectPath: Temp\UnityTempFile-81d8971a0c6415b47ad660d4293c0dd9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-82e670eed35cf6f4cb6b8d1c7eaed4c4
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-82e670eed35cf6f4cb6b8d1c7eaed4c4
+      projectPath: Temp\UnityTempFile-82e670eed35cf6f4cb6b8d1c7eaed4c4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-8fe313a40702b1b4e9cccf3bff3ab5b8
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-8fe313a40702b1b4e9cccf3bff3ab5b8
+      projectPath: Temp\UnityTempFile-8fe313a40702b1b4e9cccf3bff3ab5b8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-9c9079d0d4d7f374d945991bd945969e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-9c9079d0d4d7f374d945991bd945969e
+      projectPath: Temp\UnityTempFile-9c9079d0d4d7f374d945991bd945969e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-9cf054278f4c68e42a949555924a8f0e
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-9cf054278f4c68e42a949555924a8f0e
+      projectPath: Temp\UnityTempFile-9cf054278f4c68e42a949555924a8f0e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-a09d4f75d94d4c24f998968b3dafb906
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-a09d4f75d94d4c24f998968b3dafb906
+      projectPath: Temp\UnityTempFile-a09d4f75d94d4c24f998968b3dafb906
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-a63b53c9746342e48bc841f0863fb541
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-a63b53c9746342e48bc841f0863fb541
+      projectPath: Temp\UnityTempFile-a63b53c9746342e48bc841f0863fb541
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-b2506af895b089347ba5f5b79442c595
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-b2506af895b089347ba5f5b79442c595
+      projectPath: Temp\UnityTempFile-b2506af895b089347ba5f5b79442c595
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-bf4cdb5f89a91504e81763fa0a9e29ad
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-bf4cdb5f89a91504e81763fa0a9e29ad
+      projectPath: Temp\UnityTempFile-bf4cdb5f89a91504e81763fa0a9e29ad
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-bffc1f02fa1b8f14889731ff7da473ac
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-bffc1f02fa1b8f14889731ff7da473ac
+      projectPath: Temp\UnityTempFile-bffc1f02fa1b8f14889731ff7da473ac
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-c67ca290363e9b1488cd6bf5778ff67a
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-c67ca290363e9b1488cd6bf5778ff67a
+      projectPath: Temp\UnityTempFile-c67ca290363e9b1488cd6bf5778ff67a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-cce3c9f9ac42bf34fbb4ff05122b5171
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-cce3c9f9ac42bf34fbb4ff05122b5171
+      projectPath: Temp\UnityTempFile-cce3c9f9ac42bf34fbb4ff05122b5171
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-e0997e300e036b644ac9b0091aab85ba
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-e0997e300e036b644ac9b0091aab85ba
+      projectPath: Temp\UnityTempFile-e0997e300e036b644ac9b0091aab85ba
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-f4ff1c73e65fb5644a40ef7c04c07b5a
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-f4ff1c73e65fb5644a40ef7c04c07b5a
+      projectPath: Temp\UnityTempFile-f4ff1c73e65fb5644a40ef7c04c07b5a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: 1ee2db69be1a121ae6ca19160fb9874104ba329b
     mergeA: 
     mergeB: 
