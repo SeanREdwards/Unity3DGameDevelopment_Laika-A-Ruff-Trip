@@ -13,9 +13,111 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-01-15T16:09:01.721-05:00
-  initializedAtString: 2020-01-15T15:35:22.501-05:00
+  lastUpdatedAtString: 2020-01-15T17:12:37.544-05:00
+  initializedAtString: 2020-01-15T16:37:42.297-05:00
   log:
+  - commitID: d3e4c8279dceb62349327a2c6e3071610c981cca
+    mergeA: 
+    mergeB: 
+    authorName: Tarun-P
+    authorEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitName: Tarun-P
+    summary: Adding library exclusion
+    description: 
+    timeString: 2020-01-15T17:11:40.000-05:00
+    commitTimeString: 2020-01-15T17:11:40.000-05:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\assetDatabase3
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 0645a3120db050445f3c662536b77930b5e031d3
+    mergeA: 
+    mergeB: 
+    authorName: Tarun-P
+    authorEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create .gitignore
+    description: 
+    timeString: 2020-01-15T17:03:27.000-05:00
+    commitTimeString: 2020-01-15T17:03:27.000-05:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 47cce228e9538a68b8ebf5c681778f615122bd4a
+    mergeA: 
+    mergeB: 
+    authorName: Tarun-P
+    authorEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitName: Tarun-P
+    summary: LibTemp
+    description: 
+    timeString: 2020-01-15T16:09:28.000-05:00
+    commitTimeString: 2020-01-15T16:09:28.000-05:00
+    changes:
+    - path: Laika Game\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 058d9186e1140db8bc9ffa7fb88fa3cdd5459e5a
     mergeA: 
     mergeB: 
