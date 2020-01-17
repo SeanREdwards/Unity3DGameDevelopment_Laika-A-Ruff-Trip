@@ -13,75 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-01-17T14:42:08.415-05:00
+  lastUpdatedAtString: 2020-01-17T15:09:12.482-05:00
   initializedAtString: 2020-01-17T13:06:52.932-05:00
   entries:
-  - path: Laika Game\.vs\Laika Game\v15\.suo
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\.vs\Laika Game\v15\.suo
-    projectPath: .vs\Laika Game\v15\.suo
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Laika Game\.vs\Laika Game\v15\Server\sqlite3\storage.ide-wal
     fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\.vs\Laika Game\v15\Server\sqlite3\storage.ide-wal
     projectPath: .vs\Laika Game\v15\Server\sqlite3\storage.ide-wal
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Laika Game\Assembly-CSharp.csproj
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Laika Game\Assets\FadeIn.anim
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\FadeIn.anim
-    projectPath: Assets\FadeIn.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Assets\FadeIn.anim.meta
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\FadeIn.anim.meta
-    projectPath: Assets\FadeIn.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Assets\FadeOut.anim
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\FadeOut.anim
-    projectPath: Assets\FadeOut.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Assets\FadeOut.anim.meta
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\FadeOut.anim.meta
-    projectPath: Assets\FadeOut.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Assets\LevelChanger.controller
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\LevelChanger.controller
-    projectPath: Assets\LevelChanger.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Assets\LevelChanger.controller.meta
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\LevelChanger.controller.meta
-    projectPath: Assets\LevelChanger.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Assets\LevelChangerScript.cs
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\LevelChangerScript.cs
-    projectPath: Assets\LevelChangerScript.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Laika Game\Assets\LevelChangerScript.cs.meta
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\LevelChangerScript.cs.meta
-    projectPath: Assets\LevelChangerScript.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Laika Game\Assets\Loading.cs
     fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Loading.cs
     projectPath: Assets\Loading.cs
@@ -94,6 +34,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Laika Game\Assets\unityTransparent.jpg
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\unityTransparent.jpg
+    projectPath: Assets\unityTransparent.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\unityTransparent.jpg.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\unityTransparent.jpg.meta
+    projectPath: Assets\unityTransparent.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Laika Game\Library\assetDatabase3
     fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\assetDatabase3
     projectPath: Library\assetDatabase3
@@ -130,33 +82,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Laika Game\Library\InspectorExpandedItems.asset
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Laika Game\Library\StateCache\Hierarchy\593f48-mainStage.json
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\StateCache\Hierarchy\593f48-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\593f48-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Laika Game\Library\StateCache\SceneView\c0dba6-mainStage.json
     fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\StateCache\SceneView\c0dba6-mainStage.json
     projectPath: Library\StateCache\SceneView\c0dba6-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Laika Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Laika Game\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

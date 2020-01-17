@@ -13,9 +13,165 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-01-17T14:15:55.876-05:00
+  lastUpdatedAtString: 2020-01-17T14:54:06.185-05:00
   initializedAtString: 2020-01-17T14:15:55.067-05:00
   log:
+  - commitID: be3250787726dc99a809b4d47e2793ef21a9a8c0
+    mergeA: 
+    mergeB: 
+    authorName: Tarun-P
+    authorEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitName: Tarun-P
+    summary: Added fade
+    description: 
+    timeString: 2020-01-17T14:42:21.000-05:00
+    commitTimeString: 2020-01-17T14:42:21.000-05:00
+    changes:
+    - path: Laika Game\.vs\Laika Game\v15\.suo
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\.vs\Laika Game\v15\.suo
+      projectPath: .vs\Laika Game\v15\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\.vs\Laika Game\v15\Server\sqlite3\storage.ide-wal
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\.vs\Laika Game\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\Laika Game\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Assembly-CSharp.csproj
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Assets\FadeIn.anim
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\FadeIn.anim
+      projectPath: Assets\FadeIn.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Assets\FadeIn.anim.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\FadeIn.anim.meta
+      projectPath: Assets\FadeIn.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Assets\FadeOut.anim
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\FadeOut.anim
+      projectPath: Assets\FadeOut.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Assets\FadeOut.anim.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\FadeOut.anim.meta
+      projectPath: Assets\FadeOut.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Assets\LevelChanger.controller
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\LevelChanger.controller
+      projectPath: Assets\LevelChanger.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Assets\LevelChanger.controller.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\LevelChanger.controller.meta
+      projectPath: Assets\LevelChanger.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Assets\LevelChangerScript.cs
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\LevelChangerScript.cs
+      projectPath: Assets\LevelChangerScript.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Assets\LevelChangerScript.cs.meta
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\LevelChangerScript.cs.meta
+      projectPath: Assets\LevelChangerScript.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Laika Game\Assets\Loading.cs
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Loading.cs
+      projectPath: Assets\Loading.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Assets\Scenes\Thaleah_Demo.unity
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Scenes\Thaleah_Demo.unity
+      projectPath: Assets\Scenes\Thaleah_Demo.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\StateCache\Hierarchy\593f48-mainStage.json
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\StateCache\Hierarchy\593f48-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\593f48-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\StateCache\SceneView\c0dba6-mainStage.json
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\StateCache\SceneView\c0dba6-mainStage.json
+      projectPath: Library\StateCache\SceneView\c0dba6-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\assetDatabase3
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 2ab0a8abf8c8b4aa6000cb2cc4ffbcc4d279f813
     mergeA: 
     mergeB: 
