@@ -13,9 +13,375 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-01-16T14:56:29.136-05:00
-  initializedAtString: 2020-01-16T14:56:29.136-05:00
+  lastUpdatedAtString: 2020-01-17T14:12:43.852-05:00
+  initializedAtString: 2020-01-17T13:06:52.932-05:00
   entries:
+  - path: Laika Game\.vs\Laika Game\v15\.suo
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\.vs\Laika Game\v15\.suo
+    projectPath: .vs\Laika Game\v15\.suo
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\.vs\Laika Game\v15\Server\sqlite3\db.lock
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\.vs\Laika Game\v15\Server\sqlite3\db.lock
+    projectPath: .vs\Laika Game\v15\Server\sqlite3\db.lock
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\.vs\Laika Game\v15\Server\sqlite3\storage.ide
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\.vs\Laika Game\v15\Server\sqlite3\storage.ide
+    projectPath: .vs\Laika Game\v15\Server\sqlite3\storage.ide
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\.vs\Laika Game\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\.vs\Laika Game\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\Laika Game\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\.vs\Laika Game\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\.vs\Laika Game\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\Laika Game\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assembly-CSharp.csproj
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\AnimGif.cs
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\AnimGif.cs
+    projectPath: Assets\AnimGif.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\AnimGif.cs.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\AnimGif.cs.meta
+    projectPath: Assets\AnimGif.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\CrawfisArtistic.jpg
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\CrawfisArtistic.jpg
+    projectPath: Assets\CrawfisArtistic.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\CrawfisArtistic.jpg.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\CrawfisArtistic.jpg.meta
+    projectPath: Assets\CrawfisArtistic.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\cse-logo.jpg
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\cse-logo.jpg
+    projectPath: Assets\cse-logo.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\cse-logo.jpg.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\cse-logo.jpg.meta
+    projectPath: Assets\cse-logo.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Image.controller
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Image.controller
+    projectPath: Assets\Image.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Image.controller.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Image.controller.meta
+    projectPath: Assets\Image.controller.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\laikaRun.anim
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\laikaRun.anim
+    projectPath: Assets\laikaRun.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\laikaRun.anim.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\laikaRun.anim.meta
+    projectPath: Assets\laikaRun.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\LaikaRun.GIF
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\LaikaRun.GIF
+    projectPath: Assets\LaikaRun.GIF
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\LaikaRun.GIF.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\LaikaRun.GIF.meta
+    projectPath: Assets\LaikaRun.GIF.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Loading.cs
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Loading.cs
+    projectPath: Assets\Loading.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Loading.cs.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Loading.cs.meta
+    projectPath: Assets\Loading.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\logo.c613a9138dfa46798fe5606b558a711b
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\logo.c613a9138dfa46798fe5606b558a711b
+    projectPath: Assets\logo.c613a9138dfa46798fe5606b558a711b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\logo.c613a9138dfa46798fe5606b558a711b.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\logo.c613a9138dfa46798fe5606b558a711b.meta
+    projectPath: Assets\logo.c613a9138dfa46798fe5606b558a711b.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Logo.gif
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Logo.gif
+    projectPath: Assets\Logo.gif
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Logo.gif.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Logo.gif.meta
+    projectPath: Assets\Logo.gif.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\logoComeone.large
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\logoComeone.large
+    projectPath: Assets\logoComeone.large
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\logoComeone.large.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\logoComeone.large.meta
+    projectPath: Assets\logoComeone.large.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\RogerBuilding.jpg
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\RogerBuilding.jpg
+    projectPath: Assets\RogerBuilding.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\RogerBuilding.jpg.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\RogerBuilding.jpg.meta
+    projectPath: Assets\RogerBuilding.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Laika Game\Assets\Scenes\SampleScene.unity.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Scenes\SampleScene.unity.meta
+    projectPath: Assets\Scenes\SampleScene.unity.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Laika Game\Assets\Scenes\SampleScene2.unity
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Scenes\SampleScene2.unity
+    projectPath: Assets\Scenes\SampleScene2.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Scenes\SampleScene2.unity.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Scenes\SampleScene2.unity.meta
+    projectPath: Assets\Scenes\SampleScene2.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Scenes\Thaleah_Demo.unity
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Scenes\Thaleah_Demo.unity
+    projectPath: Assets\Scenes\Thaleah_Demo.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Scenes\Thaleah_Demo.unity.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Scenes\Thaleah_Demo.unity.meta
+    projectPath: Assets\Scenes\Thaleah_Demo.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\SpaceDogLogo.jpg
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\SpaceDogLogo.jpg
+    projectPath: Assets\SpaceDogLogo.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\SpaceDogLogo.jpg.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\SpaceDogLogo.jpg.meta
+    projectPath: Assets\SpaceDogLogo.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\SpaceSound.mp3
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\SpaceSound.mp3
+    projectPath: Assets\SpaceSound.mp3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\SpaceSound.mp3.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\SpaceSound.mp3.meta
+    projectPath: Assets\SpaceSound.mp3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\SpriteSheetLaika.png
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\SpriteSheetLaika.png
+    projectPath: Assets\SpriteSheetLaika.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\SpriteSheetLaika.png.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\SpriteSheetLaika.png.meta
+    projectPath: Assets\SpriteSheetLaika.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Switcher.cs
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Switcher.cs
+    projectPath: Assets\Switcher.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Switcher.cs.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Switcher.cs.meta
+    projectPath: Assets\Switcher.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont.meta
+    projectPath: Assets\Thaleah_PixelFont.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\Materials.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\Materials.meta
+    projectPath: Assets\Thaleah_PixelFont\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\Materials\Thaleah_DemoBackground.png
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\Materials\Thaleah_DemoBackground.png
+    projectPath: Assets\Thaleah_PixelFont\Materials\Thaleah_DemoBackground.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\Materials\Thaleah_DemoBackground.png.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\Materials\Thaleah_DemoBackground.png.meta
+    projectPath: Assets\Thaleah_PixelFont\Materials\Thaleah_DemoBackground.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\Materials\ThaleahFat.mat
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\Materials\ThaleahFat.mat
+    projectPath: Assets\Thaleah_PixelFont\Materials\ThaleahFat.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\Materials\ThaleahFat.mat.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\Materials\ThaleahFat.mat.meta
+    projectPath: Assets\Thaleah_PixelFont\Materials\ThaleahFat.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\Materials\ThaleahFat.png
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\Materials\ThaleahFat.png
+    projectPath: Assets\Thaleah_PixelFont\Materials\ThaleahFat.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\Materials\ThaleahFat.png.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\Materials\ThaleahFat.png.meta
+    projectPath: Assets\Thaleah_PixelFont\Materials\ThaleahFat.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\Materials\ThaleahFat_TTF.ttf
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\Materials\ThaleahFat_TTF.ttf
+    projectPath: Assets\Thaleah_PixelFont\Materials\ThaleahFat_TTF.ttf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\Materials\ThaleahFat_TTF.ttf.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\Materials\ThaleahFat_TTF.ttf.meta
+    projectPath: Assets\Thaleah_PixelFont\Materials\ThaleahFat_TTF.ttf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\Thaleah_Readme.pdf
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\Thaleah_Readme.pdf
+    projectPath: Assets\Thaleah_PixelFont\Thaleah_Readme.pdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\Thaleah_Readme.pdf.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\Thaleah_Readme.pdf.meta
+    projectPath: Assets\Thaleah_PixelFont\Thaleah_Readme.pdf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\ThaleahFat.fontsettings
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\ThaleahFat.fontsettings
+    projectPath: Assets\Thaleah_PixelFont\ThaleahFat.fontsettings
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\Thaleah_PixelFont\ThaleahFat.fontsettings.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\Thaleah_PixelFont\ThaleahFat.fontsettings.meta
+    projectPath: Assets\Thaleah_PixelFont\ThaleahFat.fontsettings.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\unity-logo.png
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\unity-logo.png
+    projectPath: Assets\unity-logo.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Assets\unity-logo.png.meta
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Assets\unity-logo.png.meta
+    projectPath: Assets\unity-logo.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Laika Game.sln
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Laika Game.sln
+    projectPath: Laika Game.sln
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Library\assetDatabase3
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Laika Game\Library\CurrentLayout-default.dwlt
     fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\CurrentLayout-default.dwlt
     projectPath: Library\CurrentLayout-default.dwlt
@@ -25,6 +391,12 @@ MonoBehaviour:
   - path: Laika Game\Library\EditorInstance.json
     fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -70,9 +442,129 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Laika Game\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Laika Game\Library\LastSceneManagerSetup.txt
     fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\LastSceneManagerSetup.txt
     projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\metadata\9f\9fc0d4010bbf28b4594072e72b8655ab
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\9f\9fc0d4010bbf28b4594072e72b8655ab
+    projectPath: Library\metadata\9f\9fc0d4010bbf28b4594072e72b8655ab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Laika Game\Library\metadata\9f\9fc0d4010bbf28b4594072e72b8655ab.info
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\metadata\9f\9fc0d4010bbf28b4594072e72b8655ab.info
+    projectPath: Library\metadata\9f\9fc0d4010bbf28b4594072e72b8655ab.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Laika Game\Library\SceneVisibilityState.asset
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Laika Game\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -88,141 +580,75 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Laika Game\Temp\UnityTempFile-032fb5aaf33cd814bbb76e3d64f9dbfd
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-032fb5aaf33cd814bbb76e3d64f9dbfd
-    projectPath: Temp\UnityTempFile-032fb5aaf33cd814bbb76e3d64f9dbfd
+  - path: Laika Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+    projectPath: obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+    projectPath: obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+    projectPath: obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Laika Game\Packages\manifest.json
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Packages\manifest.json
+    projectPath: Packages\manifest.json
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-2c5aba21b46e0ce4898668a75e0e1875
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-2c5aba21b46e0ce4898668a75e0e1875
-    projectPath: Temp\UnityTempFile-2c5aba21b46e0ce4898668a75e0e1875
+    workTreeStatus: 3
+  - path: Laika Game\ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-38e311166794b8341acae15b0d1104fb
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-38e311166794b8341acae15b0d1104fb
-    projectPath: Temp\UnityTempFile-38e311166794b8341acae15b0d1104fb
+    workTreeStatus: 3
+  - path: Laika Game\ProjectSettings\QualitySettings.asset
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-5c2f4b1e3eccfba41b60c3e92a53a9a6
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-5c2f4b1e3eccfba41b60c3e92a53a9a6
-    projectPath: Temp\UnityTempFile-5c2f4b1e3eccfba41b60c3e92a53a9a6
+    workTreeStatus: 3
+  - path: Laika Game\ProjectSettings\UnityConnectSettings.asset
+    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\ProjectSettings\UnityConnectSettings.asset
+    projectPath: ProjectSettings\UnityConnectSettings.asset
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-5d69bd64f4ac12f44916390ca414ab4d
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-5d69bd64f4ac12f44916390ca414ab4d
-    projectPath: Temp\UnityTempFile-5d69bd64f4ac12f44916390ca414ab4d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-68c068617aad3a44689dee9b64477bad
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-68c068617aad3a44689dee9b64477bad
-    projectPath: Temp\UnityTempFile-68c068617aad3a44689dee9b64477bad
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-6b89debc45507104285cb57179f19144
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-6b89debc45507104285cb57179f19144
-    projectPath: Temp\UnityTempFile-6b89debc45507104285cb57179f19144
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-702e2423ccd82394f986c207d930662c
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-702e2423ccd82394f986c207d930662c
-    projectPath: Temp\UnityTempFile-702e2423ccd82394f986c207d930662c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-8ed5827b4704fd24d9cec6ee5589282c
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-8ed5827b4704fd24d9cec6ee5589282c
-    projectPath: Temp\UnityTempFile-8ed5827b4704fd24d9cec6ee5589282c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-a2d9cabce8f85904cb11a81f371cbdf7
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-a2d9cabce8f85904cb11a81f371cbdf7
-    projectPath: Temp\UnityTempFile-a2d9cabce8f85904cb11a81f371cbdf7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-a3dc847ff59e1e545ae7d5a54dc00943
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-a3dc847ff59e1e545ae7d5a54dc00943
-    projectPath: Temp\UnityTempFile-a3dc847ff59e1e545ae7d5a54dc00943
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-a5172adbd9c867b478bd8379dde4d72d
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-a5172adbd9c867b478bd8379dde4d72d
-    projectPath: Temp\UnityTempFile-a5172adbd9c867b478bd8379dde4d72d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-b38f621c16c9faa40ae9046800d7b436
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-b38f621c16c9faa40ae9046800d7b436
-    projectPath: Temp\UnityTempFile-b38f621c16c9faa40ae9046800d7b436
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-bbf9cffcbd94c48499d3d4238fed70ea
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-bbf9cffcbd94c48499d3d4238fed70ea
-    projectPath: Temp\UnityTempFile-bbf9cffcbd94c48499d3d4238fed70ea
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-c60faf273d1b36a4e94c1cc32f5a6038
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-c60faf273d1b36a4e94c1cc32f5a6038
-    projectPath: Temp\UnityTempFile-c60faf273d1b36a4e94c1cc32f5a6038
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-d8ed33777298802449e1015bf93a4b18
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-d8ed33777298802449e1015bf93a4b18
-    projectPath: Temp\UnityTempFile-d8ed33777298802449e1015bf93a4b18
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-d9d9e88a7c390fe47bc815b5a30ac5fa
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-d9d9e88a7c390fe47bc815b5a30ac5fa
-    projectPath: Temp\UnityTempFile-d9d9e88a7c390fe47bc815b5a30ac5fa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-dc2c6e66ef510094697e43b81896a57a
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-dc2c6e66ef510094697e43b81896a57a
-    projectPath: Temp\UnityTempFile-dc2c6e66ef510094697e43b81896a57a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-dc76b361778f4b34ba1a1abf73d54523
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-dc76b361778f4b34ba1a1abf73d54523
-    projectPath: Temp\UnityTempFile-dc76b361778f4b34ba1a1abf73d54523
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-dec6b827e19349c4382f56a92346d97b
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-dec6b827e19349c4382f56a92346d97b
-    projectPath: Temp\UnityTempFile-dec6b827e19349c4382f56a92346d97b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-e3fe0df4516ad454a9ae0bde98079cff
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-e3fe0df4516ad454a9ae0bde98079cff
-    projectPath: Temp\UnityTempFile-e3fe0df4516ad454a9ae0bde98079cff
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-e713db92e20e20b4a90b5d5b26e072c5
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-e713db92e20e20b4a90b5d5b26e072c5
-    projectPath: Temp\UnityTempFile-e713db92e20e20b4a90b5d5b26e072c5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Laika Game\Temp\UnityTempFile-faca340c615798a4db3c12be979de975
-    fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-faca340c615798a4db3c12be979de975
-    projectPath: Temp\UnityTempFile-faca340c615798a4db3c12be979de975
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3

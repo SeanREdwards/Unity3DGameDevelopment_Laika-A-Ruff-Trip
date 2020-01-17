@@ -13,9 +13,231 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-01-15T17:12:37.544-05:00
-  initializedAtString: 2020-01-15T16:37:42.297-05:00
+  lastUpdatedAtString: 2020-01-16T20:15:12.266-05:00
+  initializedAtString: 2020-01-16T15:03:00.824-05:00
   log:
+  - commitID: 037cd0de8a828672102e35113eb0c781aab75bac
+    mergeA: 
+    mergeB: 
+    authorName: Tarun-P
+    authorEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitEmail: 46513155+Tarun-P@users.noreply.github.com
+    commitName: Tarun-P
+    summary: Test
+    description: 
+    timeString: 2020-01-16T14:59:53.000-05:00
+    commitTimeString: 2020-01-16T14:59:53.000-05:00
+    changes:
+    - path: Laika Game\Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\EditorInstance.json
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\LastSceneManagerSetup.txt
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\StateCache\Hierarchy\593f48-mainStage.json
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\StateCache\Hierarchy\593f48-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\593f48-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\StateCache\SceneView\c0dba6-mainStage.json
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\StateCache\SceneView\c0dba6-mainStage.json
+      projectPath: Library\StateCache\SceneView\c0dba6-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\expandedItems
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-032fb5aaf33cd814bbb76e3d64f9dbfd
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-032fb5aaf33cd814bbb76e3d64f9dbfd
+      projectPath: Temp\UnityTempFile-032fb5aaf33cd814bbb76e3d64f9dbfd
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-2c5aba21b46e0ce4898668a75e0e1875
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-2c5aba21b46e0ce4898668a75e0e1875
+      projectPath: Temp\UnityTempFile-2c5aba21b46e0ce4898668a75e0e1875
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-38e311166794b8341acae15b0d1104fb
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-38e311166794b8341acae15b0d1104fb
+      projectPath: Temp\UnityTempFile-38e311166794b8341acae15b0d1104fb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-5c2f4b1e3eccfba41b60c3e92a53a9a6
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-5c2f4b1e3eccfba41b60c3e92a53a9a6
+      projectPath: Temp\UnityTempFile-5c2f4b1e3eccfba41b60c3e92a53a9a6
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-5d69bd64f4ac12f44916390ca414ab4d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-5d69bd64f4ac12f44916390ca414ab4d
+      projectPath: Temp\UnityTempFile-5d69bd64f4ac12f44916390ca414ab4d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-68c068617aad3a44689dee9b64477bad
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-68c068617aad3a44689dee9b64477bad
+      projectPath: Temp\UnityTempFile-68c068617aad3a44689dee9b64477bad
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-6b89debc45507104285cb57179f19144
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-6b89debc45507104285cb57179f19144
+      projectPath: Temp\UnityTempFile-6b89debc45507104285cb57179f19144
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-702e2423ccd82394f986c207d930662c
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-702e2423ccd82394f986c207d930662c
+      projectPath: Temp\UnityTempFile-702e2423ccd82394f986c207d930662c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-8ed5827b4704fd24d9cec6ee5589282c
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-8ed5827b4704fd24d9cec6ee5589282c
+      projectPath: Temp\UnityTempFile-8ed5827b4704fd24d9cec6ee5589282c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-a2d9cabce8f85904cb11a81f371cbdf7
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-a2d9cabce8f85904cb11a81f371cbdf7
+      projectPath: Temp\UnityTempFile-a2d9cabce8f85904cb11a81f371cbdf7
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-a3dc847ff59e1e545ae7d5a54dc00943
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-a3dc847ff59e1e545ae7d5a54dc00943
+      projectPath: Temp\UnityTempFile-a3dc847ff59e1e545ae7d5a54dc00943
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-a5172adbd9c867b478bd8379dde4d72d
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-a5172adbd9c867b478bd8379dde4d72d
+      projectPath: Temp\UnityTempFile-a5172adbd9c867b478bd8379dde4d72d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-b38f621c16c9faa40ae9046800d7b436
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-b38f621c16c9faa40ae9046800d7b436
+      projectPath: Temp\UnityTempFile-b38f621c16c9faa40ae9046800d7b436
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-bbf9cffcbd94c48499d3d4238fed70ea
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-bbf9cffcbd94c48499d3d4238fed70ea
+      projectPath: Temp\UnityTempFile-bbf9cffcbd94c48499d3d4238fed70ea
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-c60faf273d1b36a4e94c1cc32f5a6038
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-c60faf273d1b36a4e94c1cc32f5a6038
+      projectPath: Temp\UnityTempFile-c60faf273d1b36a4e94c1cc32f5a6038
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-d8ed33777298802449e1015bf93a4b18
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-d8ed33777298802449e1015bf93a4b18
+      projectPath: Temp\UnityTempFile-d8ed33777298802449e1015bf93a4b18
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-d9d9e88a7c390fe47bc815b5a30ac5fa
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-d9d9e88a7c390fe47bc815b5a30ac5fa
+      projectPath: Temp\UnityTempFile-d9d9e88a7c390fe47bc815b5a30ac5fa
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-dc2c6e66ef510094697e43b81896a57a
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-dc2c6e66ef510094697e43b81896a57a
+      projectPath: Temp\UnityTempFile-dc2c6e66ef510094697e43b81896a57a
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-dc76b361778f4b34ba1a1abf73d54523
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-dc76b361778f4b34ba1a1abf73d54523
+      projectPath: Temp\UnityTempFile-dc76b361778f4b34ba1a1abf73d54523
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-dec6b827e19349c4382f56a92346d97b
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-dec6b827e19349c4382f56a92346d97b
+      projectPath: Temp\UnityTempFile-dec6b827e19349c4382f56a92346d97b
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-e3fe0df4516ad454a9ae0bde98079cff
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-e3fe0df4516ad454a9ae0bde98079cff
+      projectPath: Temp\UnityTempFile-e3fe0df4516ad454a9ae0bde98079cff
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-e713db92e20e20b4a90b5d5b26e072c5
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-e713db92e20e20b4a90b5d5b26e072c5
+      projectPath: Temp\UnityTempFile-e713db92e20e20b4a90b5d5b26e072c5
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Laika Game\Temp\UnityTempFile-faca340c615798a4db3c12be979de975
+      fullPath: C:\Users\tarun\Desktop\SP20\5912\Laika\Laika Game\Temp\UnityTempFile-faca340c615798a4db3c12be979de975
+      projectPath: Temp\UnityTempFile-faca340c615798a4db3c12be979de975
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
   - commitID: d3e4c8279dceb62349327a2c6e3071610c981cca
     mergeA: 
     mergeB: 
