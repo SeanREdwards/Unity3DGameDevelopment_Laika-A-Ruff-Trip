@@ -21,6 +21,8 @@ public class Loading : MonoBehaviour
     public Text text;
     public GameObject spaceNoise;
     public GameObject laikaRun;
+    public Animator animator;
+
 
     private void Start()
     {
@@ -38,15 +40,17 @@ public class Loading : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Space) && loadScene == false)
         {
-            loadScene = true;
-            loadingText.text = "Loading...";
+            
+
             StartCoroutine(LoadNewScene());
+
         }
 
         if (loadScene == true)
         {
             spaceNoise.SetActive(true);
             laikaRun.SetActive(true);
+
             loadingText.color = new Color(loadingText.color.r, loadingText.color.g, loadingText.color.b, Mathf.PingPong(Time.time, 1));
             if (oneInvoke)
             {
@@ -76,8 +80,12 @@ public class Loading : MonoBehaviour
 
     IEnumerator LoadNewScene()
     {
-
+        animator.SetTrigger("FadeOut");
+        yield return new WaitForSeconds(1f);
+        loadScene = true;
+        loadingText.text = "Loading...";
         loadingScreen.SetActive(true);
+        animator.SetTrigger("FadeIn");
         yield return new WaitForSeconds(3);
         slider.value = 0.33f;
         text.text = "33%";
@@ -90,6 +98,8 @@ public class Loading : MonoBehaviour
         yield return new WaitForSeconds(1);
         slider.value = 1f;
         text.text = "100%";
+        animator.SetTrigger("FadeOut");
+        yield return new WaitForSeconds(2);
         AsyncOperation async = SceneManager.LoadSceneAsync(scene);
 
         while (!async.isDone)

@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AnimGif.cs" />
+    <Compile Include="Assets\LevelChangerScript.cs" />
     <Compile Include="Assets\Loading.cs" />
     <Compile Include="Assets\Switcher.cs" />
     <Reference Include="Unity.Timeline.Editor">
