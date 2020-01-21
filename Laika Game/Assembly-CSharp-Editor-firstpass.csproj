@@ -96,11 +96,18 @@
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
+<<<<<<< HEAD
       <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+=======
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+>>>>>>> e68c10015442902fb06ee4005d2c3c72a127decb
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

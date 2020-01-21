@@ -55,7 +55,7 @@ public class Loading : MonoBehaviour
             if (oneInvoke)
             {
                 oneInvoke = false;
-                InvokeRepeating("fadeOut", 0, 4f);
+                InvokeRepeating("fadeOut", 0, 2.1f);
             }
         }
 
@@ -64,8 +64,8 @@ public class Loading : MonoBehaviour
     void fadeOut()
     {
         image = ImagesParent.transform.GetChild(childIndex).GetComponent<Image>();
-        image.CrossFadeAlpha(0, 1f, false);
-        Invoke("fadeIn", 2.0f);
+        image.CrossFadeAlpha(0, 0.7f, false);
+        Invoke("fadeIn", 0.7f);
 
     }
 
@@ -75,7 +75,7 @@ public class Loading : MonoBehaviour
         
         image = ImagesParent.transform.GetChild(childIndex).GetComponent<Image>();
         print("Fading in " + image.name);
-        image.CrossFadeAlpha(1, 2.0f, false);
+        image.CrossFadeAlpha(1, 0.7f, false);
     }
 
     IEnumerator LoadNewScene()
@@ -86,16 +86,16 @@ public class Loading : MonoBehaviour
         loadingText.text = "Loading...";
         loadingScreen.SetActive(true);
         animator.SetTrigger("FadeIn");
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(4f);
         slider.value = 0.33f;
         text.text = "33%";
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(4f);
         text.text = "66%";
         slider.value = 0.66f;
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(4f);
         slider.value = 0.93f;
         text.text = "93%";
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2f);
         slider.value = 1f;
         text.text = "100%";
         animator.SetTrigger("FadeOut");

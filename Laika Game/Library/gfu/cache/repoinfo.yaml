@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
+<<<<<<< HEAD
   lastUpdatedAtString: 2020-01-18T21:04:48.548-05:00
   initializedAtString: 2020-01-18T21:04:48.548-05:00
+=======
+  lastUpdatedAtString: 2020-01-18T14:37:42.325-05:00
+  initializedAtString: 2020-01-18T14:37:42.325-05:00
+>>>>>>> e68c10015442902fb06ee4005d2c3c72a127decb
   currentGitRemote:
     name: origin
     url: https://github.com/nathanrauf/Laika.git
