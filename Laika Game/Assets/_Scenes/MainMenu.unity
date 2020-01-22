@@ -1247,6 +1247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD:Laika Game/Assets/_Scenes/MainMenu.unity
+<<<<<<< HEAD:Laika Game/Assets/_Scenes/MainMenu.unity
   m_UiScaleMode: 1
 =======
 <<<<<<< HEAD
@@ -1255,6 +1256,9 @@ MonoBehaviour:
   m_UiScaleMode: 0
 >>>>>>> c10bf676f9500d86ea9f53932e7275f1f1a60b22
 >>>>>>> a1840bf0c8e5746c4847310b07d42f0201886366:Laika Game/Assets/Scenes/MainMenu.unity
+=======
+  m_UiScaleMode: 1
+>>>>>>> 8a1fa29a7d1556b34713ba24dba5ee9d2f4f0a35:Laika Game/Assets/Scenes/MainMenu.unity
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}

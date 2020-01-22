@@ -1,13 +1,1 @@
-<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-1.4618167877197266,"y":3.020822525024414,"z":-6.49273681640625},"rotation":{"x":-0.10731790959835053,"y":0.8698950409889221,"z":-0.217317596077919,"w":-0.42957979440689089},"size":35.145198822021487,"orthographic":false}
-=======
-<<<<<<< HEAD
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":413.4350891113281,"y":202.7435302734375,"z":-127.21206665039063},"rotation":{"x":-0.08717229217290878,"y":0.8995905518531799,"z":-0.21045254170894624,"w":-0.37262260913848879},"size":310.2226257324219,"orthographic":false}
-=======
-<<<<<<< HEAD
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":703.0,"y":189.0,"z":0.0},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":233.34524536132813,"orthographic":true}
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":411.36370849609377,"y":206.9849395751953,"z":-125.79430389404297},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":296.4382629394531,"orthographic":true}
->>>>>>> e68c10015442902fb06ee4005d2c3c72a127decb
->>>>>>> c10bf676f9500d86ea9f53932e7275f1f1a60b22
->>>>>>> a1840bf0c8e5746c4847310b07d42f0201886366

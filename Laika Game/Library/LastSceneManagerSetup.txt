@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/_Scenes/Thaleah_Demo.unity
+=======
+- path: Assets/Scenes/Dog.unity
+>>>>>>> 8a1fa29a7d1556b34713ba24dba5ee9d2f4f0a35
   isLoaded: 1
   isActive: 1
   isSubScene: 0

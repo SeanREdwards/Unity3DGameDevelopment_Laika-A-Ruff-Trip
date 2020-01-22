@@ -73,6 +73,7 @@
     <Compile Include="Assets\_Scripts\PauseScript.cs" />
     <Compile Include="Assets\_Scripts\Rotator.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Assets\freezeXRotation.cs" />
     <Compile Include="Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
     <Compile Include="Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
@@ -93,11 +94,22 @@
     <Compile Include="Assets\Scripts\EnemySight.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementController.cs" />
 =======
+=======
+    <Compile Include="Assets\freezeXRotation.cs" />
+    <Compile Include="Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
+    <Compile Include="Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
+>>>>>>> 8a1fa29a7d1556b34713ba24dba5ee9d2f4f0a35
     <Compile Include="Assets\Pictures\Switcher.cs" />
     <Compile Include="Assets\Scripts\AnimGif.cs" />
+    <Compile Include="Assets\Scripts\DogAnimationController.cs" />
+    <Compile Include="Assets\Scripts\EnemySight.cs" />
     <Compile Include="Assets\Scripts\LevelChangerScript.cs" />
     <Compile Include="Assets\Scripts\Loading.cs" />
+<<<<<<< HEAD
 >>>>>>> a1840bf0c8e5746c4847310b07d42f0201886366
+=======
+    <Compile Include="Assets\Scripts\PlayerMovementController.cs" />
+>>>>>>> 8a1fa29a7d1556b34713ba24dba5ee9d2f4f0a35
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -119,11 +131,18 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <None Include="Assets\PolygonSciFiCity\_Shaders\Polygon_Triplanar.shader" />
 =======
 >>>>>>> a1840bf0c8e5746c4847310b07d42f0201886366
+=======
+    <None Include="Assets\PolygonSciFiCity\_Shaders\Polygon_Triplanar.shader" />
+>>>>>>> 8a1fa29a7d1556b34713ba24dba5ee9d2f4f0a35
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -143,6 +162,15 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
+=======
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+>>>>>>> 8a1fa29a7d1556b34713ba24dba5ee9d2f4f0a35
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
