@@ -29,6 +29,14 @@ public class LevelChangerScript : MonoBehaviour
         Application.Quit();
     }
 
+    public void OptionsButton() {
+
+    }
+
+    public void CreditsButton() {
+
+    }
+
     public void FadeAndLoad(int i) {
         animator.SetTrigger("FadeOut");
         level = i;
