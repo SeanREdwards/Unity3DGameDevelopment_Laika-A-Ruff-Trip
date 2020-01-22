@@ -40,10 +40,7 @@ public class Loading : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Space) && loadScene == false)
         {
-            
-
-            StartCoroutine(LoadNewScene());
-
+             StartCoroutine(LoadNewScene());
         }
 
         if (loadScene == true)

@@ -1246,7 +1246,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Laika Game/Assets/_Scenes/MainMenu.unity
   m_UiScaleMode: 1
+=======
+<<<<<<< HEAD
+  m_UiScaleMode: 1
+=======
+  m_UiScaleMode: 0
+>>>>>>> c10bf676f9500d86ea9f53932e7275f1f1a60b22
+>>>>>>> a1840bf0c8e5746c4847310b07d42f0201886366:Laika Game/Assets/Scenes/MainMenu.unity
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}

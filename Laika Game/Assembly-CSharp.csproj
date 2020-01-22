@@ -62,13 +62,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\_Scripts\AnimGif.cs" />
+=======
+>>>>>>> a1840bf0c8e5746c4847310b07d42f0201886366
     <Compile Include="Assets\_Scripts\Float.cs" />
     <Compile Include="Assets\_Scripts\LevelChangerScript.cs" />
     <Compile Include="Assets\_Scripts\Loading.cs" />
     <Compile Include="Assets\_Scripts\MainMenuButtons.cs" />
     <Compile Include="Assets\_Scripts\PauseScript.cs" />
     <Compile Include="Assets\_Scripts\Rotator.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\freezeXRotation.cs" />
     <Compile Include="Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
     <Compile Include="Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
@@ -88,6 +92,12 @@
     <Compile Include="Assets\Scripts\DogAnimationController.cs" />
     <Compile Include="Assets\Scripts\EnemySight.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementController.cs" />
+=======
+    <Compile Include="Assets\Pictures\Switcher.cs" />
+    <Compile Include="Assets\Scripts\AnimGif.cs" />
+    <Compile Include="Assets\Scripts\LevelChangerScript.cs" />
+    <Compile Include="Assets\Scripts\Loading.cs" />
+>>>>>>> a1840bf0c8e5746c4847310b07d42f0201886366
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -108,35 +118,36 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+<<<<<<< HEAD
     <None Include="Assets\PolygonSciFiCity\_Shaders\Polygon_Triplanar.shader" />
+=======
+>>>>>>> a1840bf0c8e5746c4847310b07d42f0201886366
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
+<<<<<<< HEAD
       <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
@@ -144,6 +155,9 @@
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+=======
+      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+>>>>>>> a1840bf0c8e5746c4847310b07d42f0201886366
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -321,6 +335,12 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
