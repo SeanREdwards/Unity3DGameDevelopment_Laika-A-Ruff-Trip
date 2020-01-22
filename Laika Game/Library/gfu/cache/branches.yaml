@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-01-17T15:40:38.741-05:00
-  initializedAtString: 2020-01-17T14:15:51.906-05:00
+  lastUpdatedAtString: 2020-01-21T16:56:37.232-05:00
+  initializedAtString: 2020-01-21T16:49:05.192-05:00
   localBranches:
   - name: MainMenu
     tracking: origin/MainMenu
@@ -30,6 +30,8 @@ MonoBehaviour:
   - name: origin/Shawn
     tracking: '[None]'
   - name: origin/tarun
+    tracking: '[None]'
+  - name: origin/Tutorial
     tracking: '[None]'
   remotes:
   - name: origin
@@ -69,6 +71,7 @@ MonoBehaviour:
       - MainMenu
       - Shawn
       - tarun
+      - Tutorial
     subKeyValues:
     - Values:
       - name: HEAD
@@ -87,6 +90,11 @@ MonoBehaviour:
           url: https://github.com/nathanrauf/Laika
         trackingBranch: 
       - name: tarun
+        remote:
+          name: origin
+          url: https://github.com/nathanrauf/Laika
+        trackingBranch: 
+      - name: Tutorial
         remote:
           name: origin
           url: https://github.com/nathanrauf/Laika
