@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/_Scenes/MainMenu.unity
     guid: 62496c87a9bd18442922a42ae3b6baef
   - enabled: 1
+    path: Assets/_Scenes/Thaleah_Demo 1.unity
+    guid: 28d2dfb3b2b8fe540b5014de48aff486
+  - enabled: 1
     path: Assets/Scenes/Dog.unity
     guid: 7e6ee2c78e790e4469902400de4b7164
   m_configObjects: {}

@@ -44,7 +44,7 @@ public class PlayerMovementController : MonoBehaviour
 
 
         /*For jumping.*/
-        if (isGrounded && Input.GetKeyDown("space"))
+        if (isGrounded && (Input.GetKeyDown("space") ||Input.GetButtonDown("A")))
         {
             rb.AddForce(Vector3.up * jump_power, ForceMode.Impulse);
             isGrounded = false;
