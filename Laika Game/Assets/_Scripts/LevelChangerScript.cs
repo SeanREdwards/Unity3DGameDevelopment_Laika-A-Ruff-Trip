@@ -22,7 +22,6 @@ public class LevelChangerScript : MonoBehaviour
     }
 
     public void PlayButton() {
-
         FadeAndLoad(SceneManager.GetActiveScene().buildIndex + 1);
     }
 

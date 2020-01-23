@@ -8,6 +8,8 @@ public class PauseScript : MonoBehaviour
 
     public static bool isPaused = false;
     public GameObject PauseMenu;
+    public GameObject PauseButtons;
+    public GameObject options;
 
     // Update is called once per frame
     void Update()
@@ -31,6 +33,24 @@ public class PauseScript : MonoBehaviour
         PauseMenu.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
+    }
+
+    public void OptionsButton() {
+        OpenOptions();
+    }
+
+    public void ReturnButton() {
+        CloseOptions();
+    }
+
+    public void OpenOptions() {
+        PauseButtons.SetActive(false);
+        options.SetActive(true);
+    }
+
+    public void CloseOptions() {
+        options.SetActive(false);
+        PauseButtons.SetActive(true);
     }
 
     public void Quit() {
