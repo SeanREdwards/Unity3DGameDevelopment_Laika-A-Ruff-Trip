@@ -24,15 +24,17 @@ public class EnemySight : MonoBehaviour
     void FixedUpdate()
     {
         agent.destination = IsChasing ? player.transform.position : agent.transform.position;
+        
         Vector3 targetDirection = player.transform.position - transform.parent.transform.position;
         float singleStep = 2.0f * Time.deltaTime;
         Vector3 newDirection = Vector3.RotateTowards(transform.parent.transform.forward, targetDirection, singleStep, 0.0f);
         transform.parent.transform.rotation = Quaternion.LookRotation(newDirection);
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name.Equals("Player"))
+        if (other.gameObject.name.Equals("Laika"))
         {
             excl.SetActive(true);
             IsChasing = true;
@@ -45,14 +47,16 @@ public class EnemySight : MonoBehaviour
         float singleStep = 2.0f * Time.deltaTime;
         Vector3 newDirection = Vector3.RotateTowards(transform.parent.transform.forward, targetDirection, singleStep, 0.0f);
         transform.parent.transform.rotation = Quaternion.LookRotation(newDirection);
-
     }
 
     private void OnTriggerExit(Collider other)
     {
         excl.SetActive(false);
-        IsChasing = false;
-        print("huh");
+        if (other.gameObject.name.Equals("Laika"))
+        {
+            excl.SetActive(false);
+            IsChasing = false;
+        }
     }
 
 
