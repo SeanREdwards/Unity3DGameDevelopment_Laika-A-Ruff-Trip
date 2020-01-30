@@ -72,10 +72,15 @@
     <Compile Include="Assets\_Scripts\MainMenuButtons.cs" />
     <Compile Include="Assets\_Scripts\PauseScript.cs" />
     <Compile Include="Assets\_Scripts\Rotator.cs" />
+    <Compile Include="Assets\BackAndForthMovement.cs" />
+    <Compile Include="Assets\BackForthWRotate.cs" />
+    <Compile Include="Assets\DoorOpen.cs" />
+    <Compile Include="Assets\DoorTrigger.cs" />
     <Compile Include="Assets\freezeXRotation.cs" />
     <Compile Include="Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
     <Compile Include="Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
     <Compile Include="Assets\Pictures\Switcher.cs" />
+    <Compile Include="Assets\PressButton.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\OverTheShoulderAim\ActivateOnKeypress.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
