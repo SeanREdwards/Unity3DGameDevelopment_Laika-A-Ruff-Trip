@@ -22,9 +22,10 @@ public class DoorTrigger : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Pickup")
+        if (other.gameObject.tag == "Pickup" && !doorOpen)
         {
             StartCoroutine(ButtonThenDoor());
+            doorOpen = true;
         }
     }
 
@@ -36,9 +37,7 @@ public class DoorTrigger : MonoBehaviour
         yield return new WaitForSeconds(2f);
         playerCam.SetActive(false);
         doorCam.SetActive(true);
-
         Animator doorAnimator = door.GetComponent<Animator>();
-        
         yield return new WaitForSeconds(2f);
         doorAnimator.SetTrigger("DoorOpen");
         yield return new WaitForSeconds(1f);

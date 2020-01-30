@@ -81,6 +81,7 @@
     <Compile Include="Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
     <Compile Include="Assets\Pictures\Switcher.cs" />
     <Compile Include="Assets\PressButton.cs" />
+    <Compile Include="Assets\Restart.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\OverTheShoulderAim\ActivateOnKeypress.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
