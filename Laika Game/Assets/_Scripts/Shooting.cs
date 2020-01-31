@@ -19,7 +19,14 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (transform.parent.parent != null)
+        {
+            if (transform.parent.parent.transform.gameObject.name == "Guide")
+            {
+                Destroy(temp);
+                StopAllCoroutines();
+            }
+        }
     }
 
     void Shoot()

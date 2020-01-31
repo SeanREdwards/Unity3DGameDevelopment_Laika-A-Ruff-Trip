@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//Applied to big trigger on the bottom of the map. If laika enters this trigger, reloads level
 public class Restart : MonoBehaviour
 {
     public GameObject prefab;
@@ -13,7 +14,6 @@ public class Restart : MonoBehaviour
         {
             SceneManager.LoadScene(3);
         }
-
     }
 
 

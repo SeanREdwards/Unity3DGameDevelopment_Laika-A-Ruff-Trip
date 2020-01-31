@@ -5,26 +5,16 @@ using UnityEngine;
 public class DestroySelf : MonoBehaviour
 {
     public GameObject sound;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    void SoundOffAndDestroy()
     {
-        
-    }
-
-    void SoundOff()
-    {
-        print("here");
+        //Ready sound effect for next play
         sound.gameObject.SetActive(false);
+        //Destroy gameobject altogether
         Destroy(this.transform.gameObject);
-
     }
 
+    //Enable all colliders, mesh collider and trigger collider
     public void SetAllCollidersStatus(bool active)
     {
         foreach (Collider c in this.GetComponents<Collider>())
@@ -35,10 +25,15 @@ public class DestroySelf : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //If hit by a bullet
         if(other.gameObject.tag == "Bullet")
         {
+            //Play sound effect
             sound.gameObject.SetActive(true);
-            Invoke("SoundOff", 1.5f);
+            //Turn sound off and destory in 1.5s
+            Invoke("SoundOffAndDestroy", 1.5f);
+
+            //Turn off colliders and mesh rendered for the 1.5s
             this.GetComponent<MeshRenderer>().enabled = false;
             SetAllCollidersStatus(false);
         }

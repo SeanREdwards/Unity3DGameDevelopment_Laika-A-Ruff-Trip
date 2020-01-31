@@ -9,9 +9,9 @@ public class Loading : MonoBehaviour
     private bool loadScene = false;
     private bool oneInvoke = true;
     [SerializeField]
-    private int scene;
+    public int scene = 1;
     [SerializeField]
-    private Text loadingText;
+    public Text loadingText;
     public GameObject ImagesParent;
     private Image image;
     private int childIndex = 0;
