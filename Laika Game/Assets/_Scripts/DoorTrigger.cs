@@ -34,15 +34,24 @@ public class DoorTrigger : MonoBehaviour
 
         doorOpen = true;
         transform.gameObject.GetComponent<Animator>().SetTrigger("Big Button Down");
-        yield return new WaitForSeconds(2f);
+        playerCam.GetComponent<CinemachineFreeLook>().m_YAxis.m_InputAxisName = "";
+        playerCam.GetComponent<CinemachineFreeLook>().m_XAxis.m_InputAxisName = "";
+
+        yield return new WaitForSeconds(1.35f);
+
         playerCam.SetActive(false);
         doorCam.SetActive(true);
         Animator doorAnimator = door.GetComponent<Animator>();
-        yield return new WaitForSeconds(2f);
-        doorAnimator.SetTrigger("DoorOpen");
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
+        doorAnimator.SetTrigger("Open");
+        yield return new WaitForSeconds(1.5f);
         doorCam.SetActive(false);
+        
         playerCam.SetActive(true);
+        yield return new WaitForSeconds(2.5f);
+        playerCam.GetComponent<CinemachineFreeLook>().m_YAxis.m_InputAxisName = "Mouse Y";
+        playerCam.GetComponent<CinemachineFreeLook>().m_XAxis.m_InputAxisName = "Mouse X";
+
         yield break;
     }
 
