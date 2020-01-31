@@ -32,12 +32,10 @@ public class Shooting : MonoBehaviour
 
         temp = Instantiate(bullet, spawnPoint.transform.position, Quaternion.identity);
         temp.transform.parent = this.transform;
-        print("h");
 
 
         yield return new WaitForSeconds(2f);
         temp.transform.parent = null;
-        print("Shot here");
         direction = (endPoint.transform.position - spawnPoint.transform.position).normalized;
 
         temp.GetComponent<Rigidbody>().AddForce(direction.normalized * bulletForce);
