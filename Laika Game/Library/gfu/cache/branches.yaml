@@ -13,17 +13,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-01-15T14:50:41.385-05:00
-  initializedAtString: 2020-01-15T14:29:02.444-05:00
+  lastUpdatedAtString: 2020-01-21T16:56:37.232-05:00
+  initializedAtString: 2020-01-21T16:49:05.192-05:00
   localBranches:
+  - name: MainMenu
+    tracking: origin/MainMenu
   - name: master
     tracking: origin/master
+  - name: tarun
+    tracking: origin/tarun
   remoteBranches:
-  - name: origin/master
+  - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/MainMenu
+    tracking: '[None]'
+  - name: origin/Shawn
+    tracking: '[None]'
+  - name: origin/tarun
+    tracking: '[None]'
+  - name: origin/Tutorial
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/nathanrauf/Laika.git
+    url: https://github.com/nathanrauf/Laika
     login: 
     user: 
     host: 
@@ -31,29 +43,65 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - MainMenu
     - master
+    - tarun
     values:
+    - name: MainMenu
+      remote:
+        name: origin
+        url: https://github.com/nathanrauf/Laika
+      trackingBranch: MainMenu
     - name: master
       remote:
         name: origin
-        url: https://github.com/nathanrauf/Laika.git
+        url: https://github.com/nathanrauf/Laika
       trackingBranch: master
+    - name: tarun
+      remote:
+        name: origin
+        url: https://github.com/nathanrauf/Laika
+      trackingBranch: tarun
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - master
+      - HEAD
+      - MainMenu
+      - Shawn
+      - tarun
+      - Tutorial
     subKeyValues:
     - Values:
-      - name: master
+      - name: HEAD
         remote:
           name: origin
-          url: https://github.com/nathanrauf/Laika.git
+          url: https://github.com/nathanrauf/Laika
+        trackingBranch: 
+      - name: MainMenu
+        remote:
+          name: origin
+          url: https://github.com/nathanrauf/Laika
+        trackingBranch: 
+      - name: Shawn
+        remote:
+          name: origin
+          url: https://github.com/nathanrauf/Laika
+        trackingBranch: 
+      - name: tarun
+        remote:
+          name: origin
+          url: https://github.com/nathanrauf/Laika
+        trackingBranch: 
+      - name: Tutorial
+        remote:
+          name: origin
+          url: https://github.com/nathanrauf/Laika
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/nathanrauf/Laika.git
+      url: https://github.com/nathanrauf/Laika
