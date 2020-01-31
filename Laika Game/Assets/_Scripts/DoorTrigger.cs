@@ -37,7 +37,7 @@ public class DoorTrigger : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
 
         //Animate the puzzle piece
-        doorAnimator.SetTrigger("Open");
+        doorAnimator.SetTrigger("DoorOpen");
         yield return new WaitForSeconds(1.5f);
 
         //Transition back to player camera

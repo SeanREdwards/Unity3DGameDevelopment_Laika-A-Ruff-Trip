@@ -9,17 +9,6 @@ public class PressButton : MonoBehaviour
     public GameObject door;
     public Text helpText;
     private bool doorOpen = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -46,6 +35,7 @@ public class PressButton : MonoBehaviour
         {
             if (Input.GetKeyDown("f"))
             {
+                print("here pres f");
                 Animator doorAnimator = door.GetComponent<Animator>();
                 doorAnimator.SetTrigger("DoorOpen");
                 doorOpen = true;
