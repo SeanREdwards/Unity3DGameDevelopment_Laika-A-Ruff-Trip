@@ -12,7 +12,8 @@ public class Restart : MonoBehaviour
     {
         if(other.gameObject.name == "Laika")
         {
-            SceneManager.LoadScene(3);
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
         }
     }
 
