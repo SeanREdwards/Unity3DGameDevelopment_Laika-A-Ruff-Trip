@@ -15,13 +15,13 @@ public class PlayerMovementController : MonoBehaviour
 
     private Rigidbody rb;
 
-    private bool isGrounded;
+    public bool isGrounded;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        jump_power = 7.0f;
+        jump_power = 5.0f;
     }
 
     // Update is called once per frame
@@ -62,7 +62,7 @@ public class PlayerMovementController : MonoBehaviour
                 //Half gravity and propel forward slightly
                 rb.useGravity = false;
                 rb.AddForce(Physics.gravity * 0.5f * rb.mass);
-                rb.AddForce(transform.forward * 2f);
+                rb.AddForce(transform.forward * 4f);
             }
             else
             {

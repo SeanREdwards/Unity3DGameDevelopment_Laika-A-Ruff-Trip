@@ -26,9 +26,6 @@ public class DogAnimationController: MonoBehaviour
         float speed = Input.GetAxis("Vertical");
         float rotation = Input.GetAxis("Horizontal");
 
-        animator.SetFloat("Speed", speed);
-
-
         //If non-zero and no speed animation should turn while walking in place.
         if (rotation != 0)
         {
@@ -40,15 +37,19 @@ public class DogAnimationController: MonoBehaviour
         }
         
         //Reset jumping trigger.
-        animator.ResetTrigger("Jump");
+        //animator.ResetTrigger("Jump");
         animator.ResetTrigger("Bite");
         animator.ResetTrigger("Bark");
 
-
-        //Activate jumping animation.
-        if (Input.GetKeyDown("space"))
+        //Check is gorunded from movement script. If not grounded set trigger.
+        if (!gameObject.GetComponentInParent<PlayerMovementController>().isGrounded)
         {
-            animator.SetTrigger("Jump");
+          animator.SetTrigger("Jump");
+          animator.SetFloat("Speed", 0);
+        } else if(gameObject.GetComponentInParent<PlayerMovementController>().isGrounded)
+        {
+          animator.ResetTrigger("Jump");
+          animator.SetFloat("Speed", speed);
         }
 
         if (Input.GetKeyDown("f"))
