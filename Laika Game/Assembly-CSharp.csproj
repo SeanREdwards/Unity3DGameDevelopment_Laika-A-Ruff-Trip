@@ -90,6 +90,7 @@
     <Compile Include="Assets\_Scripts\StaticVariableHolder.cs" />
     <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
     <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
+    <Compile Include="Assets\Lines.cs" />
     <Compile Include="Assets\Pictures\Switcher.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\OverTheShoulderAim\ActivateOnKeypress.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
