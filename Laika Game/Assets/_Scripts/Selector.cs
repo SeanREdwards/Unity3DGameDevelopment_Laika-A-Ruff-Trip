@@ -13,11 +13,12 @@ public class Selector : MonoBehaviour
     public Text text;
     public Button startButton;
     public Button nextButton;
+    
 
     private void Awake()
     {
         index = 0;
-
+        OnScreen = transform.GetChild(index % transform.childCount).localPosition;
     }
     // Start is called before the first frame update
     void Start()
@@ -38,7 +39,7 @@ public class Selector : MonoBehaviour
     {
         transform.GetChild(index % transform.childCount).localPosition = new Vector3(-5f, -5f, -5f);
         index = index + 1;
-        transform.GetChild(index % transform.childCount).localPosition = new Vector3(-0.311f, 0f, 0.36f);
+        transform.GetChild(index % transform.childCount).localPosition = OnScreen;
     }
 
     IEnumerator LoadNewScene()

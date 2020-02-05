@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Scenes/Door Scene.unity
     guid: 092ed2c36e27d354ca30453d8c9e6421
+  - enabled: 1
+    path: Assets/_Scenes/Scenes/Line Renderer Testing.unity
+    guid: 250198f5a637c5549aa92992f076b128
   m_configObjects: {}
