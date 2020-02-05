@@ -25,7 +25,7 @@ public class LoadNextScene : MonoBehaviour
     {
         slider.gameObject.SetActive(true);
         text.gameObject.SetActive(true);
-
+        yield return new WaitForSeconds(1.2f);
         AsyncOperation async = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
         //animator.SetTrigger("FadeIn");
         while (!async.isDone)

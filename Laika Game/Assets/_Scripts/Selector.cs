@@ -48,7 +48,7 @@ public class Selector : MonoBehaviour
         text.gameObject.SetActive(true);
         yield return new WaitForSeconds(1.1f);
 
-        AsyncOperation async = SceneManager.LoadSceneAsync(3);
+        AsyncOperation async = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
         //animator.SetTrigger("FadeIn");
         while (!async.isDone)
         {
