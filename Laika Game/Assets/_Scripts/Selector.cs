@@ -53,7 +53,9 @@ public class Selector : MonoBehaviour
         {
             float progress = Mathf.Clamp01(async.progress / .9f);
             slider.value = progress;
-            text.text = progress * 100f + "%";
+            float print = progress * 100f;
+            print = Mathf.RoundToInt(print);
+            text.text = print+"%";
             yield return null;
         }
     }
