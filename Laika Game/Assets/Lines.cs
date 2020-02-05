@@ -12,6 +12,8 @@ public class Lines : MonoBehaviour
     public GameObject line;
     public Vector3[] points;
     public GameObject player;
+    public Shader highlight;
+    public Shader normal;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +33,7 @@ public class Lines : MonoBehaviour
             points[1] = pickupLocation;
             lineRenderer.SetPositions(points);
             lineRenderer.enabled = true;
+//            player.GetComponent<PlayerObjectMovement>().ball.gameObject.GetComponent<Renderer>().material.shader = 
         } else
         {
             lineRenderer.enabled = false;

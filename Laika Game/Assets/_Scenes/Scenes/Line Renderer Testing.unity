@@ -312,7 +312,6 @@ MonoBehaviour:
   materialPicker: {fileID: 891423504}
   mats:
   - {fileID: 0}
-  text: {fileID: 0}
 --- !u!1001 &891423503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -742,7 +741,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0c56bcb43389de74d9987aef4de37110, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

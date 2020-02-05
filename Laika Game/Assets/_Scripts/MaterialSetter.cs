@@ -19,7 +19,6 @@ public class MaterialSetter : MonoBehaviour
     {
         string s = "DogMaterial" + StaticVariableHolder.Material;
         string path = s;
-        print(path);
 
         switch (StaticVariableHolder.Material)
         {

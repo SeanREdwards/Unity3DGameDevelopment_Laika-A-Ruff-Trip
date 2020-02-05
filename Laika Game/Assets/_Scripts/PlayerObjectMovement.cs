@@ -9,25 +9,36 @@ public class PlayerObjectMovement : MonoBehaviour
     public bool canHold = true;
     public GameObject ball;
     public Transform guide;
+    float yHold;
+    public GameObject head;
+    
 
     void Update()
     {
         if (Input.GetKeyDown("e") || Input.GetButtonDown("X"))
         {
             if (!canHold)
+            {
                 throw_drop();
+                CancelInvoke();
+            }
             else
-                Pickup();
+            {
+                ball.transform.position = guide.position;
+                yHold = ball.transform.position.y;
+                InvokeRepeating("Pickup", 0f, .015f);
+            }
         }
-
+/*
         if (!canHold && ball)
             ball.transform.position = guide.position;
-
+            */
     }//update
 
     //We can use trigger or Collision
-    void OnTriggerEnter(Collider col)
+    void OnTriggerStay(Collider col)
     {
+
         if (col.gameObject.tag == "Pickup")
             if (!ball) // if we don't have anything holding
                 ball = col.gameObject;
@@ -44,10 +55,17 @@ public class PlayerObjectMovement : MonoBehaviour
     }
 
 
+    IEnumerator Pickup2()
+    {
+        yield return null;
+    }
+
     private void Pickup()
     {
+        /*
         if (!ball)
             return;
+            */
 
         //We set the object parent to our guide empty object.
         ball.transform.SetParent(guide);
@@ -58,16 +76,40 @@ public class PlayerObjectMovement : MonoBehaviour
         //we apply the same rotation our main object (Camera) has.
         ball.transform.localRotation = transform.rotation;
         //We re-position the ball on our guide object 
-        ball.transform.position = guide.position;
+        //ball.transform.position = guide.position;
+        Vector3 pos = ball.transform.localPosition;
+        if (Input.GetKey("p"))
+        {
+            pos.z += .05f;
+            ball.transform.localPosition = pos;
+
+        }
+        else if (Input.GetKey("o"))
+        {
+            pos.z -= 0.05f;
+            ball.transform.localPosition = pos;
+
+        } else if (Input.GetKey("k"))
+        {
+            pos.x += -.05f;
+            ball.transform.localPosition = pos;
+        } else if (Input.GetKey("l"))
+        {
+            pos.x -= -.05f;
+            ball.transform.localPosition = pos;
+        }
+
+
 
         canHold = false;
     }
 
-    private void throw_drop()
+    public void throw_drop()
     {
+        /*
         if (!ball)
             return;
-
+*/
         //Set our Gravity to true again.
         ball.GetComponent<Rigidbody>().useGravity = true;
         // we don't have anything to do with our ball field anymore
@@ -78,5 +120,6 @@ public class PlayerObjectMovement : MonoBehaviour
         //Unparent our ball
         guide.GetChild(0).parent = null;
         canHold = true;
+        CancelInvoke();
     }
 }//class
