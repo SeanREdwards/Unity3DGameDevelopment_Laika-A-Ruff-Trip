@@ -24,8 +24,10 @@ public class PlayerObjectMovement : MonoBehaviour
             }
             else
             {
-                ball.transform.position = guide.position;
-                yHold = ball.transform.position.y;
+                if (ball != null)
+                {
+                    ball.transform.position = guide.position;
+                }
                 InvokeRepeating("Pickup", 0f, .015f);
             }
         }
@@ -72,6 +74,7 @@ public class PlayerObjectMovement : MonoBehaviour
 
         //Set gravity to false while holding it
         ball.GetComponent<Rigidbody>().useGravity = false;
+        ball.GetComponent<Rigidbody>().isKinematic = true;
 
         //we apply the same rotation our main object (Camera) has.
         ball.transform.localRotation = transform.rotation;
@@ -112,6 +115,8 @@ public class PlayerObjectMovement : MonoBehaviour
 */
         //Set our Gravity to true again.
         ball.GetComponent<Rigidbody>().useGravity = true;
+        ball.GetComponent<Rigidbody>().isKinematic = false;
+
         // we don't have anything to do with our ball field anymore
         ball = null;
         //Apply velocity on throwing

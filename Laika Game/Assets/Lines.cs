@@ -9,16 +9,21 @@ public class Lines : MonoBehaviour
     private Vector3 originLocation;
     private Vector3 pickupLocation;
     LineRenderer lineRenderer;
+    LineRenderer lineRendererDown;
     public GameObject line;
     public Vector3[] points;
+
+    public GameObject lineDown;
+    public Vector3[] pointsLineDown;
     public GameObject player;
-    public Shader highlight;
-    public Shader normal;
     // Start is called before the first frame update
     void Start()
     {
         lineRenderer = line.GetComponent<LineRenderer>();
         lineRenderer.enabled = false;
+
+        lineRendererDown = lineDown.GetComponent<LineRenderer>();
+        lineRendererDown.enabled = false;
     }
 
     // Update is called once per frame
@@ -33,10 +38,16 @@ public class Lines : MonoBehaviour
             points[1] = pickupLocation;
             lineRenderer.SetPositions(points);
             lineRenderer.enabled = true;
-//            player.GetComponent<PlayerObjectMovement>().ball.gameObject.GetComponent<Renderer>().material.shader = 
+
+            pointsLineDown[0] = pickupLocation;
+            Vector3 downPos = pickupLocation - new Vector3(0f, 30f, 0f);
+            pointsLineDown[1] = downPos;
+            lineRendererDown.SetPositions(pointsLineDown);
+            lineRendererDown.enabled = true;
         } else
         {
             lineRenderer.enabled = false;
+            lineRendererDown.enabled = false;
         }
     }
 }
