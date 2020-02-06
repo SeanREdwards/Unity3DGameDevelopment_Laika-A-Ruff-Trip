@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
+  - Pick Up
+=======
   - Pickup
+>>>>>>> a93966459d6c08ec390f6cc5e64f315ca0d8642c
   layers:
   - Default
   - TransparentFX
