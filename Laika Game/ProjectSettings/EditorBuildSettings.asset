@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/_Scenes/MainMenu.unity
     guid: 62496c87a9bd18442922a42ae3b6baef
   - enabled: 1
+    path: Assets/_Scenes/Warp Scene.unity
+    guid: 50bfa9d072d582049ab1722021432698
+  - enabled: 1
+    path: Assets/_Scenes/Dialogue test.unity
+    guid: c4e781f16d9c3e845b3779b1e59d3afd
+  - enabled: 1
     path: Assets/Scenes/Dog.unity
     guid: 7e6ee2c78e790e4469902400de4b7164
   m_configObjects: {}

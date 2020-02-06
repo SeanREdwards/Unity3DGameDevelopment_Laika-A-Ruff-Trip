@@ -64,13 +64,20 @@
   <ItemGroup>
     <Compile Include="Assets\_Scripts\AnimGif.cs" />
     <Compile Include="Assets\_Scripts\ButtonAudio.cs" />
+    <Compile Include="Assets\_Scripts\Dialogue.cs" />
+    <Compile Include="Assets\_Scripts\DialogueManager.cs" />
     <Compile Include="Assets\_Scripts\Float.cs" />
     <Compile Include="Assets\_Scripts\FloatingCar.cs" />
+    <Compile Include="Assets\_Scripts\GameHandler.cs" />
+    <Compile Include="Assets\_Scripts\HasDialogue.cs" />
     <Compile Include="Assets\_Scripts\LevelChangerScript.cs" />
     <Compile Include="Assets\_Scripts\Loading.cs" />
     <Compile Include="Assets\_Scripts\MainMenuButtons.cs" />
     <Compile Include="Assets\_Scripts\PauseScript.cs" />
+    <Compile Include="Assets\_Scripts\PlayerHandler.cs" />
     <Compile Include="Assets\_Scripts\Rotator.cs" />
+    <Compile Include="Assets\_Scripts\SettingsMenu.cs" />
+    <Compile Include="Assets\_Scripts\WarpScript.cs" />
     <Compile Include="Assets\freezeXRotation.cs" />
     <Compile Include="Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
     <Compile Include="Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
@@ -93,6 +100,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\save.txt" />
     <None Include="Assets\AtomRocket\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
