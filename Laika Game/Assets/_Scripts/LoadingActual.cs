@@ -9,9 +9,9 @@ public class LoadingActual : MonoBehaviour
     private bool loadScene = false;
     private bool oneInvoke = true;
     [SerializeField]
-    private int scene;
+    public int scene = 1;
     [SerializeField]
-    private Text loadingText;
+    public Text loadingText;
     public GameObject ImagesParent;
     private Image image;
     private int childIndex = 0;
@@ -40,7 +40,12 @@ public class LoadingActual : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Space) && loadScene == false)
         {
-            
+
+            loadingText.text = "Loading...";
+
+            //animator.SetTrigger("FadeOut");
+            loadScene = true;
+            loadingScreen.SetActive(true);
 
             StartCoroutine(LoadNewScene());
 
@@ -81,11 +86,6 @@ public class LoadingActual : MonoBehaviour
     IEnumerator LoadNewScene()
     {
         AsyncOperation async = SceneManager.LoadSceneAsync(scene);
-        loadingText.text = "Loading...";
-
-        //animator.SetTrigger("FadeOut");
-        loadScene = true;
-        loadingScreen.SetActive(true);
         //animator.SetTrigger("FadeIn");
 
         while (!async.isDone)

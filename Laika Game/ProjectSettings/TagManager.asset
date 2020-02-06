@@ -8,7 +8,11 @@ TagManager:
   - Pick Up
 =======
   - Pickup
+<<<<<<< HEAD
 >>>>>>> a93966459d6c08ec390f6cc5e64f315ca0d8642c
+=======
+  - Bullet
+>>>>>>> clamp
   layers:
   - Default
   - TransparentFX
