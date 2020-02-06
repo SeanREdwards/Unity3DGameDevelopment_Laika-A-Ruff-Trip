@@ -83,6 +83,7 @@
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
      <Compile Include="Assets\Scripts\DogAnimationController.cs" />
      <Compile Include="Assets\Scripts\EnemySight.cs" />
+     <Compile Include="Assets\Scripts\JetpackParticleController.cs" />
      <Compile Include="Assets\Scripts\PlayerMovementController.cs" />
      <Compile Include="Assets\Scripts\PlayerObjectMovement.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />

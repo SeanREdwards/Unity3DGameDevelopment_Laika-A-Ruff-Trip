@@ -20,6 +20,7 @@ public class PlayerMovementController : MonoBehaviour
 
     public bool isGrounded;
     public bool isSprinting;
+    public bool isGliding;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,7 @@ public class PlayerMovementController : MonoBehaviour
         sprint_mod = 2.0f;
 
         isSprinting = false;
+        isGliding = false;
     }
 
     // Update is called once per frame
@@ -84,6 +86,7 @@ public class PlayerMovementController : MonoBehaviour
             {
                 //Half gravity and propel forward slightly
                 rb.useGravity = false;
+                isGliding = true;
                 rb.AddForce(Physics.gravity * 0.5f * rb.mass);
                 rb.AddForce(transform.forward * glide_power);
             }
@@ -91,6 +94,7 @@ public class PlayerMovementController : MonoBehaviour
             {
                 //let go of jump button and gravity is reapplied.
                 rb.useGravity = true;
+                isGliding = false;
             }
         }
         else
@@ -107,6 +111,7 @@ public class PlayerMovementController : MonoBehaviour
         {
             isGrounded = true;
             //Debug.Log("Collided with ground.");
+            isGliding = false;
         }
     }
 }
