@@ -7,6 +7,7 @@ public class PauseScript : MonoBehaviour
 {
 
     public static bool isPaused = false;
+    public GameHandler Game;
     public GameObject PauseMenu;
     public GameObject PauseButtons;
     public GameObject options;
@@ -54,8 +55,8 @@ public class PauseScript : MonoBehaviour
     }
 
     public void Quit() {
-        Application.Quit();
-        //SceneManager.LoadScene(1);
+        Game.Save();
+        SceneManager.LoadScene(1);
     }
 
 }
