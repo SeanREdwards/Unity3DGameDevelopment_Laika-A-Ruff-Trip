@@ -9,19 +9,27 @@ public class PlayerMovementController : MonoBehaviour
 
     public float move_speed;
     public float rotate_speed;
+    public float sprint_mod;
 
     public float jump_power;
     public Vector3 jump_vector;
 
+    public float glide_power;
+
     private Rigidbody rb;
 
     public bool isGrounded;
+    public bool isSprinting;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        jump_power = 5.0f;
+        jump_power = 4.0f;
+        glide_power = 5.0f;
+        sprint_mod = 2.0f;
+
+        isSprinting = false;
     }
 
     // Update is called once per frame
@@ -35,15 +43,30 @@ public class PlayerMovementController : MonoBehaviour
 
         if (move_vertical < 0)
         {
+            isSprinting = false;
+
             //Dog moves slower when backing up
             transform.Translate(movement * (move_speed * .4f) * Time.deltaTime, Space.Self);
         }
         else
         {
-            /*Allow for forward/backward movement.*/
-            transform.Translate(movement * move_speed * Time.deltaTime, Space.Self);
-        }
+            /*Allow for forward movement.*/
+            if (!(Input.GetKey("left shift") || Input.GetButton("LeftBumper")))
+            {
 
+                isSprinting = false;
+                transform.Translate(movement * move_speed * Time.deltaTime, Space.Self);
+
+            }
+
+            /*Allows for sprinting.*/
+            else
+            {
+                isSprinting = true;
+                transform.Translate(movement * (move_speed * sprint_mod) * Time.deltaTime, Space.Self);
+            }
+
+        }
 
         /*For jumping.*/
         if ((Input.GetKeyDown("space") || Input.GetButtonDown("A")) && isGrounded)
@@ -62,7 +85,7 @@ public class PlayerMovementController : MonoBehaviour
                 //Half gravity and propel forward slightly
                 rb.useGravity = false;
                 rb.AddForce(Physics.gravity * 0.5f * rb.mass);
-                rb.AddForce(transform.forward * 4f);
+                rb.AddForce(transform.forward * glide_power);
             }
             else
             {

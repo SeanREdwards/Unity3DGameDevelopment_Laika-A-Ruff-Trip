@@ -12,6 +12,8 @@ using UnityEngine;
 public class DogAnimationController: MonoBehaviour
 {
     Animator animator;
+    private bool canJump;
+    private bool isSprinting;
 
     // Start is called before the first frame update
     void Start()
@@ -25,31 +27,41 @@ public class DogAnimationController: MonoBehaviour
         animator = GetComponent<Animator>();
         float speed = Input.GetAxis("Vertical");
         float rotation = Input.GetAxis("Horizontal");
-
-        //If non-zero and no speed animation should turn while walking in place.
-        if (rotation != 0)
-        {
-            animator.SetBool("Rotating", true);
-        }
-        else
-        {
-            animator.SetBool("Rotating", false);
-        }
-        
+        animator.SetFloat("Speed", speed);
+        animator.SetBool("Sprinting", gameObject.GetComponentInParent<PlayerMovementController>().isSprinting); 
         //Reset jumping trigger.
         //animator.ResetTrigger("Jump");
         animator.ResetTrigger("Bite");
         animator.ResetTrigger("Bark");
 
-        //Check is gorunded from movement script. If not grounded set trigger.
+        //Check is grounded from movement script. If not grounded set trigger.
         if (!gameObject.GetComponentInParent<PlayerMovementController>().isGrounded)
         {
-          animator.SetTrigger("Jump");
-          animator.SetFloat("Speed", 0);
-        } else if(gameObject.GetComponentInParent<PlayerMovementController>().isGrounded)
+            animator.SetBool("Grounded", false);
+            if (canJump) 
+            {
+                canJump = false;
+                animator.SetTrigger("Jump");
+            }
+            else
+            {
+                animator.ResetTrigger("Jump");
+            }
+        }
+        else
         {
-          animator.ResetTrigger("Jump");
-          animator.SetFloat("Speed", speed);
+            animator.SetBool("Grounded", true);
+            canJump = true;
+
+            //If non-zero and no speed animation should turn while walking in place.
+            if (rotation != 0)
+            {
+                animator.SetBool("Rotating", true);
+            }
+            else
+            {
+                animator.SetBool("Rotating", false);
+            }
         }
 
         if (Input.GetKeyDown("f"))
