@@ -4,15 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
-  - Pick Up
-=======
-  - Pickup
-<<<<<<< HEAD
->>>>>>> a93966459d6c08ec390f6cc5e64f315ca0d8642c
-=======
+  - Ground
   - Bullet
->>>>>>> clamp
+  - Pickup
   layers:
   - Default
   - TransparentFX
