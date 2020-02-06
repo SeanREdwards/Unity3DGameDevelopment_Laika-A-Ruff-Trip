@@ -8,9 +8,18 @@ public class MainMenuButtons : MonoBehaviour
 
     public GameObject menu;
     public GameObject options;
+    public GameHandler Game;
+
+    private void Start() {
+        Time.timeScale = 1;
+    }
 
     public void PlayButton() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void LoadButton() {
+        Game.LoadScene();
     }
 
     public void OptionsButton() {

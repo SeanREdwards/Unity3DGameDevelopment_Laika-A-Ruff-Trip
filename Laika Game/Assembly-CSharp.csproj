@@ -67,6 +67,8 @@
     <Compile Include="Assets\_Scripts\BackForthWRotate.cs" />
     <Compile Include="Assets\_Scripts\ButtonAudio.cs" />
     <Compile Include="Assets\_Scripts\DestroySelf.cs" />
+    <Compile Include="Assets\_Scripts\Dialogue.cs" />
+    <Compile Include="Assets\_Scripts\DialogueManager.cs" />
     <Compile Include="Assets\_Scripts\DogAnimationController.cs" />
     <Compile Include="Assets\_Scripts\DoorOpen.cs" />
     <Compile Include="Assets\_Scripts\DoorTrigger.cs" />
@@ -74,12 +76,15 @@
     <Compile Include="Assets\_Scripts\Float.cs" />
     <Compile Include="Assets\_Scripts\FloatingCar.cs" />
     <Compile Include="Assets\_Scripts\freezeXRotation.cs" />
+    <Compile Include="Assets\_Scripts\GameHandler.cs" />
+    <Compile Include="Assets\_Scripts\HasDialogue.cs" />
     <Compile Include="Assets\_Scripts\LevelChangerScript.cs" />
     <Compile Include="Assets\_Scripts\Loading.cs" />
     <Compile Include="Assets\_Scripts\LoadingActual.cs" />
     <Compile Include="Assets\_Scripts\MainMenuButtons.cs" />
     <Compile Include="Assets\_Scripts\MaterialSetter.cs" />
     <Compile Include="Assets\_Scripts\PauseScript.cs" />
+    <Compile Include="Assets\_Scripts\PlayerHandler.cs" />
     <Compile Include="Assets\_Scripts\PlayerMovementController.cs" />
     <Compile Include="Assets\_Scripts\PlayerObjectMovement.cs" />
     <Compile Include="Assets\_Scripts\PressButton.cs" />
@@ -87,8 +92,10 @@
     <Compile Include="Assets\_Scripts\Restart.cs" />
     <Compile Include="Assets\_Scripts\Rotator.cs" />
     <Compile Include="Assets\_Scripts\Selector.cs" />
+    <Compile Include="Assets\_Scripts\SettingsMenu.cs" />
     <Compile Include="Assets\_Scripts\Shooting.cs" />
     <Compile Include="Assets\_Scripts\StaticVariableHolder.cs" />
+    <Compile Include="Assets\_Scripts\WarpScript.cs" />
     <Compile Include="Assets\ColliderPickup.cs" />
     <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
     <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
@@ -124,6 +131,7 @@
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaIO.cginc" />
     <None Include="Assets\OutlineEffect\Resources\OutlineBufferShader.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\save.txt" />
     <None Include="Assets\External Assets\AtomRocket\ReadMe.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurface.cginc" />
@@ -157,8 +165,11 @@
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLit.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
     <None Include="Assets\External Assets\PolygonSciFiCity\_Shaders\Polygon_Triplanar.shader" />
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>C:/Users/tarun/Desktop/Timebox1/Laika/Laika Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>C:/Users/tarun/Desktop/Timebox1/Laika/Laika Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
@@ -170,28 +181,34 @@
       <HintPath>C:/Users/tarun/Desktop/Timebox1/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/tarun/Desktop/Timebox1/Laika/Laika Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/tarun/Desktop/Timebox1/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/tarun/Desktop/Timebox1/Laika/Laika Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/tarun/Desktop/Timebox1/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/tarun/Desktop/Timebox1/Laika/Laika Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/tarun/Desktop/Timebox1/Laika/Laika Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/tarun/Desktop/Timebox1/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/tarun/Desktop/Timebox1/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -369,12 +386,6 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
