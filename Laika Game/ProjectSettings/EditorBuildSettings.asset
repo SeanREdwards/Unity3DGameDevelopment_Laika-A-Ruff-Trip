@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/_Scenes/Scenes/Dog.unity
     guid: 7e6ee2c78e790e4469902400de4b7164
   - enabled: 1
-    path: Assets/_Scenes/Scenes/Door Scene.unity
+    path: Assets/_Scenes/Scenes/Sewer.unity
     guid: 092ed2c36e27d354ca30453d8c9e6421
   m_configObjects: {}
