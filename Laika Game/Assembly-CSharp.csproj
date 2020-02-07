@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_MK\MKGlassFree\MKGlassFreeMaterialHelper.cs" />
+    <Compile Include="Assets\_Scripts\AnimGif.cs" />
     <Compile Include="Assets\_Scripts\BackAndForthMovement.cs" />
     <Compile Include="Assets\_Scripts\BackForthWRotate.cs" />
     <Compile Include="Assets\_Scripts\ButtonAudio.cs" />
@@ -123,6 +124,10 @@
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
+    <Compile Include="Assets\Scripts\INPCState.cs" />
+    <Compile Include="Assets\Scripts\JetpackParticleController.cs" />
+    <Compile Include="Assets\Scripts\NPCChasingState.cs" />
+    <Compile Include="Assets\Scripts\NPCPatrolState.cs" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />

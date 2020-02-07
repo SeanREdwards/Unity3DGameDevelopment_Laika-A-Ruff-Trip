@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Thaleah_Demo.unity
+    guid: 180143f4a57f2124dae57257c95bc10a
+  - enabled: 1
+    path: Assets/_Scenes/MainMenu.unity
+    guid: 62496c87a9bd18442922a42ae3b6baef
+  - enabled: 1
+    path: Assets/_Scenes/Scenes/Character Select.unity
+    guid: ea7ec207a65f0ad498c75f0de8e1a98a
+  - enabled: 1
+    path: Assets/_Scenes/Scenes/Door Scene.unity
+    guid: 092ed2c36e27d354ca30453d8c9e6421
+  - enabled: 1
+    path: Assets/_Scenes/Scenes/Dog.unity
+    guid: b08d7a5b12571a0478a92ae2661153b2
+  - enabled: 1
+    path: Assets/_Scenes/Dialogue test.unity
+    guid: c4e781f16d9c3e845b3779b1e59d3afd
   m_configObjects: {}
