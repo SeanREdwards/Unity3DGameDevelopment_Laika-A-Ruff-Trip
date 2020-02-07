@@ -135,6 +135,7 @@
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassInc.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaIO.cginc" />
     <None Include="Assets\OutlineEffect\Resources\OutlineBufferShader.shader" />
+    <None Include="Assets\OutlineShaders\UltimateOutlineShadows.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\save.txt" />
     <None Include="Assets\External Assets\AtomRocket\ReadMe.txt" />
@@ -155,6 +156,7 @@
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\OutlineShaders\UltimateOutline.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />

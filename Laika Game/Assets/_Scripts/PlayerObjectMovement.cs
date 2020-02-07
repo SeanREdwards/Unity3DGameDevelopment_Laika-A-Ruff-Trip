@@ -27,8 +27,9 @@ public class PlayerObjectMovement : MonoBehaviour
                 if (ball != null)
                 {
                     ball.transform.position = guide.position;
+                    InvokeRepeating("Pickup", 0f, .015f);
+
                 }
-                InvokeRepeating("Pickup", 0f, .015f);
             }
         }
 /*

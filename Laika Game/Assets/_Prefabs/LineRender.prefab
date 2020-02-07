@@ -176,6 +176,8 @@ MonoBehaviour:
   points:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
+  standard: {fileID: 0}
+  outlined: {fileID: 4800000, guid: 64278aebde17998419ec614c148fd8ca, type: 3}
   lineDown: {fileID: 9213207792941185596}
   pointsLineDown:
   - {x: 0, y: 0, z: 0}
