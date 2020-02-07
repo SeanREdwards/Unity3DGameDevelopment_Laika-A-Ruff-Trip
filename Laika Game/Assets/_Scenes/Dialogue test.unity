@@ -327,7 +327,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165007810}
-  m_LocalRotation: {x: 0.18027331, y: 0.086695984, z: -0.01595349, w: 0.9796586}
+  m_LocalRotation: {x: 0.18027331, y: 0.086696, z: -0.015953494, w: 0.9796586}
   m_LocalPosition: {x: -0.7169473, y: 2.5, z: -2.988659}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -563,12 +563,12 @@ PrefabInstance:
     - target: {fileID: 8753590964783376836, guid: 3f441f197d750234c81df4b6364931dc,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.086695984
+      value: 0.086696
       objectReference: {fileID: 0}
     - target: {fileID: 8753590964783376836, guid: 3f441f197d750234c81df4b6364931dc,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.015953489
+      value: -0.015953492
       objectReference: {fileID: 0}
     - target: {fileID: 8753590964783376836, guid: 3f441f197d750234c81df4b6364931dc,
         type: 3}
@@ -583,12 +583,12 @@ PrefabInstance:
     - target: {fileID: 8753590964791597412, guid: 3f441f197d750234c81df4b6364931dc,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.086695984
+      value: 0.086696
       objectReference: {fileID: 0}
     - target: {fileID: 8753590964791597412, guid: 3f441f197d750234c81df4b6364931dc,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.015953511
+      value: -0.015953515
       objectReference: {fileID: 0}
     - target: {fileID: 8753590964791597412, guid: 3f441f197d750234c81df4b6364931dc,
         type: 3}
@@ -690,7 +690,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: CM_Third-Person Player Camera
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8753590965040626868, guid: 3f441f197d750234c81df4b6364931dc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3f441f197d750234c81df4b6364931dc, type: 3}
 --- !u!114 &946780105 stripped
 MonoBehaviour:
