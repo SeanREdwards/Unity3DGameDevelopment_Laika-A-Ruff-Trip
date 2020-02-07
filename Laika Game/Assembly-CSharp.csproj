@@ -67,6 +67,7 @@
      <Compile Include="Assets\_Scripts\Float.cs" />
      <Compile Include="Assets\_Scripts\FloatingCar.cs" />
      <Compile Include="Assets\_Scripts\freezeXRotation.cs" />
+     <Compile Include="Assets\_Scripts\HighlightPickUp.cs" />
      <Compile Include="Assets\_Scripts\LevelChangerScript.cs" />
      <Compile Include="Assets\_Scripts\Loading.cs" />
      <Compile Include="Assets\_Scripts\LoadingActual.cs" />
@@ -77,7 +78,6 @@
      <Compile Include="Assets\_Scripts\PressButton.cs" />
      <Compile Include="Assets\_Scripts\Restart.cs" />
      <Compile Include="Assets\_Scripts\Rotator.cs" />
-     <Compile Include="Assets\_Scripts\SelectedHighlight.cs" />
      <Compile Include="Assets\_Scripts\Shooting.cs" />
      <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
      <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />

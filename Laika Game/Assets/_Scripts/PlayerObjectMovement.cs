@@ -9,6 +9,7 @@ public class PlayerObjectMovement : MonoBehaviour
     public bool canHold = true;
     public GameObject ball;
     public Transform guide;
+    private Material material;
 
     void Update()
     {
@@ -31,6 +32,8 @@ public class PlayerObjectMovement : MonoBehaviour
         if (col.gameObject.tag == "Pickup")
             if (!ball) // if we don't have anything holding
                 ball = col.gameObject;
+                material = ball.GetComponent<Renderer>().material;
+                material.SetFloat("_Outline", 0.75f);
     }
 
     //We can use trigger or Collision
@@ -40,6 +43,7 @@ public class PlayerObjectMovement : MonoBehaviour
         {
             if (canHold)
                 ball = null;
+                material.SetFloat("_Outline", 0.0f);
         }
     }
 
@@ -78,5 +82,7 @@ public class PlayerObjectMovement : MonoBehaviour
         //Unparent our ball
         guide.GetChild(0).parent = null;
         canHold = true;
+
+        
     }
 }//class
