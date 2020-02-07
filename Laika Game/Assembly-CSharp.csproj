@@ -77,6 +77,7 @@
      <Compile Include="Assets\_Scripts\PressButton.cs" />
      <Compile Include="Assets\_Scripts\Restart.cs" />
      <Compile Include="Assets\_Scripts\Rotator.cs" />
+     <Compile Include="Assets\_Scripts\SelectedHighlight.cs" />
      <Compile Include="Assets\_Scripts\Shooting.cs" />
      <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
      <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
@@ -94,6 +95,7 @@
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
+     <None Include="Assets\OutlineDifuse.shader" />
      <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
