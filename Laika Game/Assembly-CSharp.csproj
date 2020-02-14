@@ -63,9 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\_MK\MKGlassFree\MKGlassFreeMaterialHelper.cs" />
-    <Compile Include="Assets\_Scripts\AnimGif.cs" />
     <Compile Include="Assets\_Scripts\BackAndForthMovement.cs" />
     <Compile Include="Assets\_Scripts\BackForthWRotate.cs" />
+    <Compile Include="Assets\_Scripts\BaseDialogueClass.cs" />
     <Compile Include="Assets\_Scripts\ButtonAudio.cs" />
     <Compile Include="Assets\_Scripts\DestroySelf.cs" />
     <Compile Include="Assets\_Scripts\Dialogue.cs" />
@@ -79,16 +79,20 @@
     <Compile Include="Assets\_Scripts\freezeXRotation.cs" />
     <Compile Include="Assets\_Scripts\GameHandler.cs" />
     <Compile Include="Assets\_Scripts\HasDialogue.cs" />
+    <Compile Include="Assets\_Scripts\JailedNPCDialogue.cs" />
     <Compile Include="Assets\_Scripts\LevelChangerScript.cs" />
     <Compile Include="Assets\_Scripts\Loading.cs" />
     <Compile Include="Assets\_Scripts\LoadingActual.cs" />
     <Compile Include="Assets\_Scripts\MainMenuButtons.cs" />
     <Compile Include="Assets\_Scripts\MaterialSetter.cs" />
+    <Compile Include="Assets\_Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\_Scripts\PauseScript.cs" />
     <Compile Include="Assets\_Scripts\PlayerHandler.cs" />
     <Compile Include="Assets\_Scripts\PlayerMovementController.cs" />
     <Compile Include="Assets\_Scripts\PlayerObjectMovement.cs" />
     <Compile Include="Assets\_Scripts\PressButton.cs" />
+    <Compile Include="Assets\_Scripts\Quest.cs" />
+    <Compile Include="Assets\_Scripts\Quest2_Dialogue.cs" />
     <Compile Include="Assets\_Scripts\Respawn.cs" />
     <Compile Include="Assets\_Scripts\Restart.cs" />
     <Compile Include="Assets\_Scripts\Rotator.cs" />
@@ -98,8 +102,19 @@
     <Compile Include="Assets\_Scripts\StaticVariableHolder.cs" />
     <Compile Include="Assets\_Scripts\WarpScript.cs" />
     <Compile Include="Assets\ColliderPickup.cs" />
+    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\Joystick.cs" />
+    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\Lifetime.cs" />
+    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\MoveArea.cs" />
+    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\Spawner.cs" />
+    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\Target.cs" />
     <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
     <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
+    <Compile Include="Assets\GiveQuest.cs" />
     <Compile Include="Assets\Lines.cs" />
     <Compile Include="Assets\LoadNextLevelTrigger.cs" />
     <Compile Include="Assets\LoadNextScene.cs" />
@@ -112,6 +127,11 @@
     <Compile Include="Assets\OutlineEffect\Outline.cs" />
     <Compile Include="Assets\OutlineEffect\OutlineEffect.cs" />
     <Compile Include="Assets\Pictures\Switcher.cs" />
+    <Compile Include="Assets\QuestHolder.cs" />
+    <Compile Include="Assets\QuestItem.cs" />
+    <Compile Include="Assets\QuestReward.cs" />
+    <Compile Include="Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Consumer.cs" />
+    <Compile Include="Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\OverTheShoulderAim\ActivateOnKeypress.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />

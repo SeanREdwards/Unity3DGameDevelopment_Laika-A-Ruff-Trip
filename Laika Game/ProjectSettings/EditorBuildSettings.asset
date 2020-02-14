@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/_Scenes/MainMenu.unity
     guid: 62496c87a9bd18442922a42ae3b6baef
   - enabled: 1
-    path: Assets/_Scenes/Scenes/Character Select.unity
+    path: Assets/_Scenes/Character Select.unity
     guid: ea7ec207a65f0ad498c75f0de8e1a98a
   - enabled: 1
-    path: Assets/_Scenes/Scenes/Door Scene.unity
+    path: Assets/_Scenes/Door Scene.unity
     guid: 092ed2c36e27d354ca30453d8c9e6421
   - enabled: 1
-    path: Assets/_Scenes/Scenes/Dog.unity
+    path: Assets/_Scenes/Dog.unity
     guid: b08d7a5b12571a0478a92ae2661153b2
   - enabled: 1
     path: Assets/_Scenes/Dialogue test.unity
