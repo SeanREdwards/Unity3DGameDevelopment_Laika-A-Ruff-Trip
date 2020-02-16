@@ -18,6 +18,7 @@ public class Quest2_Dialogue : MonoBehaviour
     public Dialogue questFinished_Reward;
     public GameObject reward;
     private Quaternion originalRot;
+    private int sentencesNum;
     
     
     public void TriggerDialogue() {
@@ -34,6 +35,7 @@ public class Quest2_Dialogue : MonoBehaviour
         d = Vector3.Distance(player.transform.position, NPC.transform.position);
         Text.SetActive(false);
         originalRot = transform.rotation;
+        sentencesNum = dialogue.sentences.Length;
     }
 
     public void generateReward()
@@ -45,28 +47,34 @@ public class Quest2_Dialogue : MonoBehaviour
 
     public void UpdateDialogue_QuestFinished_BeforeReward()
     {
-        dialogue.sentences[0] = questFinished_NoReward.sentences[0];
-        dialogue.sentences[1] = questFinished_NoReward.sentences[1];
-        dialogue.sentences[2] = questFinished_NoReward.sentences[2];
+
+        for(int i = 0; i <sentencesNum; i++)
+        {
+            dialogue.sentences[i] = questFinished_NoReward.sentences[i];
+
+        }
         finalDialogue = true;
-        StaticVariableHolder.Quest2_Done = true;
 
     }
 
     public void UpdateDialogue_QuestFinished_AfterReward()
     {
-        dialogue.sentences[0] = questFinished_Reward.sentences[0];
-        dialogue.sentences[1] = questFinished_Reward.sentences[1];
-        dialogue.sentences[2] = questFinished_Reward.sentences[2];
+        for (int i = 0; i < sentencesNum; i++)
+        {
+            dialogue.sentences[i] = questFinished_Reward.sentences[i];
+        }
     }
 
 
-    public void UpdateDialogue_QuestStarted() { 
+    public void UpdateDialogue_QuestStarted() {
+        print(sentencesNum);
+        for (int i = 0; i < sentencesNum; i++)
+        {
+            dialogue.sentences[i] = questStarted.sentences[i];
+
+        }
 
 
-        dialogue.sentences[0] = questStarted.sentences[0];
-        dialogue.sentences[1] = questStarted.sentences[1];
-        dialogue.sentences[2] = questStarted.sentences[2];
     }
     // Update is called once per frame
     void Update()

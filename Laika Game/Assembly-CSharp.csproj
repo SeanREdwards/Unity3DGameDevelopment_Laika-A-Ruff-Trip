@@ -78,7 +78,6 @@
     <Compile Include="Assets\_Scripts\FloatingCar.cs" />
     <Compile Include="Assets\_Scripts\freezeXRotation.cs" />
     <Compile Include="Assets\_Scripts\GameHandler.cs" />
-    <Compile Include="Assets\_Scripts\HasDialogue.cs" />
     <Compile Include="Assets\_Scripts\JailedNPCDialogue.cs" />
     <Compile Include="Assets\_Scripts\LevelChangerScript.cs" />
     <Compile Include="Assets\_Scripts\Loading.cs" />
