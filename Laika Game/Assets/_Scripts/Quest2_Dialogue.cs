@@ -66,7 +66,6 @@ public class Quest2_Dialogue : MonoBehaviour
 
 
     public void UpdateDialogue_QuestStarted() {
-        print(sentencesNum);
         for (int i = 0; i < sentencesNum; i++)
         {
             dialogue.sentences[i] = questStarted.sentences[i];

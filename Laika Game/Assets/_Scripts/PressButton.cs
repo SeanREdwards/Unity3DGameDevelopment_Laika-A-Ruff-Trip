@@ -35,7 +35,6 @@ public class PressButton : MonoBehaviour
         {
             if (Input.GetKeyDown("f"))
             {
-                print("here pres f");
                 Animator doorAnimator = door.GetComponent<Animator>();
                 doorAnimator.SetTrigger("DoorOpen");
                 doorOpen = true;

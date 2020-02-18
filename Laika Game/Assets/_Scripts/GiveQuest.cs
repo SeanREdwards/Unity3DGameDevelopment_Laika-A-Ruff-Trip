@@ -35,7 +35,7 @@ public class GiveQuest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("Player_UpToDate");
+        player = GameObject.Find("Player");
         quest.QuestGiver = transform.gameObject;
     }
 
