@@ -11,6 +11,11 @@ public class DoorTrigger : MonoBehaviour
     public GameObject door;
     public GameObject playerCam, doorCam;
 
+    private void Start()
+    {
+        playerCam = GameObject.Find("Player/CM_Third-Person Player Camera");
+    }
+
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Pickup" && !doorOpen) //If a pickup is dropped on button
@@ -27,6 +32,9 @@ public class DoorTrigger : MonoBehaviour
         //Lock player camera input
         playerCam.GetComponent<CinemachineFreeLook>().m_YAxis.m_InputAxisName = "";
         playerCam.GetComponent<CinemachineFreeLook>().m_XAxis.m_InputAxisName = "";
+        playerCam.GetComponent<CinemachineFreeLook>().m_XAxis.m_InputAxisValue = 0;
+        playerCam.GetComponent<CinemachineFreeLook>().m_YAxis.m_InputAxisValue = 0;
+
 
         yield return new WaitForSeconds(1.35f);
 

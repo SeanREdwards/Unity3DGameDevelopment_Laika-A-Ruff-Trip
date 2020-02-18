@@ -67,6 +67,7 @@
     <Compile Include="Assets\_Scripts\BackForthWRotate.cs" />
     <Compile Include="Assets\_Scripts\BaseDialogueClass.cs" />
     <Compile Include="Assets\_Scripts\ButtonAudio.cs" />
+    <Compile Include="Assets\_Scripts\ColliderPickup.cs" />
     <Compile Include="Assets\_Scripts\DestroySelf.cs" />
     <Compile Include="Assets\_Scripts\Dialogue.cs" />
     <Compile Include="Assets\_Scripts\DialogueManager.cs" />
@@ -78,20 +79,33 @@
     <Compile Include="Assets\_Scripts\FloatingCar.cs" />
     <Compile Include="Assets\_Scripts\freezeXRotation.cs" />
     <Compile Include="Assets\_Scripts\GameHandler.cs" />
+    <Compile Include="Assets\_Scripts\GiveQuest.cs" />
+    <Compile Include="Assets\_Scripts\INPCState.cs" />
     <Compile Include="Assets\_Scripts\JailedNPCDialogue.cs" />
+    <Compile Include="Assets\_Scripts\JetpackParticleController.cs" />
     <Compile Include="Assets\_Scripts\LevelChangerScript.cs" />
+    <Compile Include="Assets\_Scripts\Lines.cs" />
     <Compile Include="Assets\_Scripts\Loading.cs" />
     <Compile Include="Assets\_Scripts\LoadingActual.cs" />
+    <Compile Include="Assets\_Scripts\LoadNextLevelTrigger.cs" />
+    <Compile Include="Assets\_Scripts\LoadNextScene.cs" />
     <Compile Include="Assets\_Scripts\MainMenuButtons.cs" />
+    <Compile Include="Assets\_Scripts\MaterialHolder.cs" />
     <Compile Include="Assets\_Scripts\MaterialSetter.cs" />
     <Compile Include="Assets\_Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\_Scripts\NPCChasingState.cs" />
+    <Compile Include="Assets\_Scripts\NPCPatrolState.cs" />
     <Compile Include="Assets\_Scripts\PauseScript.cs" />
     <Compile Include="Assets\_Scripts\PlayerHandler.cs" />
     <Compile Include="Assets\_Scripts\PlayerMovementController.cs" />
     <Compile Include="Assets\_Scripts\PlayerObjectMovement.cs" />
+    <Compile Include="Assets\_Scripts\PlayerSetter.cs" />
     <Compile Include="Assets\_Scripts\PressButton.cs" />
     <Compile Include="Assets\_Scripts\Quest.cs" />
     <Compile Include="Assets\_Scripts\Quest2_Dialogue.cs" />
+    <Compile Include="Assets\_Scripts\QuestHolder.cs" />
+    <Compile Include="Assets\_Scripts\QuestItem.cs" />
+    <Compile Include="Assets\_Scripts\QuestReward.cs" />
     <Compile Include="Assets\_Scripts\Respawn.cs" />
     <Compile Include="Assets\_Scripts\Restart.cs" />
     <Compile Include="Assets\_Scripts\Rotator.cs" />
@@ -100,24 +114,20 @@
     <Compile Include="Assets\_Scripts\Shooting.cs" />
     <Compile Include="Assets\_Scripts\StaticVariableHolder.cs" />
     <Compile Include="Assets\_Scripts\WarpScript.cs" />
-    <Compile Include="Assets\ColliderPickup.cs" />
-    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\Bullet.cs" />
-    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\Joystick.cs" />
-    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\Lifetime.cs" />
-    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\MoveArea.cs" />
-    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\Spawner.cs" />
-    <Compile Include="Assets\Do not shoot Aliens\Game assets\Scripts\Target.cs" />
+    <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\Joystick.cs" />
+    <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\Lifetime.cs" />
+    <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\MoveArea.cs" />
+    <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\Spawner.cs" />
+    <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\Target.cs" />
     <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
     <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
-    <Compile Include="Assets\GiveQuest.cs" />
-    <Compile Include="Assets\Lines.cs" />
-    <Compile Include="Assets\LoadNextLevelTrigger.cs" />
-    <Compile Include="Assets\LoadNextScene.cs" />
-    <Compile Include="Assets\MaterialHolder.cs" />
+    <Compile Include="Assets\External Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Consumer.cs" />
+    <Compile Include="Assets\External Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\OutlineEffect\Demo\MaterialSwitcher.cs" />
     <Compile Include="Assets\OutlineEffect\Demo\OutlineAnimation.cs" />
     <Compile Include="Assets\OutlineEffect\Demo\Rotate.cs" />
@@ -126,11 +136,6 @@
     <Compile Include="Assets\OutlineEffect\Outline.cs" />
     <Compile Include="Assets\OutlineEffect\OutlineEffect.cs" />
     <Compile Include="Assets\Pictures\Switcher.cs" />
-    <Compile Include="Assets\QuestHolder.cs" />
-    <Compile Include="Assets\QuestItem.cs" />
-    <Compile Include="Assets\QuestReward.cs" />
-    <Compile Include="Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Consumer.cs" />
-    <Compile Include="Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\OverTheShoulderAim\ActivateOnKeypress.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
@@ -143,10 +148,6 @@
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
-    <Compile Include="Assets\Scripts\INPCState.cs" />
-    <Compile Include="Assets\Scripts\JetpackParticleController.cs" />
-    <Compile Include="Assets\Scripts\NPCChasingState.cs" />
-    <Compile Include="Assets\Scripts\NPCPatrolState.cs" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
@@ -226,6 +227,24 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/tarun/Desktop/SP20/Time1/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CacheServer">
+      <HintPath>C:/Users/tarun/Desktop/SP20/Time1/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>C:/Users/tarun/Desktop/SP20/Time1/Laika/Laika Game/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>C:/Users/tarun/Desktop/SP20/Time1/Laika/Laika Game/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>C:/Users/tarun/Desktop/SP20/Time1/Laika/Laika Game/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>C:/Users/tarun/Desktop/SP20/Time1/Laika/Laika Game/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>C:/Users/tarun/Desktop/SP20/Time1/Laika/Laika Game/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

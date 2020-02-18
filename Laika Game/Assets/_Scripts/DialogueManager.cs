@@ -6,24 +6,24 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     public GameObject animator;
-    public GameObject player;
+    GameObject player;
     private GameObject talker;
     public Text nameText;
     public GameObject hold;
     public Text dialogueText;
     private Queue<string> sentences;
-    Object t;
 
     private Quest2_Dialogue current;
     private GiveQuest gq;
 
-
+    [HideInInspector]
     public bool talking;
 
     void Start()
     {
         sentences = new Queue<string>();
         talking = false;
+        player = transform.parent.gameObject;
     }
 
     public void StartDialogue(Dialogue dialogue, GameObject talkingNPC) {

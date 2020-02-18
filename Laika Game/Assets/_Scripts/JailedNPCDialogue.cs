@@ -1,15 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.UI;
 
 public class JailedNPCDialogue : MonoBehaviour
 {
     public Dialogue dialogue;
     public Dialogue updatedDialogue;
-    public GameObject player;
-    public GameObject NPC;
-    public float TalkDistance;
+    GameObject player;
+    //public GameObject NPC;
+    private float TalkDistance;
     private Quaternion originalRot;
     private float d;
     private List<Quest> q;
@@ -35,15 +36,19 @@ public class JailedNPCDialogue : MonoBehaviour
 
     void Start()
     {
-        d = Vector3.Distance(player.transform.position, NPC.transform.position);
         originalRot = transform.rotation;
         sentencesNum = dialogue.sentences.Length;
+        player = GameObject.Find("Player");
+        q = player.GetComponent<QuestHolder>().quests;
+        d = Vector3.Distance(player.transform.position, transform.position);
+        TalkDistance = 2;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        q = player.GetComponent<QuestHolder>().quests;
+
         if (questTitle_ToUpdate != null)
         {
             for (int i = 0; i < q.Count; i++)
@@ -56,7 +61,7 @@ public class JailedNPCDialogue : MonoBehaviour
         }
 
 
-        d = Vector3.Distance(player.transform.position, NPC.transform.position);
+        d = Vector3.Distance(player.transform.position, transform.position);
         if (d < TalkDistance) {
             if (!FindObjectOfType<DialogueManager>().IsTalking()) {
                 if (Input.GetButtonDown("Interact")) {
@@ -81,3 +86,7 @@ public class JailedNPCDialogue : MonoBehaviour
         }
     }
 }
+
+
+
+

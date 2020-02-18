@@ -6,11 +6,11 @@ public class BackAndForthMovement : MonoBehaviour
 {
 
     public float speed = 1f;
-    public GameObject Laika;
+    GameObject Laika;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Laika = GameObject.Find("Player/Laika");
     }
 
     private void OnTriggerStay(Collider other)

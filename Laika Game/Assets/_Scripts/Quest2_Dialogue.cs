@@ -6,11 +6,10 @@ using UnityEngine.UI;
 public class Quest2_Dialogue : MonoBehaviour
 {
     public Dialogue dialogue;
-    public GameObject player;
+    GameObject player;
     public bool finalDialogue=false;
     public GameObject NPC;
-    public GameObject Text;
-    public float TalkDistance;
+    private float TalkDistance;
     private float d;
     public int questIndex;
     public Dialogue questStarted;
@@ -22,7 +21,6 @@ public class Quest2_Dialogue : MonoBehaviour
     
     
     public void TriggerDialogue() {
-        Text.SetActive(false);
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue, transform.gameObject);
     }
 
@@ -32,8 +30,9 @@ public class Quest2_Dialogue : MonoBehaviour
 
     void Start()
     {
+        player = GameObject.Find("Player");
+        TalkDistance = 2;
         d = Vector3.Distance(player.transform.position, NPC.transform.position);
-        Text.SetActive(false);
         originalRot = transform.rotation;
         sentencesNum = dialogue.sentences.Length;
     }
@@ -85,7 +84,6 @@ public class Quest2_Dialogue : MonoBehaviour
         d = Vector3.Distance(player.transform.position, NPC.transform.position);
         if (d < TalkDistance) {
             if (!FindObjectOfType<DialogueManager>().IsTalking()) {
-                Text.SetActive(true);
                 if (Input.GetButtonDown("Interact")) {
 
                     TriggerDialogue();
@@ -103,7 +101,6 @@ public class Quest2_Dialogue : MonoBehaviour
             }
             
         } else {
-            Text.SetActive(false);
             transform.rotation = Quaternion.Slerp(transform.rotation, originalRot, 0.1f);
 
         }
