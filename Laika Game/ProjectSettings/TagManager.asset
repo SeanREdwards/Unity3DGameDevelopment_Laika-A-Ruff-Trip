@@ -8,6 +8,7 @@ TagManager:
   - Pickup
   - Pick up
   - Pick Up
+  - Ball
   layers:
   - Default
   - TransparentFX
