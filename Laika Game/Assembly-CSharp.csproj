@@ -74,6 +74,7 @@
      <Compile Include="Assets\_Scripts\GameHandler.cs" />
      <Compile Include="Assets\_Scripts\GiveQuest.cs" />
      <Compile Include="Assets\_Scripts\INPCState.cs" />
+     <Compile Include="Assets\_Scripts\IntroCutsceneDialogue.cs" />
      <Compile Include="Assets\_Scripts\JailedNPCDialogue.cs" />
      <Compile Include="Assets\_Scripts\JetpackParticleController.cs" />
      <Compile Include="Assets\_Scripts\LevelChangerScript.cs" />
@@ -107,6 +108,8 @@
      <Compile Include="Assets\_Scripts\Shooting.cs" />
      <Compile Include="Assets\_Scripts\StaticVariableHolder.cs" />
      <Compile Include="Assets\_Scripts\WarpScript.cs" />
+     <Compile Include="Assets\CameraShake.cs" />
+     <Compile Include="Assets\CameraShakeContinuous.cs" />
      <Compile Include="Assets\Cannon\CannonProjectileScript.cs" />
      <Compile Include="Assets\Cannon\ShootCannonProjectile.cs" />
      <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\Bullet.cs" />
@@ -123,6 +126,7 @@
      <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
      <Compile Include="Assets\External Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Consumer.cs" />
      <Compile Include="Assets\External Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Low Poly Space Station\Components\Scripts\RotationScript.cs" />
      <Compile Include="Assets\OutlineEffect\Demo\MaterialSwitcher.cs" />
      <Compile Include="Assets\OutlineEffect\Demo\OutlineAnimation.cs" />
      <Compile Include="Assets\OutlineEffect\Demo\Rotate.cs" />
@@ -131,6 +135,7 @@
      <Compile Include="Assets\OutlineEffect\Outline.cs" />
      <Compile Include="Assets\OutlineEffect\OutlineEffect.cs" />
      <Compile Include="Assets\Pictures\Switcher.cs" />
+     <Compile Include="Assets\RedLightFlashing.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\OverTheShoulderAim\ActivateOnKeypress.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
@@ -143,6 +148,7 @@
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
+     <Compile Include="Assets\UpAndDownMovement.cs" />
      <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />

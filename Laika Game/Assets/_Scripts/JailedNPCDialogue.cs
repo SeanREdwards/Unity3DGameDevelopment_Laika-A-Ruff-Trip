@@ -59,13 +59,10 @@ public class JailedNPCDialogue : MonoBehaviour
                 }
             }
         }
-
-
         d = Vector3.Distance(player.transform.position, transform.position);
         if (d < TalkDistance) {
             if (!FindObjectOfType<DialogueManager>().IsTalking()) {
                 if (Input.GetButtonDown("Interact")) {
-                    
                     TriggerDialogue();
                     player.gameObject.GetComponent<PlayerMovementController>().enabled = false;
                     player.transform.GetChild(1).GetComponent<Animator>().SetFloat("Speed", 0f);

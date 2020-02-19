@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject hold;
     public Text dialogueText;
     private Queue<string> sentences;
+    private IntroCutsceneDialogue intro;
 
     private Quest2_Dialogue current;
     private GiveQuest gq;
@@ -28,7 +29,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue, GameObject talkingNPC) {
 
-        gq = talkingNPC.GetComponent<GiveQuest>();
+            gq = talkingNPC.GetComponent<GiveQuest>();
+        intro = talkingNPC.GetComponent<IntroCutsceneDialogue>();
         talking = true;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", true);
         current = talkingNPC.GetComponent<Quest2_Dialogue>();
@@ -72,9 +74,21 @@ public class DialogueManager : MonoBehaviour
         current.UpdateDialogue_QuestStarted();
     }
 
+    void IntroSceneCameraSwitch()
+    {
+        intro.CameraSwitch();
+    }
+
+
     void EndDialogue() {
         talking = false;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", false);
+
+        if(intro != null)
+        {
+            Invoke("IntroSceneCameraSwitch", 1.3f);
+        }
+
         if (gq != null)
         {
             if (gq.isQuestGiver && !gq.questGiven)

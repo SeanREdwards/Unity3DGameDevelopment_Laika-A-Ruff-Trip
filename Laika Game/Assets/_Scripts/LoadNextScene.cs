@@ -12,7 +12,6 @@ public class LoadNextScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("Have I mad e it here?");
         StartCoroutine(LoadNewScene());
     }
 
@@ -24,7 +23,6 @@ public class LoadNextScene : MonoBehaviour
 
     IEnumerator LoadNewScene()
     {
-        print("Made it into here here");
         slider.gameObject.SetActive(true);
         text.gameObject.SetActive(true);
         yield return new WaitForSeconds(1.2f);
