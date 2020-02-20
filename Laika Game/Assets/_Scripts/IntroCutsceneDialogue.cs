@@ -22,6 +22,12 @@ public class IntroCutsceneDialogue : MonoBehaviour
     public GameObject rocket;
     public GameObject crashLandingSpot;
 
+    public GameObject alarmSound;
+    public GameObject rocketFlyingSound;
+    public GameObject explosionSound;
+    public GameObject fireBurning;
+    public GameObject music;
+
 
     public void TriggerDialogue() {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue, transform.gameObject);
@@ -34,17 +40,18 @@ public class IntroCutsceneDialogue : MonoBehaviour
     public void CameraSwitch()
     {
         doorCam.SetActive(true);
-        Invoke("RocketMove", 0.4f);
+        alarmSound.SetActive(false);
+        Invoke("RocketMoveToWormhole", 0.4f);
     }
 
-    void RocketMove()
+    void RocketMoveToWormhole()
     {
         rocket.GetComponent<Animator>().SetTrigger("RocketMove");
         doorCam.SetActive(false);
-        Invoke("MechanicIntro", 2.7f);
+        Invoke("RocketCrashLand", 2.7f);
     }
 
-    void MechanicIntro()
+    void RocketCrashLand()
     {
         rocketCrashCam.SetActive(true);
         rocketCrashCam.GetComponent<CinemachineVirtualCamera>().LookAt = rocket.transform;
@@ -58,8 +65,11 @@ public class IntroCutsceneDialogue : MonoBehaviour
     void ContactExplosion()
     {
         rocket.transform.GetChild(9).gameObject.SetActive(true);
+        rocketFlyingSound.SetActive(false);
+        explosionSound.SetActive(true);
+        fireBurning.SetActive(true);
 
-        Invoke("PlayerControl", 2f);
+        Invoke("PlayerControl", 3f);
     }
 
 
@@ -68,21 +78,25 @@ public class IntroCutsceneDialogue : MonoBehaviour
         rocketCrashCam.SetActive(false);
         player.transform.position = new Vector3(7.05f, 11.2f, 58.87559f);
         player.transform.GetChild(7).gameObject.SetActive(true);
-        Invoke("MechanicTalk", 5f);
+        Invoke("MechanicTalk", 4f);
         rocket.transform.GetChild(9).gameObject.SetActive(false);
+        explosionSound.SetActive(false);
 
     }
 
     void MechanicTalk()
     {
         rocket.transform.GetChild(9).gameObject.SetActive(true);
-        Invoke("DestroyRocket", .9f);
+        explosionSound.SetActive(true);
+        Invoke("RocketSmoking", .9f);
 
     }
 
-    void DestroyRocket()
+    void RocketSmoking()
     {
-        Destroy(rocket);
+        rocket.transform.GetChild(8).gameObject.SetActive(false);
+        rocket.transform.GetChild(10).gameObject.SetActive(true);
+        music.SetActive(true);
 
     }
 

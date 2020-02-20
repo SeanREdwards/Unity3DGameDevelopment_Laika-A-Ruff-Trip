@@ -8,6 +8,7 @@ TagManager:
   - Pickup
   - Pick up
   - Pick Up
+  - Cannon_Projectile
   layers:
   - Default
   - TransparentFX
