@@ -4,12 +4,23 @@ using UnityEngine;
 
 public class QuestReward : MonoBehaviour
 {
+    AudioSource audS;
+    void Start()
+    {
+        audS = this.GetComponent<AudioSource>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.name == "Laika")
         {
-            Destroy(transform.gameObject);
+            audS.Play();
+            Invoke("DestroySelf", 0.5f);
         }
+    }
+
+    void DestroySelf()
+    {
+        Destroy(transform.gameObject);
     }
 }

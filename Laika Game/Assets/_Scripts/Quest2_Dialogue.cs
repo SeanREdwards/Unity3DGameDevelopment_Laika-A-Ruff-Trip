@@ -18,6 +18,10 @@ public class Quest2_Dialogue : MonoBehaviour
     public GameObject reward;
     private Quaternion originalRot;
     private int sentencesNum;
+
+    public GameObject questCompleteWindow;
+    public Text questCompleteTitleText;
+    public Text questCompleteDescriptionText;
     
     
     public void TriggerDialogue() {
@@ -40,6 +44,10 @@ public class Quest2_Dialogue : MonoBehaviour
     public void generateReward()
     {
         UpdateDialogue_QuestFinished_AfterReward();
+        questCompleteWindow.SetActive(true);
+        questCompleteTitleText.text = this.GetComponent<GiveQuest>().quest.completedTitle;
+        questCompleteDescriptionText.text = this.GetComponent<GiveQuest>().quest.completedDescription;
+        this.GetComponent<AudioSource>().Play();
         player.gameObject.GetComponent<QuestHolder>().quests[questIndex].complete = true;
         Instantiate(reward, transform.position + (transform.right * -0.7f) +(transform.up * 0.5f), Quaternion.identity);
     }

@@ -21,4 +21,7 @@ public class Quest
     public bool rewardReceived = false;
     [HideInInspector]
     public bool complete;
+    public string completedTitle;
+    public string completedDescription;
+    
 }
