@@ -20,6 +20,8 @@ public class LoadNextLevelTrigger : MonoBehaviour
     {
         if(other.gameObject.name == "Laika")
         {
+            print(loadNextScene.name);
+
             loadNextScene.SetActive(true);
         }
     }

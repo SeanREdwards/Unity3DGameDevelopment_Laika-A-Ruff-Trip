@@ -10,7 +10,8 @@ public class BossHealth : MonoBehaviour
     public Slider healthBar;
     Animator anim;
     AudioSource audS;
-
+    public GameObject victory;
+    public GameObject bossMusic;
     private void Start()
     {
         healthBar.value = 100;
@@ -22,7 +23,7 @@ public class BossHealth : MonoBehaviour
     {
         if(other.tag == "Cannon_Projectile")
         {
-            health = health - 20;
+            health = health - 25;
             audS.Play();
             healthBar.value = health;
             if (health != 0)
@@ -31,8 +32,16 @@ public class BossHealth : MonoBehaviour
             } else { 
                             anim.SetTrigger("Death");
                 this.GetComponent<BossBackAndForth>().enabled = false;
+                Invoke("VictorySound", 0.5f);
             }
         }
     }
+
+    void VictorySound()
+    {
+        victory.SetActive(true);
+        bossMusic.SetActive(false);
+    }
+    
 
 }

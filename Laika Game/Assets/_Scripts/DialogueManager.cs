@@ -29,8 +29,9 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue, GameObject talkingNPC) {
 
-            gq = talkingNPC.GetComponent<GiveQuest>();
+        gq = talkingNPC.GetComponent<GiveQuest>();
         intro = talkingNPC.GetComponent<IntroCutsceneDialogue>();
+
         talking = true;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", true);
         current = talkingNPC.GetComponent<Quest2_Dialogue>();
@@ -84,10 +85,11 @@ public class DialogueManager : MonoBehaviour
         talking = false;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", false);
 
-        if(intro != null)
+        if (intro != null)
         {
             Invoke("IntroSceneCameraSwitch", 1.3f);
         }
+
 
         if (gq != null)
         {

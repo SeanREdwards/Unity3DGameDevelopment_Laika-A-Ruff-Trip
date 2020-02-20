@@ -65,6 +65,7 @@
     <Compile Include="Assets\_MK\MKGlassFree\MKGlassFreeMaterialHelper.cs" />
     <Compile Include="Assets\_Scripts\BackAndForthMovement.cs" />
     <Compile Include="Assets\_Scripts\BackForthWRotate.cs" />
+    <Compile Include="Assets\_Scripts\BallSpawn.cs" />
     <Compile Include="Assets\_Scripts\BaseDialogueClass.cs" />
     <Compile Include="Assets\_Scripts\ButtonAudio.cs" />
     <Compile Include="Assets\_Scripts\ColliderPickup.cs" />
@@ -80,11 +81,13 @@
     <Compile Include="Assets\_Scripts\freezeXRotation.cs" />
     <Compile Include="Assets\_Scripts\GameHandler.cs" />
     <Compile Include="Assets\_Scripts\GiveQuest.cs" />
+    <Compile Include="Assets\_Scripts\GoalScript.cs" />
     <Compile Include="Assets\_Scripts\INPCState.cs" />
     <Compile Include="Assets\_Scripts\IntroCutsceneDialogue.cs" />
     <Compile Include="Assets\_Scripts\JailedNPCDialogue.cs" />
     <Compile Include="Assets\_Scripts\JetpackParticleController.cs" />
     <Compile Include="Assets\_Scripts\LevelChangerScript.cs" />
+    <Compile Include="Assets\_Scripts\LightPillarScript.cs" />
     <Compile Include="Assets\_Scripts\Lines.cs" />
     <Compile Include="Assets\_Scripts\Loading.cs" />
     <Compile Include="Assets\_Scripts\LoadingActual.cs" />
@@ -102,6 +105,7 @@
     <Compile Include="Assets\_Scripts\PlayerObjectMovement.cs" />
     <Compile Include="Assets\_Scripts\PlayerSetter.cs" />
     <Compile Include="Assets\_Scripts\PressButton.cs" />
+    <Compile Include="Assets\_Scripts\PuzzleDoor.cs" />
     <Compile Include="Assets\_Scripts\Quest.cs" />
     <Compile Include="Assets\_Scripts\Quest2_Dialogue.cs" />
     <Compile Include="Assets\_Scripts\QuestHolder.cs" />
@@ -114,6 +118,7 @@
     <Compile Include="Assets\_Scripts\SettingsMenu.cs" />
     <Compile Include="Assets\_Scripts\Shooting.cs" />
     <Compile Include="Assets\_Scripts\StaticVariableHolder.cs" />
+    <Compile Include="Assets\_Scripts\ValidateScript.cs" />
     <Compile Include="Assets\_Scripts\WarpScript.cs" />
     <Compile Include="Assets\BossBackAndForth.cs" />
     <Compile Include="Assets\BossHealth.cs" />
