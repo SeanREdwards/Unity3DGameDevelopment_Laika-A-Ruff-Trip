@@ -79,6 +79,7 @@
      <Compile Include="Assets\_Scripts\Restart.cs" />
      <Compile Include="Assets\_Scripts\Rotator.cs" />
      <Compile Include="Assets\_Scripts\Shooting.cs" />
+     <Compile Include="Assets\customGrid.cs" />
      <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
      <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
      <Compile Include="Assets\Pictures\Switcher.cs" />
