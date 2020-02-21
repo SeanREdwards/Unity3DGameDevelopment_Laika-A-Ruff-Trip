@@ -8,11 +8,15 @@ public class NPCPatrolState : INPCState
     private List<GameObject> PatrolPoints;
     private GameObject NextPatrolPoint;
     private int PatrolPointIndex;
-    public NPCPatrolState(List<GameObject> patrolPoints)
+    public int GetPatrolReturn()
+    {
+        return PatrolPointIndex;
+    }
+    public NPCPatrolState(List<GameObject> patrolPoints, int patrolReturn)
     {
         PatrolPoints = patrolPoints;
-        NextPatrolPoint = PatrolPoints[0];
-        PatrolPointIndex = 0;
+        NextPatrolPoint = PatrolPoints[patrolReturn];
+        PatrolPointIndex = patrolReturn;
     }
 
     public void StateUpdate(NavMeshAgent agent, Transform NPCPosition)

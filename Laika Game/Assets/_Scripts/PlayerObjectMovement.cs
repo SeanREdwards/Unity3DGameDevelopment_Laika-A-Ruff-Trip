@@ -82,24 +82,24 @@ public class PlayerObjectMovement : MonoBehaviour
         //We re-position the ball on our guide object 
         //ball.transform.position = guide.position;
         Vector3 pos = ball.transform.localPosition;
-        if (Input.GetKey("p"))
+        if (Input.GetKey("p") && pos.z <= 1.5f)
         {
             pos.z += .05f;
             ball.transform.localPosition = pos;
 
         }
-        else if (Input.GetKey("o"))
+        else if (Input.GetKey("o") && pos.z >= -0.5f)
         {
             pos.z -= 0.05f;
             ball.transform.localPosition = pos;
 
-        } else if (Input.GetKey("k"))
+        } else if (Input.GetKey("k") && pos.x >= -1.5f)
         {
-            pos.x += -.05f;
+            pos.x -= .05f;
             ball.transform.localPosition = pos;
-        } else if (Input.GetKey("l"))
+        } else if (Input.GetKey("l") && pos.x <= 1.5f)
         {
-            pos.x -= -.05f;
+            pos.x += .05f;
             ball.transform.localPosition = pos;
         }
 

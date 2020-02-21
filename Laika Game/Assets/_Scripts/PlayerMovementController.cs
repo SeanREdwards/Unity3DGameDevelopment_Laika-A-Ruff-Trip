@@ -33,9 +33,44 @@ public class PlayerMovementController : MonoBehaviour
         isSprinting = false;
         isGliding = false;
     }
+    void Update()
+    {
+        /*For jumping.*/
+        if ((Input.GetKeyDown("space") || Input.GetButtonDown("A")) && isGrounded)
+        {
+            rb.AddForce(new Vector3(0, jump_power, 0), ForceMode.Impulse);
+            isGrounded = false;
+        }
 
-    // Update is called once per frame
-    void FixedUpdate()
+
+        /*For gliding.*/
+        if (!isGrounded)
+        {
+            /*If holding space player can glide.*/
+            if ((Input.GetKey("space") || Input.GetButton("A")))
+            {
+                //Half gravity and propel forward slightly
+                rb.useGravity = false;
+                isGliding = true;
+                rb.AddForce(Physics.gravity * 0.5f * rb.mass);
+                rb.AddForce(transform.forward * glide_power);
+            }
+            else
+            {
+                //let go of jump button and gravity is reapplied.
+                rb.useGravity = true;
+                isGliding = false;
+            }
+        }
+        else
+        {
+            //Collision with ground causes reappliction of gravity as well.
+            rb.useGravity = true;
+        }
+    }
+
+        // Update is called once per frame
+        void FixedUpdate()
     {
         float move_vertical = Input.GetAxis("Vertical");
         float move_horizontal = Input.GetAxis("Horizontal");
@@ -70,38 +105,7 @@ public class PlayerMovementController : MonoBehaviour
 
         }
 
-        /*For jumping.*/
-        if ((Input.GetKeyDown("space") || Input.GetButtonDown("A")) && isGrounded)
-        {
-            rb.AddForce(new Vector3(0, jump_power, 0), ForceMode.Impulse);
-            isGrounded = false;
-        }
-
-
-        /*For gliding.*/
-        if (!isGrounded)
-        {
-            /*If holding space player can glide.*/
-            if ((Input.GetKey("space") || Input.GetButton("A")))
-            {
-                //Half gravity and propel forward slightly
-                rb.useGravity = false;
-                isGliding = true;
-                rb.AddForce(Physics.gravity * 0.5f * rb.mass);
-                rb.AddForce(transform.forward * glide_power);
-            }
-            else
-            {
-                //let go of jump button and gravity is reapplied.
-                rb.useGravity = true;
-                isGliding = false;
-            }
-        }
-        else
-        {
-            //Collision with ground causes reappliction of gravity as well.
-            rb.useGravity = true;
-        }
+       
     }
 
     /*Set grounded condition.*/

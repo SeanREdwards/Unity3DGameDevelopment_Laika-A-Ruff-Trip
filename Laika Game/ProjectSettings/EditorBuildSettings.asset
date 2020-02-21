@@ -21,9 +21,6 @@ EditorBuildSettings:
     path: Assets/_Scenes/Dog.unity
     guid: b08d7a5b12571a0478a92ae2661153b2
   - enabled: 1
-    path: Assets/_Scenes/BossFight.unity
-    guid: 167b0a4c483b3744e83d0afdaaf18724
-  - enabled: 1
     path: Assets/_Scenes/Door Scene.unity
     guid: 092ed2c36e27d354ca30453d8c9e6421
   - enabled: 1
@@ -32,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/LightPuzzle.unity
     guid: 3582c013b42d4634ead8791aee5e0efc
+  - enabled: 1
+    path: Assets/_Scenes/BossFight.unity
+    guid: 167b0a4c483b3744e83d0afdaaf18724
   - enabled: 1
     path: Assets/_Scenes/Dialogue test.unity
     guid: c4e781f16d9c3e845b3779b1e59d3afd

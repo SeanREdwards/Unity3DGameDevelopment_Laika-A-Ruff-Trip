@@ -12,6 +12,29 @@ public class LightPillarScript : MonoBehaviour
     public GameObject LightLeftGreen;
     public GameObject LightRightRed;
     public GameObject LightRightGreen;
+    private bool inTrigger, callOnce;
+
+    private void Start()
+    {
+        inTrigger = false;
+    }
+
+    private void Update()
+    {
+        if (inTrigger && callOnce)
+        {
+            //print(other.gameObject.name);
+            LightSelfRed.SetActive(!LightSelfRed.activeSelf);
+            LightSelfGreen.SetActive(!LightSelfGreen.activeSelf);
+
+            LightLeftRed.SetActive(!LightLeftRed.activeSelf);
+            LightLeftGreen.SetActive(!LightLeftGreen.activeSelf);
+
+            LightRightRed.SetActive(!LightRightRed.activeSelf);
+            LightRightGreen.SetActive(!LightRightGreen.activeSelf);
+            callOnce = false;
+        }
+    }
 
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.name == "Laika") {
@@ -22,6 +45,8 @@ public class LightPillarScript : MonoBehaviour
     private void OnTriggerExit(Collider other) {
         if (other.gameObject.name == "Laika") {
             helpText.gameObject.SetActive(false);
+            inTrigger = false;
+            callOnce = false;
         }
     }
 
@@ -29,16 +54,8 @@ public class LightPillarScript : MonoBehaviour
     private void OnTriggerStay(Collider other) {
         if (other.gameObject.name == "Laika") {
             if (Input.GetKeyDown("f")) {
-                print(this.gameObject.name);
-                //print(other.gameObject.name);
-                LightSelfRed.SetActive(!LightSelfRed.activeSelf);
-                LightSelfGreen.SetActive(!LightSelfGreen.activeSelf);
-
-                LightLeftRed.SetActive(!LightLeftRed.activeSelf);
-                LightLeftGreen.SetActive(!LightLeftGreen.activeSelf);
-
-                LightRightRed.SetActive(!LightRightRed.activeSelf);
-                LightRightGreen.SetActive(!LightRightGreen.activeSelf);
+                inTrigger = true;
+                callOnce = true;
             }
         }
     }
