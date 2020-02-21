@@ -1,125 +1,353 @@
 fileFormatVersion: 2
 guid: 7bcb3c1aa3059f943b3086ee9b120d20
-timeCreated: 1468941712
-licenseType: Store
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Bip01
-    100002: Bip01 Footsteps
-    100004: Bip01 Head
-    100006: Bip01 HeadNub
-    100008: Bip01 L Calf
-    100010: Bip01 L Clavicle
-    100012: Bip01 L Foot
-    100014: Bip01 L Forearm
-    100016: Bip01 L Hand
-    100018: Bip01 L HorseLink
-    100020: Bip01 L Thigh
-    100022: Bip01 L Toe0
-    100024: Bip01 L Toe0Nub
-    100026: Bip01 L UpperArm
-    100028: Bip01 Neck
-    100030: Bip01 Pelvis
-    100032: Bip01 Ponytail1
-    100034: Bip01 Ponytail1Nub
-    100036: Bip01 Ponytail2
-    100038: Bip01 Ponytail2Nub
-    100040: Bip01 R Calf
-    100042: Bip01 R Clavicle
-    100044: Bip01 R Foot
-    100046: Bip01 R Forearm
-    100048: Bip01 R Hand
-    100050: Bip01 R HorseLink
-    100052: Bip01 R Thigh
-    100054: Bip01 R Toe0
-    100056: Bip01 R Toe0Nub
-    100058: Bip01 R UpperArm
-    100060: Bip01 Spine
-    100062: Bip01 Spine1
-    100064: Bip01 Spine2
-    100066: Bip01 Tail
-    100068: Bip01 TailNub
-    100070: Bone01
-    100072: Bone02
-    100074: Dog
-    100076: //RootNode
-    400000: Bip01
-    400002: Bip01 Footsteps
-    400004: Bip01 Head
-    400006: Bip01 HeadNub
-    400008: Bip01 L Calf
-    400010: Bip01 L Clavicle
-    400012: Bip01 L Foot
-    400014: Bip01 L Forearm
-    400016: Bip01 L Hand
-    400018: Bip01 L HorseLink
-    400020: Bip01 L Thigh
-    400022: Bip01 L Toe0
-    400024: Bip01 L Toe0Nub
-    400026: Bip01 L UpperArm
-    400028: Bip01 Neck
-    400030: Bip01 Pelvis
-    400032: Bip01 Ponytail1
-    400034: Bip01 Ponytail1Nub
-    400036: Bip01 Ponytail2
-    400038: Bip01 Ponytail2Nub
-    400040: Bip01 R Calf
-    400042: Bip01 R Clavicle
-    400044: Bip01 R Foot
-    400046: Bip01 R Forearm
-    400048: Bip01 R Hand
-    400050: Bip01 R HorseLink
-    400052: Bip01 R Thigh
-    400054: Bip01 R Toe0
-    400056: Bip01 R Toe0Nub
-    400058: Bip01 R UpperArm
-    400060: Bip01 Spine
-    400062: Bip01 Spine1
-    400064: Bip01 Spine2
-    400066: Bip01 Tail
-    400068: Bip01 TailNub
-    400070: Bone01
-    400072: Bone02
-    400074: Dog
-    400076: //RootNode
-    4300000: Dog
-    7400000: Walk
-    7400002: Trot
-    7400004: Run
-    7400006: Gallop
-    7400008: StandIdle
-    7400010: StandIdleLong
-    7400012: StandIdleMouthClosed
-    7400014: StandToSit
-    7400016: SitIdle
-    7400018: SitIdleLong
-    7400020: SitScratch
-    7400022: SitStand
-    7400024: StandToLay
-    7400026: LayIdle
-    7400028: LayIdleLong
-    7400030: LayToStand
-    7400032: StandToLayFast
-    7400034: LayToStandFast
-    7400036: StandBarking
-    7400038: StandBarkingLong
-    7400040: StandToAggressive
-    7400042: AggressiveIdle
-    7400044: AggressiveBarking
-    7400046: AggresiveAttack
-    7400048: AggressiveJumpAttack
-    7400050: AggressiveBeingHit
-    7400052: AggressiveBeingHit2
-    7400054: AggressiveDeath
-    7400056: AggressiveToStand
-    7400058: Jump
-    7400060: IdleToConsume
-    7400062: Eat
-    7400064: Drink
-    7400066: ConsumeToIdle
-    9500000: //RootNode
-    13700000: Dog
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip01
+  - first:
+      1: 100002
+    second: Bip01 Footsteps
+  - first:
+      1: 100004
+    second: Bip01 Head
+  - first:
+      1: 100006
+    second: Bip01 HeadNub
+  - first:
+      1: 100008
+    second: Bip01 L Calf
+  - first:
+      1: 100010
+    second: Bip01 L Clavicle
+  - first:
+      1: 100012
+    second: Bip01 L Foot
+  - first:
+      1: 100014
+    second: Bip01 L Forearm
+  - first:
+      1: 100016
+    second: Bip01 L Hand
+  - first:
+      1: 100018
+    second: Bip01 L HorseLink
+  - first:
+      1: 100020
+    second: Bip01 L Thigh
+  - first:
+      1: 100022
+    second: Bip01 L Toe0
+  - first:
+      1: 100024
+    second: Bip01 L Toe0Nub
+  - first:
+      1: 100026
+    second: Bip01 L UpperArm
+  - first:
+      1: 100028
+    second: Bip01 Neck
+  - first:
+      1: 100030
+    second: Bip01 Pelvis
+  - first:
+      1: 100032
+    second: Bip01 Ponytail1
+  - first:
+      1: 100034
+    second: Bip01 Ponytail1Nub
+  - first:
+      1: 100036
+    second: Bip01 Ponytail2
+  - first:
+      1: 100038
+    second: Bip01 Ponytail2Nub
+  - first:
+      1: 100040
+    second: Bip01 R Calf
+  - first:
+      1: 100042
+    second: Bip01 R Clavicle
+  - first:
+      1: 100044
+    second: Bip01 R Foot
+  - first:
+      1: 100046
+    second: Bip01 R Forearm
+  - first:
+      1: 100048
+    second: Bip01 R Hand
+  - first:
+      1: 100050
+    second: Bip01 R HorseLink
+  - first:
+      1: 100052
+    second: Bip01 R Thigh
+  - first:
+      1: 100054
+    second: Bip01 R Toe0
+  - first:
+      1: 100056
+    second: Bip01 R Toe0Nub
+  - first:
+      1: 100058
+    second: Bip01 R UpperArm
+  - first:
+      1: 100060
+    second: Bip01 Spine
+  - first:
+      1: 100062
+    second: Bip01 Spine1
+  - first:
+      1: 100064
+    second: Bip01 Spine2
+  - first:
+      1: 100066
+    second: Bip01 Tail
+  - first:
+      1: 100068
+    second: Bip01 TailNub
+  - first:
+      1: 100070
+    second: Bone01
+  - first:
+      1: 100072
+    second: Bone02
+  - first:
+      1: 100074
+    second: Dog
+  - first:
+      1: 100076
+    second: //RootNode
+  - first:
+      4: 400000
+    second: Bip01
+  - first:
+      4: 400002
+    second: Bip01 Footsteps
+  - first:
+      4: 400004
+    second: Bip01 Head
+  - first:
+      4: 400006
+    second: Bip01 HeadNub
+  - first:
+      4: 400008
+    second: Bip01 L Calf
+  - first:
+      4: 400010
+    second: Bip01 L Clavicle
+  - first:
+      4: 400012
+    second: Bip01 L Foot
+  - first:
+      4: 400014
+    second: Bip01 L Forearm
+  - first:
+      4: 400016
+    second: Bip01 L Hand
+  - first:
+      4: 400018
+    second: Bip01 L HorseLink
+  - first:
+      4: 400020
+    second: Bip01 L Thigh
+  - first:
+      4: 400022
+    second: Bip01 L Toe0
+  - first:
+      4: 400024
+    second: Bip01 L Toe0Nub
+  - first:
+      4: 400026
+    second: Bip01 L UpperArm
+  - first:
+      4: 400028
+    second: Bip01 Neck
+  - first:
+      4: 400030
+    second: Bip01 Pelvis
+  - first:
+      4: 400032
+    second: Bip01 Ponytail1
+  - first:
+      4: 400034
+    second: Bip01 Ponytail1Nub
+  - first:
+      4: 400036
+    second: Bip01 Ponytail2
+  - first:
+      4: 400038
+    second: Bip01 Ponytail2Nub
+  - first:
+      4: 400040
+    second: Bip01 R Calf
+  - first:
+      4: 400042
+    second: Bip01 R Clavicle
+  - first:
+      4: 400044
+    second: Bip01 R Foot
+  - first:
+      4: 400046
+    second: Bip01 R Forearm
+  - first:
+      4: 400048
+    second: Bip01 R Hand
+  - first:
+      4: 400050
+    second: Bip01 R HorseLink
+  - first:
+      4: 400052
+    second: Bip01 R Thigh
+  - first:
+      4: 400054
+    second: Bip01 R Toe0
+  - first:
+      4: 400056
+    second: Bip01 R Toe0Nub
+  - first:
+      4: 400058
+    second: Bip01 R UpperArm
+  - first:
+      4: 400060
+    second: Bip01 Spine
+  - first:
+      4: 400062
+    second: Bip01 Spine1
+  - first:
+      4: 400064
+    second: Bip01 Spine2
+  - first:
+      4: 400066
+    second: Bip01 Tail
+  - first:
+      4: 400068
+    second: Bip01 TailNub
+  - first:
+      4: 400070
+    second: Bone01
+  - first:
+      4: 400072
+    second: Bone02
+  - first:
+      4: 400074
+    second: Dog
+  - first:
+      4: 400076
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: Dog
+  - first:
+      74: 7400000
+    second: Walk
+  - first:
+      74: 7400002
+    second: Trot
+  - first:
+      74: 7400004
+    second: Run
+  - first:
+      74: 7400006
+    second: Gallop
+  - first:
+      74: 7400008
+    second: StandIdle
+  - first:
+      74: 7400010
+    second: StandIdleLong
+  - first:
+      74: 7400012
+    second: StandIdleMouthClosed
+  - first:
+      74: 7400014
+    second: StandToSit
+  - first:
+      74: 7400016
+    second: SitIdle
+  - first:
+      74: 7400018
+    second: SitIdleLong
+  - first:
+      74: 7400020
+    second: SitScratch
+  - first:
+      74: 7400022
+    second: SitStand
+  - first:
+      74: 7400024
+    second: StandToLay
+  - first:
+      74: 7400026
+    second: LayIdle
+  - first:
+      74: 7400028
+    second: LayIdleLong
+  - first:
+      74: 7400030
+    second: LayToStand
+  - first:
+      74: 7400032
+    second: StandToLayFast
+  - first:
+      74: 7400034
+    second: LayToStandFast
+  - first:
+      74: 7400036
+    second: StandBarking
+  - first:
+      74: 7400038
+    second: StandBarkingLong
+  - first:
+      74: 7400040
+    second: StandToAggressive
+  - first:
+      74: 7400042
+    second: AggressiveIdle
+  - first:
+      74: 7400044
+    second: AggressiveBarking
+  - first:
+      74: 7400046
+    second: AggresiveAttack
+  - first:
+      74: 7400048
+    second: AggressiveJumpAttack
+  - first:
+      74: 7400050
+    second: AggressiveBeingHit
+  - first:
+      74: 7400052
+    second: AggressiveBeingHit2
+  - first:
+      74: 7400054
+    second: AggressiveDeath
+  - first:
+      74: 7400056
+    second: AggressiveToStand
+  - first:
+      74: 7400058
+    second: Jump
+  - first:
+      74: 7400060
+    second: IdleToConsume
+  - first:
+      74: 7400062
+    second: Eat
+  - first:
+      74: 7400064
+    second: Drink
+  - first:
+      74: 7400066
+    second: ConsumeToIdle
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Dog
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -144,6 +372,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.2
     animationPositionError: 0.5
@@ -155,6 +384,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: Take 001
+      internalID: 0
       firstFrame: 0
       lastFrame: 20
       wrapMode: 0
@@ -283,6 +513,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Trot
       takeName: Take 001
+      internalID: 0
       firstFrame: 22
       lastFrame: 36
       wrapMode: 0
@@ -411,6 +642,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Gallop
       takeName: Take 001
+      internalID: 0
       firstFrame: 37
       lastFrame: 50
       wrapMode: 0
@@ -539,6 +771,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Run
       takeName: Take 001
+      internalID: 0
       firstFrame: 51
       lastFrame: 66
       wrapMode: 0
@@ -667,6 +900,7 @@ ModelImporter:
     - serializedVersion: 16
       name: StandIdle
       takeName: Take 001
+      internalID: 0
       firstFrame: 68
       lastFrame: 87
       wrapMode: 0
@@ -795,6 +1029,7 @@ ModelImporter:
     - serializedVersion: 16
       name: StandIdleLong
       takeName: Take 001
+      internalID: 0
       firstFrame: 88
       lastFrame: 171
       wrapMode: 0
@@ -923,6 +1158,7 @@ ModelImporter:
     - serializedVersion: 16
       name: StandIdleMouthClosed
       takeName: Take 001
+      internalID: 0
       firstFrame: 172
       lastFrame: 193
       wrapMode: 0
@@ -1051,6 +1287,7 @@ ModelImporter:
     - serializedVersion: 16
       name: StandToSit
       takeName: Take 001
+      internalID: 0
       firstFrame: 194
       lastFrame: 218
       wrapMode: 0
@@ -1179,6 +1416,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SitIdle
       takeName: Take 001
+      internalID: 0
       firstFrame: 219
       lastFrame: 239
       wrapMode: 0
@@ -1307,6 +1545,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SitIdleLong
       takeName: Take 001
+      internalID: 0
       firstFrame: 240
       lastFrame: 358
       wrapMode: 0
@@ -1435,6 +1674,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SitScratch
       takeName: Take 001
+      internalID: 0
       firstFrame: 359
       lastFrame: 418
       wrapMode: 0
@@ -1563,6 +1803,7 @@ ModelImporter:
     - serializedVersion: 16
       name: SitStand
       takeName: Take 001
+      internalID: 0
       firstFrame: 419
       lastFrame: 442
       wrapMode: 0
@@ -1691,6 +1932,7 @@ ModelImporter:
     - serializedVersion: 16
       name: StandToLay
       takeName: Take 001
+      internalID: 0
       firstFrame: 443
       lastFrame: 481
       wrapMode: 0
@@ -1819,6 +2061,7 @@ ModelImporter:
     - serializedVersion: 16
       name: LayIdle
       takeName: Take 001
+      internalID: 0
       firstFrame: 482
       lastFrame: 502
       wrapMode: 0
@@ -1947,6 +2190,7 @@ ModelImporter:
     - serializedVersion: 16
       name: LayIdleLong
       takeName: Take 001
+      internalID: 0
       firstFrame: 503
       lastFrame: 623
       wrapMode: 0
@@ -2075,6 +2319,7 @@ ModelImporter:
     - serializedVersion: 16
       name: LayToStand
       takeName: Take 001
+      internalID: 0
       firstFrame: 624
       lastFrame: 650
       wrapMode: 0
@@ -2203,6 +2448,7 @@ ModelImporter:
     - serializedVersion: 16
       name: StandToLayFast
       takeName: Take 001
+      internalID: 0
       firstFrame: 651
       lastFrame: 678
       wrapMode: 0
@@ -2331,6 +2577,7 @@ ModelImporter:
     - serializedVersion: 16
       name: LayToStandFast
       takeName: Take 001
+      internalID: 0
       firstFrame: 679
       lastFrame: 699
       wrapMode: 0
@@ -2459,6 +2706,7 @@ ModelImporter:
     - serializedVersion: 16
       name: StandBarking
       takeName: Take 001
+      internalID: 0
       firstFrame: 700
       lastFrame: 730
       wrapMode: 0
@@ -2587,6 +2835,7 @@ ModelImporter:
     - serializedVersion: 16
       name: StandBarkingLong
       takeName: Take 001
+      internalID: 0
       firstFrame: 731
       lastFrame: 789
       wrapMode: 0
@@ -2715,6 +2964,7 @@ ModelImporter:
     - serializedVersion: 16
       name: StandToAggressive
       takeName: Take 001
+      internalID: 0
       firstFrame: 790
       lastFrame: 809
       wrapMode: 0
@@ -2843,6 +3093,7 @@ ModelImporter:
     - serializedVersion: 16
       name: AggressiveIdle
       takeName: Take 001
+      internalID: 0
       firstFrame: 810
       lastFrame: 834
       wrapMode: 0
@@ -2971,6 +3222,7 @@ ModelImporter:
     - serializedVersion: 16
       name: AggressiveBarking
       takeName: Take 001
+      internalID: 0
       firstFrame: 835
       lastFrame: 859
       wrapMode: 0
@@ -3099,6 +3351,7 @@ ModelImporter:
     - serializedVersion: 16
       name: AggresiveAttack
       takeName: Take 001
+      internalID: 0
       firstFrame: 860
       lastFrame: 886
       wrapMode: 0
@@ -3227,6 +3480,7 @@ ModelImporter:
     - serializedVersion: 16
       name: AggressiveJumpAttack
       takeName: Take 001
+      internalID: 0
       firstFrame: 887
       lastFrame: 918
       wrapMode: 0
@@ -3355,6 +3609,7 @@ ModelImporter:
     - serializedVersion: 16
       name: AggressiveBeingHit
       takeName: Take 001
+      internalID: 0
       firstFrame: 919
       lastFrame: 933
       wrapMode: 0
@@ -3483,6 +3738,7 @@ ModelImporter:
     - serializedVersion: 16
       name: AggressiveBeingHit2
       takeName: Take 001
+      internalID: 0
       firstFrame: 934
       lastFrame: 951
       wrapMode: 0
@@ -3611,6 +3867,7 @@ ModelImporter:
     - serializedVersion: 16
       name: AggressiveDeath
       takeName: Take 001
+      internalID: 0
       firstFrame: 952
       lastFrame: 969
       wrapMode: 0
@@ -3739,6 +3996,7 @@ ModelImporter:
     - serializedVersion: 16
       name: AggressiveToStand
       takeName: Take 001
+      internalID: 0
       firstFrame: 970
       lastFrame: 989
       wrapMode: 0
@@ -3867,6 +4125,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Jump
       takeName: Take 001
+      internalID: 0
       firstFrame: 990
       lastFrame: 1015
       wrapMode: 0
@@ -3875,7 +4134,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -3995,6 +4254,7 @@ ModelImporter:
     - serializedVersion: 16
       name: IdleToConsume
       takeName: Take 001
+      internalID: 0
       firstFrame: 1016
       lastFrame: 1033
       wrapMode: 0
@@ -4123,6 +4383,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Eat
       takeName: Take 001
+      internalID: 0
       firstFrame: 1034
       lastFrame: 1148
       wrapMode: 0
@@ -4251,6 +4512,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Drink
       takeName: Take 001
+      internalID: 0
       firstFrame: 1149
       lastFrame: 1193
       wrapMode: 0
@@ -4379,6 +4641,7 @@ ModelImporter:
     - serializedVersion: 16
       name: ConsumeToIdle
       takeName: Take 001
+      internalID: 0
       firstFrame: 1194
       lastFrame: 1213
       wrapMode: 0
@@ -4510,6 +4773,8 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -4517,10 +4782,13 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -4532,10 +4800,14 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -4545,8 +4817,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0

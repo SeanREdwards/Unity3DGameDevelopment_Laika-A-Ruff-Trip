@@ -40,6 +40,7 @@ public class BallSpawn : MonoBehaviour
 
             if (Input.GetKeyDown("f")) {
                 Invoke("SpawnBall", 0.5f);
+                this.GetComponent<AudioSource>().Play();
             }
         }
     }

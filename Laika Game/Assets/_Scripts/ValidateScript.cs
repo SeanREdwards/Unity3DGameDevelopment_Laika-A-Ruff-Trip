@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ValidateScript : MonoBehaviour
 {
-
+    public GameObject correctSound;
     public Text helpText;
     public GameObject Light1;
     public GameObject Light2;
@@ -42,9 +42,13 @@ public class ValidateScript : MonoBehaviour
     private void OnTriggerStay(Collider other) {
         if (other.gameObject.name == "Laika") {
             if (Input.GetKeyDown("f")) {
+                
                 if (Light1.activeSelf && Light2.activeSelf && Light3.activeSelf && Light4.activeSelf && Light5.activeSelf) {
                     Door.Open();
+                    correctSound.SetActive(true);
                 } else {
+                    this.GetComponent<AudioSource>().Play();
+
                     MakeRed(Light1, Light1R);
                     MakeRed(Light2, Light2R);
                     MakeRed(Light3, Light3R);

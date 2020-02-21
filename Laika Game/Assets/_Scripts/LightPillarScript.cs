@@ -23,6 +23,8 @@ public class LightPillarScript : MonoBehaviour
     {
         if (inTrigger && callOnce)
         {
+                this.GetComponent<AudioSource>().Play();
+            
             //print(other.gameObject.name);
             LightSelfRed.SetActive(!LightSelfRed.activeSelf);
             LightSelfGreen.SetActive(!LightSelfGreen.activeSelf);
@@ -54,6 +56,7 @@ public class LightPillarScript : MonoBehaviour
     private void OnTriggerStay(Collider other) {
         if (other.gameObject.name == "Laika") {
             if (Input.GetKeyDown("f")) {
+                
                 inTrigger = true;
                 callOnce = true;
             }
