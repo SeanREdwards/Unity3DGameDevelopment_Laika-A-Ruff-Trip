@@ -9,7 +9,8 @@ public class Quest
     public bool isActive;
     public string title;
     public string description;
-    public Vector3 itemSpawn;
+    public GameObject itemSpawnLocation;
+    //public Vector3 itemSpawn;
     public GameObject collectibleItem;
     [HideInInspector]
     public bool gotItem = false;

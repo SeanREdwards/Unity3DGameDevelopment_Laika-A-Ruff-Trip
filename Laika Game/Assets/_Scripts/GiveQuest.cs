@@ -25,7 +25,7 @@ public class GiveQuest : MonoBehaviour
         player.GetComponent<QuestHolder>().quests.Add(quest);
         quest.questIndex = player.GetComponent<QuestHolder>().quests.Count-1;
         player.gameObject.GetComponent<PlayerMovementController>().enabled = true;
-        GameObject questItem = Instantiate(quest.collectibleItem, quest.itemSpawn, Quaternion.identity);
+        GameObject questItem = Instantiate(quest.collectibleItem, quest.itemSpawnLocation.transform.position, Quaternion.identity);
         questItem.GetComponent<QuestItem>().questIndex = quest.questIndex;
         transform.GetComponent<Quest2_Dialogue>().questIndex = quest.questIndex;
 

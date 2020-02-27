@@ -83,7 +83,7 @@ public class IntroCutsceneDialogue : MonoBehaviour
         explosionSound.SetActive(false);
 
     }
-
+    
     void MechanicTalk()
     {
         rocket.transform.GetChild(9).gameObject.SetActive(true);
@@ -97,7 +97,6 @@ public class IntroCutsceneDialogue : MonoBehaviour
         rocket.transform.GetChild(8).gameObject.SetActive(false);
         rocket.transform.GetChild(10).gameObject.SetActive(true);
         music.SetActive(true);
-
     }
 
     void updateDialogue()
@@ -129,9 +128,35 @@ public class IntroCutsceneDialogue : MonoBehaviour
 
     }
 
+    void SkipCutscene()
+    {
+        print("SKIPPING");
+        CancelInvoke();
+        
+        //Enable crash landing spot
+        crashLandingSpot.SetActive(true);
+
+
+        //Move player and turn camera on
+        player.transform.position = new Vector3(7.05f, 11.2f, 58.87559f);
+        player.transform.GetChild(7).gameObject.SetActive(true);
+
+
+        //Set rocket smoking & activate music
+        rocket.transform.GetChild(8).gameObject.SetActive(false);
+        rocket.transform.GetChild(10).gameObject.SetActive(true);
+        music.SetActive(true);
+
+    }
+
     // Update is called once per frame
     void Update()
     {
+
+        if (Input.GetKeyDown("m"))
+        {
+            SkipCutscene();
+        }
 
         if (questTitle_ToUpdate != null)
         {
@@ -143,7 +168,6 @@ public class IntroCutsceneDialogue : MonoBehaviour
                 }
             }
         }
-
 
         d = Vector3.Distance(player.transform.position, transform.position);
         if (d < TalkDistance) {

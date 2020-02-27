@@ -124,6 +124,7 @@
     <Compile Include="Assets\BossHealth.cs" />
     <Compile Include="Assets\CameraShake.cs" />
     <Compile Include="Assets\CameraShakeContinuous.cs" />
+    <Compile Include="Assets\CameraTriggerSwitch.cs" />
     <Compile Include="Assets\Cannon\CannonProjectileScript.cs" />
     <Compile Include="Assets\Cannon\ShootCannonProjectile.cs" />
     <Compile Include="Assets\CaughtTheDog.cs" />
@@ -143,6 +144,8 @@
     <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
     <Compile Include="Assets\External Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Consumer.cs" />
     <Compile Include="Assets\External Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\FPSDisplay.cs" />
+    <Compile Include="Assets\LaserScript.cs" />
     <Compile Include="Assets\Low Poly Space Station\Components\Scripts\RotationScript.cs" />
     <Compile Include="Assets\OutlineEffect\Demo\MaterialSwitcher.cs" />
     <Compile Include="Assets\OutlineEffect\Demo\OutlineAnimation.cs" />
@@ -152,6 +155,10 @@
     <Compile Include="Assets\OutlineEffect\Outline.cs" />
     <Compile Include="Assets\OutlineEffect\OutlineEffect.cs" />
     <Compile Include="Assets\Pictures\Switcher.cs" />
+    <Compile Include="Assets\PingPongXMovement.cs" />
+    <Compile Include="Assets\PingPongYMovement.cs" />
+    <Compile Include="Assets\PingPongZMovement.cs" />
+    <Compile Include="Assets\PlatformMovements.cs" />
     <Compile Include="Assets\RedLightFlashing.cs" />
     <Compile Include="Assets\rotate.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\OverTheShoulderAim\ActivateOnKeypress.cs" />

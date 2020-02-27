@@ -10174,7 +10174,7 @@ MonoBehaviour:
   move_speed: 3.5
   rotate_speed: 200
   sprint_mod: 0
-  jump_power: 5
+  jump_power: 7
   jump_vector: {x: 0, y: 0, z: 0}
   glide_power: 0
   isGrounded: 0
@@ -10971,7 +10971,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3311474499798994008}
-  m_LocalRotation: {x: 0.21281096, y: 0.18142128, z: -0.04024819, w: 0.9592591}
+  m_LocalRotation: {x: 0.21281096, y: 0.1814213, z: -0.040248197, w: 0.9592591}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
