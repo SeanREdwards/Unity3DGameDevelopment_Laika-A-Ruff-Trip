@@ -33,10 +33,10 @@ public class PingPongZMovement : MonoBehaviour
 
         if(zPos < max && increasing)
         {
-            zPos += .05f;
+            zPos += .07f;
         } else if (zPos > min && decreasing)
         {
-            zPos -= .05f;
+            zPos -= .07f;
         }
         transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
 

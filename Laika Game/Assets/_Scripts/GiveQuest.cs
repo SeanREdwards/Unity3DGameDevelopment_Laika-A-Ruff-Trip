@@ -8,14 +8,16 @@ public class GiveQuest : MonoBehaviour
     public Quest quest;
     GameObject player;
     public GameObject questWindow;
-    public Text questTitleText;
-    public Text questDescriptionText;
+    Button button;
     [HideInInspector]
     public bool isQuestGiver = true;
     [HideInInspector]
     public bool questGiven = false;
     [HideInInspector]
     public int questIndex;
+    [HideInInspector]
+    public bool dialogueEnded = false;
+
 
 
     public void AcceptQuest()
@@ -27,8 +29,28 @@ public class GiveQuest : MonoBehaviour
         player.gameObject.GetComponent<PlayerMovementController>().enabled = true;
         GameObject questItem = Instantiate(quest.collectibleItem, quest.itemSpawnLocation.transform.position, Quaternion.identity);
         questItem.GetComponent<QuestItem>().questIndex = quest.questIndex;
-        transform.GetComponent<Quest2_Dialogue>().questIndex = quest.questIndex;
+        transform.GetComponent<Quest_Dialogue_Logic>().questIndex = quest.questIndex;
 
+    }
+
+    public void UpdateWindow()
+    {
+        questWindow.SetActive(true);
+        questWindow.transform.GetChild(3).GetComponent<Text>().text = quest.completedTitle;
+        questWindow.transform.GetChild(2).GetComponent<Text>().text = quest.completedDescription;
+
+        //questTitleText.text = quest.completedTitle;
+        //questDescriptionText.text = quest.completedDescription;
+        button.GetComponent<Button>().onClick.RemoveListener(AcceptQuest);
+        button.GetComponentInChildren<Text>().text = "Close";
+
+        button.GetComponent<Button>().onClick.AddListener(CloseWindow);
+
+    }
+
+    void CloseWindow()
+    {
+        questWindow.SetActive(false);
     }
 
     // Start is called before the first frame update
@@ -36,11 +58,30 @@ public class GiveQuest : MonoBehaviour
     {
         player = GameObject.Find("Player");
         quest.QuestGiver = transform.gameObject;
+        button = questWindow.transform.GetChild(1).GetComponent<Button>();
+    }
+
+    void BeginQuest()
+    {
+        print("made here");
+        questWindow.SetActive(true);
+        questWindow.transform.GetChild(3).GetComponent<Text>().text = quest.title;
+        questWindow.transform.GetChild(2).GetComponent<Text>().text = quest.description;
+        questIndex = quest.questIndex;
+        GetComponent<Quest_Dialogue_Logic>().UpdateDialogue_QuestStarted();
+        button.GetComponentInChildren<Text>().text = "Accept";
+        button.GetComponent<Button>().onClick.AddListener(AcceptQuest);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (dialogueEnded && !questGiven)
+        {
+            print("here");
+            BeginQuest();
+            questGiven = true;
+            dialogueEnded = false;
+        }
     }
 }

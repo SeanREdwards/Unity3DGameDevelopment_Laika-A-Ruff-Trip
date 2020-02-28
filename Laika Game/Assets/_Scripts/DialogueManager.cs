@@ -14,7 +14,7 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences;
     private IntroCutsceneDialogue intro;
 
-    private Quest2_Dialogue current;
+    private Quest_Dialogue_Logic q2d;
     private GiveQuest gq;
 
     [HideInInspector]
@@ -34,7 +34,7 @@ public class DialogueManager : MonoBehaviour
 
         talking = true;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", true);
-        current = talkingNPC.GetComponent<Quest2_Dialogue>();
+        q2d = talkingNPC.GetComponent<Quest_Dialogue_Logic>();
         nameText.text = dialogue.name;
 
         sentences.Clear();
@@ -65,57 +65,39 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    void BeginQuest()
-    {
-        gq.questWindow.SetActive(true);
-        gq.questTitleText.text = gq.quest.title;
-        
-        gq.questDescriptionText.text = gq.quest.description;
-        gq.questIndex = gq.quest.questIndex;
-        current.UpdateDialogue_QuestStarted();
-    }
-
     void IntroSceneCameraSwitch()
     {
         intro.CameraSwitch();
     }
 
 
-    void EndDialogue() {
+    public void EndDialogue() {
         talking = false;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", false);
+        player.gameObject.GetComponent<PlayerMovementController>().enabled = true;
+
 
         if (intro != null)
         {
             Invoke("IntroSceneCameraSwitch", 1.3f);
         }
 
-
-        if (gq != null)
+        if(q2d != null)
         {
-            if (gq.isQuestGiver && !gq.questGiven)
-            {
-                BeginQuest();
-                gq.questGiven = true;
-            }
-            else
-            {
-                player.gameObject.GetComponent<PlayerMovementController>().enabled = true;
-            }
+            q2d.dialogueEnded = true;
 
-            if (current.finalDialogue)
+            if (q2d.dialogueUpdatedBeforeReward)
             {
-                current.finalDialogue = false;
-                current.generateReward();
+                q2d.finalDialogue = true;
             }
-        } else
-        {
-            player.gameObject.GetComponent<PlayerMovementController>().enabled = true;
-
         }
 
 
 
+        if (gq != null)
+        {
+            gq.dialogueEnded = true;           
+        }
     }
 
     public bool IsTalking() {

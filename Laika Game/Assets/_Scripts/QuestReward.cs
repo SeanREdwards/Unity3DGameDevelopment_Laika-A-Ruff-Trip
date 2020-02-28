@@ -4,23 +4,18 @@ using UnityEngine;
 
 public class QuestReward : MonoBehaviour
 {
-    AudioSource audS;
+    GameObject sfx;
     void Start()
     {
-        audS = this.GetComponent<AudioSource>();
+        sfx = GameObject.Find("CollectSoundEffect");
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.name == "Laika")
         {
-            audS.Play();
-            Invoke("DestroySelf", 0.5f);
+            sfx.GetComponent<PlayCollectSoundEffect>().play = true;
+            Destroy(transform.gameObject);
         }
-    }
-
-    void DestroySelf()
-    {
-        Destroy(transform.gameObject);
     }
 }

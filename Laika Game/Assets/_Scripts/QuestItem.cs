@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class QuestItem : MonoBehaviour
 {
+    GameObject sfx;
 
-    public GameObject player;
     public int questIndex;
-    AudioSource audS;
     // Start is called before the first frame update
     void Start()
     {
-        audS = this.GetComponent<AudioSource>();
+        sfx = GameObject.Find("CollectSoundEffect");
+
     }
 
     // Update is called once per frame
@@ -24,15 +24,11 @@ public class QuestItem : MonoBehaviour
     {
         if (other.gameObject.name == "Laika")
         {
-            other.gameObject.transform.parent.GetComponent<QuestHolder>().quests[questIndex].gotItem = true;
-            other.gameObject.transform.parent.GetComponent<QuestHolder>().quests[questIndex].QuestGiver.GetComponent<Quest2_Dialogue>().UpdateDialogue_QuestFinished_BeforeReward();
-            audS.Play();
-            Invoke("DestroySelf", 0.5f);
-        }
-    }
+            sfx.GetComponent<PlayCollectSoundEffect>().play = true;
 
-    void DestroySelf()
-    {
-        Destroy(transform.gameObject);
+            other.gameObject.transform.parent.GetComponent<QuestHolder>().quests[questIndex].gotItem = true;
+            other.gameObject.transform.parent.GetComponent<QuestHolder>().quests[questIndex].QuestGiver.GetComponent<Quest_Dialogue_Logic>().UpdateDialogue_QuestFinished_BeforeReward();
+            Destroy(transform.gameObject);
+        }
     }
 }

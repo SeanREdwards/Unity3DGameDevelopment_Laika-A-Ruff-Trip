@@ -107,7 +107,7 @@
     <Compile Include="Assets\_Scripts\PressButton.cs" />
     <Compile Include="Assets\_Scripts\PuzzleDoor.cs" />
     <Compile Include="Assets\_Scripts\Quest.cs" />
-    <Compile Include="Assets\_Scripts\Quest2_Dialogue.cs" />
+    <Compile Include="Assets\_Scripts\Quest_Dialogue_Logic.cs" />
     <Compile Include="Assets\_Scripts\QuestHolder.cs" />
     <Compile Include="Assets\_Scripts\QuestItem.cs" />
     <Compile Include="Assets\_Scripts\QuestReward.cs" />
@@ -159,6 +159,7 @@
     <Compile Include="Assets\PingPongYMovement.cs" />
     <Compile Include="Assets\PingPongZMovement.cs" />
     <Compile Include="Assets\PlatformMovements.cs" />
+    <Compile Include="Assets\PlayCollectSoundEffect.cs" />
     <Compile Include="Assets\RedLightFlashing.cs" />
     <Compile Include="Assets\rotate.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\OverTheShoulderAim\ActivateOnKeypress.cs" />

@@ -16,9 +16,14 @@ public class IntroCutsceneDialogue : MonoBehaviour
     private float d;
     private List<Quest> q;
     private int sentencesNum;
+    private bool inCutscene;
     private bool oneDialogue = false;
     public string questTitle_ToUpdate;
-    public GameObject playerCam, doorCam, rocketCrashCam;
+
+    public GameObject skipText;
+    public GameObject shakeWindow, cameraShaker;
+    public GameObject skipWindow;
+    public GameObject playerCam, doorCam, rocketCrashCam, cinemachineBrain;
     public GameObject rocket;
     public GameObject crashLandingSpot;
 
@@ -35,6 +40,11 @@ public class IntroCutsceneDialogue : MonoBehaviour
 
     public void ContinueDialogue() {
         FindObjectOfType<DialogueManager>().DisplayNextSentence();
+    }
+
+    public void EndDialogue()
+    {
+        FindObjectOfType<DialogueManager>().EndDialogue();
     }
 
     public void CameraSwitch()
@@ -72,19 +82,35 @@ public class IntroCutsceneDialogue : MonoBehaviour
         Invoke("PlayerControl", 3f);
     }
 
+    public void SkipCutsceneButton()
+    {
+        SkipCutscene();
+        skipWindow.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    public void DontSkipCutsceneButton()
+    {
+        skipWindow.SetActive(false);
+        Time.timeScale = 1;
+    }
 
     void PlayerControl()
     {
         rocketCrashCam.SetActive(false);
-        player.transform.position = new Vector3(7.05f, 11.2f, 58.87559f);
+        if (inCutscene)
+        {
+            player.transform.position = new Vector3(7.05f, 11.2f, 58.87559f);
+        }
         player.transform.GetChild(7).gameObject.SetActive(true);
-        Invoke("MechanicTalk", 4f);
+        Invoke("FinalRocketExplosion", 4f);
         rocket.transform.GetChild(9).gameObject.SetActive(false);
         explosionSound.SetActive(false);
+        inCutscene = false;
 
     }
     
-    void MechanicTalk()
+    void FinalRocketExplosion()
     {
         rocket.transform.GetChild(9).gameObject.SetActive(true);
         explosionSound.SetActive(true);
@@ -99,52 +125,88 @@ public class IntroCutsceneDialogue : MonoBehaviour
         music.SetActive(true);
     }
 
-    void updateDialogue()
-    {
-        for(int i = 0; i<sentencesNum; i++)
-        {
-            dialogue.sentences[i] = updatedDialogue.sentences[i];
-        }
-
-    }
-
     void Start()
     {
+        //Invoke("BeginDialogue", 3f);
+        Time.timeScale = 0;
         originalRot = transform.rotation;
         sentencesNum = dialogue.sentences.Length;
         player = GameObject.Find("Player");
         q = player.GetComponent<QuestHolder>().quests;
         d = Vector3.Distance(player.transform.position, transform.position);
         TalkDistance = 500;
+
+
+    }
+
+    public void ShakeOn()
+    {
+        shakeWindow.SetActive(false);
+        cameraShaker.GetComponent<CameraShakeContinuous>().enabled = true;
         Invoke("BeginDialogue", 3f);
+        rocketFlyingSound.SetActive(true);
+        alarmSound.SetActive(true);
+        Time.timeScale = 1;
+
+    }
+
+    public void ShakeOff()
+    {
+        shakeWindow.SetActive(false);
+        cameraShaker.GetComponent<CameraShakeContinuous>().enabled = false;
+        Invoke("BeginDialogue", 3f);
+        rocketFlyingSound.SetActive(true);
+        alarmSound.SetActive(true);
+        Time.timeScale = 1;
+
 
     }
 
     void BeginDialogue()
     {
+        skipText.SetActive(true);
         TriggerDialogue();
         oneDialogue = true;
         playerCam.SetActive(false);
-
+        inCutscene = true;
     }
 
     void SkipCutscene()
     {
         print("SKIPPING");
+        inCutscene = false;
         CancelInvoke();
-        
+
+        //Set Cinemachine brain to cut blend
+        cinemachineBrain.GetComponent<CinemachineBrain>().m_DefaultBlend.m_Style = CinemachineBlendDefinition.Style.Cut;
+
+        //Stop animations
+        rocket.GetComponent<Animator>().enabled = false;
+
+        //Turn off alarm and rocket flying sound
+        rocketFlyingSound.SetActive(false);
+        alarmSound.SetActive(false);
+
+        //End dialogue
+        EndDialogue();
+
+        //Move rocket
+        rocket.transform.position = new Vector3(10.06f, 11.6f, 57.85f);
+
+        //Set rocket smoking
+        rocket.transform.GetChild(8).gameObject.SetActive(false);
+        rocket.transform.GetChild(10).gameObject.SetActive(true);
+
+
         //Enable crash landing spot
         crashLandingSpot.SetActive(true);
 
 
-        //Move player and turn camera on
+        //Move Laika and turn camera on
         player.transform.position = new Vector3(7.05f, 11.2f, 58.87559f);
         player.transform.GetChild(7).gameObject.SetActive(true);
 
-
-        //Set rocket smoking & activate music
-        rocket.transform.GetChild(8).gameObject.SetActive(false);
-        rocket.transform.GetChild(10).gameObject.SetActive(true);
+        //Activate music
         music.SetActive(true);
 
     }
@@ -152,22 +214,17 @@ public class IntroCutsceneDialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (Input.GetKeyDown("m"))
+        if (!inCutscene)
         {
-            SkipCutscene();
+            skipText.SetActive(false);
         }
 
-        if (questTitle_ToUpdate != null)
+        if (Input.GetKeyDown(KeyCode.Backspace) && inCutscene)
         {
-            for (int i = 0; i < q.Count; i++)
-            {
-                if (q[i].title == questTitle_ToUpdate && q[i].complete)
-                {
-                    updateDialogue();
-                }
-            }
+            skipWindow.SetActive(true);
+            Time.timeScale = 0;
         }
+
 
         d = Vector3.Distance(player.transform.position, transform.position);
         if (d < TalkDistance) {
