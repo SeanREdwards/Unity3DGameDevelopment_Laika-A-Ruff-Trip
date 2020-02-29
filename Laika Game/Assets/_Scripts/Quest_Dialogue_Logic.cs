@@ -7,10 +7,13 @@ public class Quest_Dialogue_Logic : MonoBehaviour
 {
     public Dialogue dialogue;
     GameObject player;
+    [HideInInspector]
     public bool finalDialogue=false;
+    [HideInInspector]
     public GameObject NPC;
     private float TalkDistance;
     private float d;
+    [HideInInspector]
     public int questIndex;
     public Dialogue questStarted;
     public Dialogue questFinished_NoReward;
@@ -20,6 +23,7 @@ public class Quest_Dialogue_Logic : MonoBehaviour
     private int sentencesNum;
     [HideInInspector]
     public bool dialogueEnded = false;
+    [HideInInspector]
     public bool dialogueUpdatedBeforeReward = false;
     private GiveQuest gq;
     
@@ -34,6 +38,7 @@ public class Quest_Dialogue_Logic : MonoBehaviour
 
     void Start()
     {
+        NPC = this.gameObject;
         gq = GetComponent<GiveQuest>();
         player = GameObject.Find("Player");
         TalkDistance = 2;

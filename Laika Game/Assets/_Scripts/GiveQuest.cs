@@ -22,6 +22,7 @@ public class GiveQuest : MonoBehaviour
 
     public void AcceptQuest()
     {
+
         questWindow.SetActive(false);
         quest.isActive = true;
         player.GetComponent<QuestHolder>().quests.Add(quest);
@@ -41,7 +42,7 @@ public class GiveQuest : MonoBehaviour
 
         //questTitleText.text = quest.completedTitle;
         //questDescriptionText.text = quest.completedDescription;
-        button.GetComponent<Button>().onClick.RemoveListener(AcceptQuest);
+        button.GetComponent<Button>().onClick.RemoveAllListeners();
         button.GetComponentInChildren<Text>().text = "Close";
 
         button.GetComponent<Button>().onClick.AddListener(CloseWindow);
@@ -58,18 +59,21 @@ public class GiveQuest : MonoBehaviour
     {
         player = GameObject.Find("Player");
         quest.QuestGiver = transform.gameObject;
+        quest.giverName = transform.gameObject.name;
         button = questWindow.transform.GetChild(1).GetComponent<Button>();
     }
 
     void BeginQuest()
     {
-        print("made here");
+
         questWindow.SetActive(true);
         questWindow.transform.GetChild(3).GetComponent<Text>().text = quest.title;
         questWindow.transform.GetChild(2).GetComponent<Text>().text = quest.description;
         questIndex = quest.questIndex;
         GetComponent<Quest_Dialogue_Logic>().UpdateDialogue_QuestStarted();
         button.GetComponentInChildren<Text>().text = "Accept";
+        button.GetComponent<Button>().onClick.RemoveAllListeners();
+
         button.GetComponent<Button>().onClick.AddListener(AcceptQuest);
     }
 
@@ -78,7 +82,7 @@ public class GiveQuest : MonoBehaviour
     {
         if (dialogueEnded && !questGiven)
         {
-            print("here");
+
             BeginQuest();
             questGiven = true;
             dialogueEnded = false;

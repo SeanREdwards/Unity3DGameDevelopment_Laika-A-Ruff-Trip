@@ -19,10 +19,10 @@ public class GameHandler : MonoBehaviour
             pickups = 5,
         };
         string json = JsonUtility.ToJson(saveObject);
-        Debug.Log(json);
+
 
         SaveObject loadedSaveObject = JsonUtility.FromJson<SaveObject>(json);
-        Debug.Log(loadedSaveObject.pickups);
+
     }
 
     public void Save() {

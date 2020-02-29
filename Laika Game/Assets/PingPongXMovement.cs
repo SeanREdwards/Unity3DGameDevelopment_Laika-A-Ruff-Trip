@@ -2,34 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlatformMovements : MonoBehaviour
+public class PingPongXMovement : MonoBehaviour
 {
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject == Laika)
-        {
-            Laika.transform.parent.parent = transform;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject == Laika)
-        {
-            Laika.transform.parent.parent = null;
-        }
-    }
 
 
-    public float min, max;
+    public float min, max, speed;
     float xPos;
     bool decreasing, increasing;
-    GameObject Laika;
     // Start is called before the first frame update
     void Start()
     {
-        Laika = GameObject.Find("Player/Laika");
-
         increasing = true;
         decreasing = false;
         xPos = transform.position.x;
@@ -54,11 +36,11 @@ public class PlatformMovements : MonoBehaviour
 
         if (xPos < max && increasing)
         {
-            xPos += .03f;
+            xPos += Time.deltaTime * speed;
         }
         else if (xPos > min && decreasing)
         {
-            xPos -= .03f;
+            xPos -= Time.deltaTime * speed;
         }
         transform.position = new Vector3(xPos, transform.position.y, transform.position.z);
 

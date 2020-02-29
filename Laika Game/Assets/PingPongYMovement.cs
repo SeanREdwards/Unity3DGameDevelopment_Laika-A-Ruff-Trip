@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PingPongYMovement : MonoBehaviour
 {
-    public float min, max;
+    public float min, max, speed;
     float yPos;
     bool decreasing, increasing;
     // Start is called before the first frame update
@@ -33,10 +33,10 @@ public class PingPongYMovement : MonoBehaviour
 
         if(yPos < max && increasing)
         {
-            yPos += .03f;
+            yPos += Time.deltaTime * speed;
         } else if (yPos > min && decreasing)
         {
-            yPos -= .03f;
+            yPos -= Time.deltaTime * speed;
         }
         transform.position = new Vector3(transform.position.x, yPos, transform.position.z);
 

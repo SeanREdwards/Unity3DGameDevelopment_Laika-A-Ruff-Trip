@@ -114,7 +114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb2d07c77c57d84a93352bcc3995bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 719848466612722466, guid: 7e062813d0e6230488657921e414279c, type: 3}
   questIndex: 0
 --- !u!64 &6267939597698928766
 MeshCollider:
@@ -564,7 +563,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2973929378036103571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0.006, z: -0.081}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4654428850390916}

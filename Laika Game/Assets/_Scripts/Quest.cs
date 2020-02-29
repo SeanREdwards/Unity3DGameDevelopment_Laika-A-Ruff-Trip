@@ -9,6 +9,9 @@ public class Quest
     public bool isActive;
     public string title;
     public string description;
+    public string objective;
+    [HideInInspector]
+    public string giverName;
     public GameObject itemSpawnLocation;
     //public Vector3 itemSpawn;
     public GameObject collectibleItem;
@@ -21,7 +24,7 @@ public class Quest
     [HideInInspector]
     public bool rewardReceived = false;
     [HideInInspector]
-    public bool complete;
+    public bool complete = false;
     public string completedTitle;
     public string completedDescription;
     

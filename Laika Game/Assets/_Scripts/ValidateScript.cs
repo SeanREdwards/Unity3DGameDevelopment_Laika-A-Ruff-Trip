@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class ValidateScript : MonoBehaviour
 {
     public GameObject correctSound;
+    public GameObject lightCam, doorCam;
     public Text helpText;
     public GameObject Light1;
     public GameObject Light2;
@@ -29,12 +30,16 @@ public class ValidateScript : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.name == "Laika") {
             helpText.gameObject.SetActive(true);
+            doorCam.SetActive(false);
+            lightCam.SetActive(true);
         }
     }
 
     private void OnTriggerExit(Collider other) {
         if (other.gameObject.name == "Laika") {
             helpText.gameObject.SetActive(false);
+            doorCam.SetActive(true);
+            lightCam.SetActive(false);
         }
     }
 
