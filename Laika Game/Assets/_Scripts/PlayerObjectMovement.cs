@@ -10,6 +10,7 @@ public class PlayerObjectMovement : MonoBehaviour
     public GameObject ball;
     public Transform guide;
     float yHold;
+    GameObject ppParticles;
     public GameObject head;
     
 
@@ -72,7 +73,14 @@ public class PlayerObjectMovement : MonoBehaviour
 
         //We set the object parent to our guide empty object.
         ball.transform.SetParent(guide);
-
+        if (transform.childCount >= 10 && transform.GetChild(9).gameObject.name == "Pickup Particles")
+        {
+            print(transform.childCount);
+            ppParticles = transform.GetChild(9).gameObject;
+            ppParticles.SetActive(true);
+            ppParticles.transform.SetParent(ball.transform);
+            ppParticles.transform.position = ball.transform.position;
+        }
         //Set gravity to false while holding it
         ball.GetComponent<Rigidbody>().useGravity = false;
         ball.GetComponent<Rigidbody>().isKinematic = true;
@@ -117,6 +125,14 @@ public class PlayerObjectMovement : MonoBehaviour
         //Set our Gravity to true again.
         ball.GetComponent<Rigidbody>().useGravity = true;
         ball.GetComponent<Rigidbody>().isKinematic = false;
+
+        if(ppParticles != null)
+        {
+            ppParticles.transform.SetParent(transform);
+            ppParticles.transform.SetSiblingIndex(9);
+            ppParticles.transform.position = transform.position;
+            ppParticles.SetActive(false);
+        }
 
         // we don't have anything to do with our ball field anymore
         ball = null;

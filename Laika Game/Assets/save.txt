@@ -1,1 +1,1 @@
-{"pickups":0,"scene":3}
+{"pickups":0,"scene":2}
