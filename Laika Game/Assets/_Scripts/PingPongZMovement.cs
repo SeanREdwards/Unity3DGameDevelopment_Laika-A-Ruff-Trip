@@ -10,6 +10,8 @@ public class PingPongZMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        min = min - 1;
+        max = max - 1;
         increasing = true;
         decreasing = false;
         zPos = transform.position.z;
