@@ -59,6 +59,7 @@
      <Compile Include="Assets\_Scripts\BackForthWRotate.cs" />
      <Compile Include="Assets\_Scripts\ButtonAudio.cs" />
      <Compile Include="Assets\_Scripts\CastingToObject.cs" />
+     <Compile Include="Assets\_Scripts\customGrid.cs" />
      <Compile Include="Assets\_Scripts\DestroySelf.cs" />
      <Compile Include="Assets\_Scripts\DogAnimationController.cs" />
      <Compile Include="Assets\_Scripts\DoorOpen.cs" />
@@ -76,14 +77,13 @@
      <Compile Include="Assets\_Scripts\PlayerMovementController.cs" />
      <Compile Include="Assets\_Scripts\PlayerObjectMovement.cs" />
      <Compile Include="Assets\_Scripts\PressButton.cs" />
+     <Compile Include="Assets\_Scripts\Respawn.cs" />
      <Compile Include="Assets\_Scripts\Restart.cs" />
      <Compile Include="Assets\_Scripts\Rotator.cs" />
      <Compile Include="Assets\_Scripts\Shooting.cs" />
-     <Compile Include="Assets\customGrid.cs" />
      <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\AnimateLowPolyDog.cs" />
      <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
      <Compile Include="Assets\Pictures\Switcher.cs" />
-     <Compile Include="Assets\Respawn.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\OverTheShoulderAim\ActivateOnKeypress.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
@@ -96,7 +96,7 @@
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
-     <None Include="Assets\OutlineDifuse.shader" />
+     <None Include="Assets\_Scripts\OutlineDifuse.shader" />
      <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
