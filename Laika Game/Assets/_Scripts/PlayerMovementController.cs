@@ -22,6 +22,8 @@ public class PlayerMovementController : MonoBehaviour
     public bool isSprinting;
     public bool isGliding;
 
+    public bool isPaused;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +34,7 @@ public class PlayerMovementController : MonoBehaviour
         limiter = true;
         isSprinting = false;
         isGliding = false;
+        isPaused = false;
     }
 
     void LimiterTrue()
@@ -40,6 +43,11 @@ public class PlayerMovementController : MonoBehaviour
     }
     void Update()
     {
+
+        if (isPaused) {
+            return;
+        }
+
         /*For jumping.*/
         if ((Input.GetKeyDown("space") || Input.GetButtonDown("A")) && isGrounded)
         {
@@ -78,6 +86,11 @@ public class PlayerMovementController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+
+        if(isPaused) {
+            return;
+        }
+
         float move_vertical = Input.GetAxis("Vertical");
         float move_horizontal = Input.GetAxis("Horizontal");
 

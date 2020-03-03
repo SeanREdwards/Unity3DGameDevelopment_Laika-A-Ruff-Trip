@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class ShopUI : MonoBehaviour
 {
@@ -10,10 +11,22 @@ public class ShopUI : MonoBehaviour
     private GameObject purchase;
     private int price;
     public PlayerHandler Player;
+    public PlayerMovementController Movement;
+
+    public Animator ButtonsAnimator;
+    public GameObject Merchant, ShopCam, PlayerCam;
 
     public void Activate() {
         gameObject.SetActive(true);
-        Time.timeScale = 0f;
+        ButtonsAnimator.SetTrigger("Open");
+
+        ShopCam.SetActive(true);
+        PlayerCam.SetActive(false);
+        
+        ShopCam.GetComponent<CinemachineVirtualCamera>().LookAt = Merchant.transform;
+
+        Movement.isPaused = true;
+
     }
 
     public void SelectItem(string selection) {
@@ -37,6 +50,15 @@ public class ShopUI : MonoBehaviour
 
     public void Exit() {
         gameObject.SetActive(false);
-        Time.timeScale = 1f;
+        ButtonsAnimator.SetTrigger("Close");
+
+        Movement.isPaused = false;
+
+        PlayerCam.SetActive(true);
+        ShopCam.SetActive(false);
+
+        ShopCam.GetComponent<CinemachineVirtualCamera>().LookAt = null;
+
+
     }
 }
