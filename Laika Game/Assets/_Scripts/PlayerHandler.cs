@@ -33,6 +33,11 @@ public class PlayerHandler : MonoBehaviour
         return count;
     }
 
+    public void Spend(int n) {
+        count -= n;
+        SetCountText();
+    }
+
     public void SetPickupCount(int n) {
         count = n;
         SetCountText();

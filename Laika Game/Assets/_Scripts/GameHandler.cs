@@ -19,10 +19,10 @@ public class GameHandler : MonoBehaviour
             pickups = 5,
         };
         string json = JsonUtility.ToJson(saveObject);
-        Debug.Log(json);
+        //Debug.Log(json);
 
         SaveObject loadedSaveObject = JsonUtility.FromJson<SaveObject>(json);
-        Debug.Log(loadedSaveObject.pickups);
+        //Debug.Log(loadedSaveObject.pickups);
     }
 
     public void Save() {
@@ -37,7 +37,7 @@ public class GameHandler : MonoBehaviour
         string json = JsonUtility.ToJson(saveObject);
         File.WriteAllText(pathName, json);
 
-        Debug.Log("Saved!");
+        //Debug.Log("Saved!");
     }
 
     public void LoadScene() {
