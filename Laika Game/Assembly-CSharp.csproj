@@ -175,6 +175,7 @@
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
+     <None Include="Assets\Wormhole\worm_hole_core.shader" />
      <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
@@ -221,58 +222,58 @@
      <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
      <None Include="Assets\External Assets\PolygonSciFiCity\_Shaders\Polygon_Triplanar.shader" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Cinemachine">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.CacheServer">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ScriptableBuildPipeline.Editor">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ResourceManager">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Addressables.Editor">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Addressables">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ScriptableBuildPipeline">
- <HintPath>C:/Users/matte/Desktop/Unity/Laika GIt/Laika/Laika Game/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Users/Edwar/Desktop/UnityProjects/Capstone/Timebox5/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
