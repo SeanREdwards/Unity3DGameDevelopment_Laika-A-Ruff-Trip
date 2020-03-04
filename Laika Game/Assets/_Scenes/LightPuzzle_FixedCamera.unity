@@ -130,7 +130,7 @@ PrefabInstance:
     - target: {fileID: 2517522292382806768, guid: 4541eaa41977b2b4ea4d409c8162b780,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.58
+      value: 3.82
       objectReference: {fileID: 0}
     - target: {fileID: 2517522292382806768, guid: 4541eaa41977b2b4ea4d409c8162b780,
         type: 3}
@@ -2856,7 +2856,7 @@ PrefabInstance:
     - target: {fileID: 2517522292382806768, guid: 4541eaa41977b2b4ea4d409c8162b780,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.15
+      value: 2.61
       objectReference: {fileID: 0}
     - target: {fileID: 2517522292382806768, guid: 4541eaa41977b2b4ea4d409c8162b780,
         type: 3}
@@ -3038,7 +3038,7 @@ MonoBehaviour:
   m_UpdateMethod: 2
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
-    m_Style: 0
+    m_Style: 1
     m_Time: 2
     m_CustomCurve:
       serializedVersion: 2

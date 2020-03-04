@@ -8,7 +8,7 @@ public class LoadNextLevelTrigger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        loadNextScene = GameObject.Find("Player").transform.GetChild(8).gameObject;
+        loadNextScene = GameObject.Find("Player").transform.GetChild(7).gameObject;
     }
 
     // Update is called once per frame

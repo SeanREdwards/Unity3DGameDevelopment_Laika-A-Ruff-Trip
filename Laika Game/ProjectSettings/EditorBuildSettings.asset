@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scenes/Thaleah_Demo.unity
     guid: 180143f4a57f2124dae57257c95bc10a
   - enabled: 1
@@ -18,23 +18,17 @@ EditorBuildSettings:
     path: Assets/_Scenes/IntroCutscene.unity
     guid: 93874831c56a0e5468bd0185b0be9e68
   - enabled: 1
-    path: Assets/_Scenes/Dog_Fixed.unity
-    guid: b08d7a5b12571a0478a92ae2661153b2
-  - enabled: 1
     path: Assets/_Scenes/Dog_Free.unity
     guid: 34c7bb5c3ec654f41963341544080c3f
   - enabled: 1
-    path: Assets/_Scenes/Door Scene.unity
-    guid: 092ed2c36e27d354ca30453d8c9e6421
+    path: Assets/_Scenes/Beach.unity
+    guid: 6bb2a51cebf4cc641a0b5647073c87c6
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/_Scenes/FixedCameraTest.unity
     guid: 8fe870d6fc9512240a6679a89b1e2143
-  - enabled: 1
-    path: Assets/_Scenes/FixedCameraTest_FreeLook.unity
-    guid: 0ad573be6c00b6341a060934e84e071e
   - enabled: 1
     path: Assets/_Scenes/Roll puzzle 1.unity
     guid: 4c8b5695aa4d76c41a958bb66b0e8f1e

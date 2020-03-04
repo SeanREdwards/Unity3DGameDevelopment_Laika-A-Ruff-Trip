@@ -72,6 +72,7 @@
     <Compile Include="Assets\_Scripts\BossBackAndForth.cs" />
     <Compile Include="Assets\_Scripts\BossHealth.cs" />
     <Compile Include="Assets\_Scripts\ButtonAudio.cs" />
+    <Compile Include="Assets\_Scripts\ButtonDoor.cs" />
     <Compile Include="Assets\_Scripts\CameraShake.cs" />
     <Compile Include="Assets\_Scripts\CameraShakeContinuous.cs" />
     <Compile Include="Assets\_Scripts\CameraTriggerSwitch.cs" />
@@ -137,6 +138,8 @@
     <Compile Include="Assets\_Scripts\Selector.cs" />
     <Compile Include="Assets\_Scripts\SettingsMenu.cs" />
     <Compile Include="Assets\_Scripts\Shooting.cs" />
+    <Compile Include="Assets\_Scripts\ShopScript.cs" />
+    <Compile Include="Assets\_Scripts\ShopUI.cs" />
     <Compile Include="Assets\_Scripts\SpawnPatrollingNPC.cs" />
     <Compile Include="Assets\_Scripts\StaticVariableHolder.cs" />
     <Compile Include="Assets\_Scripts\UpAndDownMovement.cs" />
