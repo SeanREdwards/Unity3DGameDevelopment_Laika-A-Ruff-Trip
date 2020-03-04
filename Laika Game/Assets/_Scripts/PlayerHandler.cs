@@ -26,7 +26,7 @@ public class PlayerHandler : MonoBehaviour
     }
 
     void SetCountText() {
-        countText.text = "Cubes x" + count.ToString();
+        countText.text = "Bones x" + count.ToString();
     }
 
     public int GetPickupCount() {
