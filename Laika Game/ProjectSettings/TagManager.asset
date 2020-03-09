@@ -4,11 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Bullet
-  - Pickup
-  - Pick up
   - Pick Up
-  - Cannon_Projectile
+  - Pickup
   layers:
   - Default
   - TransparentFX
@@ -18,8 +15,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Minimap
+  - Customize
   - 
   - 
   - 

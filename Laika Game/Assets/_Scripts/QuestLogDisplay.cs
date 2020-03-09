@@ -10,6 +10,7 @@ public class QuestLogDisplay : MonoBehaviour
     public GameObject prefab;
     QuestHolder qh;
     List<Quest> ls;
+    public Font checkMarkFont;
     // Start is called before the first frame update
     void Start()
     {
@@ -57,24 +58,40 @@ public class QuestLogDisplay : MonoBehaviour
             newObj = (GameObject)Instantiate(prefab, transform);
             if (ls[i].gotItem)
             {
-                newObj.gameObject.GetComponent<Text>().text = "O";
-            } else
+                newObj.gameObject.GetComponent<Text>().text = "✔";
+                newObj.gameObject.GetComponent<Text>().color = Color.green;
+                newObj.gameObject.GetComponent<Text>().fontSize = 24;
+
+                newObj.gameObject.GetComponent<Text>().font = checkMarkFont;
+            }
+            else
             {
                 newObj.gameObject.GetComponent<Text>().text = "X";
+                newObj.gameObject.GetComponent<Text>().fontSize = 36;
+
+                newObj.gameObject.GetComponent<Text>().color = Color.red;
+
             }
-            newObj.gameObject.GetComponent<Text>().fontSize = 30;
             newObj.transform.SetSiblingIndex(transform.childCount - 4);
 
             //Print quest complete status
             newObj = (GameObject)Instantiate(prefab, transform);
+            
             if (ls[i].complete)
             {
-                newObj.gameObject.GetComponent<Text>().text = "O";
-            } else
+                newObj.gameObject.GetComponent<Text>().text = "✔";
+                newObj.gameObject.GetComponent<Text>().color = Color.green;
+                newObj.gameObject.GetComponent<Text>().fontSize = 24;
+
+                newObj.gameObject.GetComponent<Text>().font = checkMarkFont;
+            }
+            else
             {
                 newObj.gameObject.GetComponent<Text>().text = "X";
+                newObj.gameObject.GetComponent<Text>().color = Color.red;
+                newObj.gameObject.GetComponent<Text>().fontSize = 36;
+
             }
-            newObj.gameObject.GetComponent<Text>().fontSize = 30;
             newObj.transform.SetSiblingIndex(transform.childCount - 4);
 
 

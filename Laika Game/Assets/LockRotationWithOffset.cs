@@ -21,7 +21,7 @@ public class LockRotationWithOffset : MonoBehaviour
     {
         transform.rotation = rotation;
         offset = Laika.transform.position - transform.position;
-        print(offset);
+        //print(offset);
         //transform.position = new Vector3(Laika.transform.position.x, originalY, Laika.transform.position.z);
     }
 }

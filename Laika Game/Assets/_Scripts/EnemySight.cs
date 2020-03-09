@@ -25,6 +25,15 @@ public class EnemySight : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (Input.GetKey("left shift"))
+        {
+            gameObject.transform.localScale = new Vector3(2,2,2);
+            print("left shift");
+        }
+        else
+        {
+            gameObject.transform.localScale = new Vector3(1, 1, 1);
+        }
         CurrentBehavior.StateUpdate(agent, transform);        
     }
 

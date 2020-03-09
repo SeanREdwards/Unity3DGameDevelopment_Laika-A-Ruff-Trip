@@ -86,18 +86,71 @@ public class Loading : MonoBehaviour
         loadingText.text = "Loading...";
         loadingScreen.SetActive(true);
         animator.SetTrigger("FadeIn");
-        yield return new WaitForSeconds(4f);
-        slider.value = 0.33f;
-        text.text = "33%";
-        yield return new WaitForSeconds(4f);
-        text.text = "66%";
-        slider.value = 0.66f;
+
+        
+        for(float f = 0.0f; f <= 1.0f; f = f + 0.05f)
+        {
+            yield return new WaitForSeconds(0.5f);
+            slider.value = f;
+            float print = f * 100f;
+            print = Mathf.RoundToInt(print);
+            text.text = print + "%";
+
+        }
+
+        yield return new WaitForSeconds(2f);
+        slider.value = 1f;
+        text.text = "100%";
+
+        /*
+        yield return new WaitForSeconds(1f);
+        slider.value = 0.1f;
+        text.text = "10%";
+        yield return new WaitForSeconds(1f);
+        text.text = "20%";
+        slider.value = 0.2f;
+
+
+        yield return new WaitForSeconds(1f);
+        text.text = "30%";
+        slider.value = 0.3f;
+
+        yield return new WaitForSeconds(1f);
+        text.text = "40%";
+        slider.value = 0.4f;
+
+        yield return new WaitForSeconds(1f);
+        text.text = "50%";
+        slider.value = 0.5f;
+
+        yield return new WaitForSeconds(1f);
+        text.text = "60%";
+        slider.value = 0.6f;
+
+        yield return new WaitForSeconds(1f);
+        text.text = "70%";
+        slider.value = 0.7f;
+
+        yield return new WaitForSeconds(1f);
+        text.text = "80%";
+        slider.value = 0.8f;
+
+        yield return new WaitForSeconds(1f);
+        text.text = "90%";
+        slider.value = 0.9f;
+
+        yield return new WaitForSeconds(1f);
+        text.text = "100%";
+        slider.value = 1f;
+        */
+        /*
         yield return new WaitForSeconds(4f);
         slider.value = 0.93f;
         text.text = "93%";
         yield return new WaitForSeconds(2f);
         slider.value = 1f;
         text.text = "100%";
+        */
         animator.SetTrigger("FadeOut");
         yield return new WaitForSeconds(2);
         AsyncOperation async = SceneManager.LoadSceneAsync(scene);
