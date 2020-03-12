@@ -5,8 +5,13 @@ using UnityEngine;
 public class ShopScript : MonoBehaviour
 {
 
-    public GameObject Laika;
+    GameObject Laika;
     public ShopUI Shop;
+
+    private void Start()
+    {
+        Laika = GameObject.Find("Player");
+    }
 
     // Update is called once per frame
     void Update()

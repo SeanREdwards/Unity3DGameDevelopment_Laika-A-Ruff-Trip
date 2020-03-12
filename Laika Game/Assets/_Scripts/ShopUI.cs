@@ -28,6 +28,9 @@ public class ShopUI : MonoBehaviour
 
     public void Start()
     {
+        GameObject Laika = GameObject.Find("Player");
+        Player = Laika.GetComponentInChildren<PlayerHandler>();
+        Movement = Laika.GetComponent<PlayerMovementController>();
         childInd = 0;
         purchases = new List<string>();
         t = hatsListText.GetComponent<Text>();
