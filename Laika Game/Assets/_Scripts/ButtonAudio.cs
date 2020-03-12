@@ -10,10 +10,14 @@ public class ButtonAudio : MonoBehaviour
     public AudioClip clickFx;
 
     public void HoverSound() {
-        myFx.PlayOneShot(hoverFx);
+        myFx.clip = hoverFx;
+        myFx.Play();
+        //myFx.PlayOneShot(hoverFx, 0.7f);
     }
 
     public void ClickSound() {
-        myFx.PlayOneShot(clickFx);
+        myFx.clip = clickFx;
+        myFx.Play();
+
     }
 }

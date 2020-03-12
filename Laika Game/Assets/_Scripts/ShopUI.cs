@@ -22,6 +22,7 @@ public class ShopUI : MonoBehaviour
     Text t;
     int childInd;
     public GameObject Merchant, ShopCam, PlayerCam;
+    public AudioSource ads, fail;
 
     private List<string> purchases;
 
@@ -69,8 +70,14 @@ public class ShopUI : MonoBehaviour
             }
         }
         Player.Spend(price);
+        ads.Play();
         headNub.GetComponent<ScrollHats>().ogText = t.text;
         //Exit();
+    }
+
+    void FailBuy()
+    {
+        fail.Play();
     }
 
     void SetChildIndex(GameObject obj)
@@ -90,6 +97,9 @@ public class ShopUI : MonoBehaviour
                     SetChildIndex(magicHat);
                     t.text = t.text + "\n" + Item;
                     ActivateHat(Item);
+                } else
+                {
+                    FailBuy();
                 }
 
 
@@ -104,6 +114,10 @@ public class ShopUI : MonoBehaviour
                     ActivateHat(Item);
 
                 }
+                else
+                {
+                    FailBuy();
+                }
 
                 break;
 
@@ -116,6 +130,10 @@ public class ShopUI : MonoBehaviour
 
                     ActivateHat(Item);
                 }
+                else
+                {
+                    FailBuy();
+                }
                 break;
 
             case "Crown":
@@ -126,6 +144,10 @@ public class ShopUI : MonoBehaviour
                     SetChildIndex(crown);
 
                     ActivateHat(Item);
+                }
+                else
+                {
+                    FailBuy();
                 }
                 break;
 
@@ -138,6 +160,10 @@ public class ShopUI : MonoBehaviour
 
                     ActivateHat(Item);
                 }
+                else
+                {
+                    FailBuy();
+                }
                 break;
             case "Police Cap":
                 if (Player.GetPickupCount() >= price && !policeCap.GetComponent<IsBought>().isBought)
@@ -147,6 +173,10 @@ public class ShopUI : MonoBehaviour
                     SetChildIndex(policeCap);
 
                     ActivateHat(Item);
+                }
+                else
+                {
+                    FailBuy();
                 }
                 break;
             case "Shower Cap":
@@ -158,6 +188,10 @@ public class ShopUI : MonoBehaviour
 
                     ActivateHat(Item);
                 }
+                else
+                {
+                    FailBuy();
+                }
                 break;
             case "Pillbox Hat":
                 if (Player.GetPickupCount() >= price && !pillboxHat.GetComponent<IsBought>().isBought)
@@ -167,6 +201,10 @@ public class ShopUI : MonoBehaviour
                     SetChildIndex(pillboxHat);
 
                     ActivateHat(Item);
+                }
+                else
+                {
+                    FailBuy();
                 }
                 break;
 
@@ -179,6 +217,10 @@ public class ShopUI : MonoBehaviour
                     Player.Spend(price);
 
                     Exit();
+                }
+                else
+                {
+                    FailBuy();
                 }
                 break;
         }

@@ -29,14 +29,21 @@ public class PauseScript : MonoBehaviour
         PauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
-        minimap.SetActive(true);
+        if (minimap != null)
+        {
+            minimap.SetActive(true);
+        }
     }
 
     public void Pause() {
         PauseMenu.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
-        minimap.SetActive(false);
+        if (minimap != null)
+        {
+
+            minimap.SetActive(false);
+        }
     }
 
     public void OptionsButton() {

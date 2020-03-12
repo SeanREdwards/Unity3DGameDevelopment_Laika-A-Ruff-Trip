@@ -8,6 +8,7 @@ public class LoadNextScene : MonoBehaviour
 {
     public Slider slider;
     public Text text;
+    public GameObject laika;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,7 @@ public class LoadNextScene : MonoBehaviour
         text.gameObject.SetActive(true);
         yield return new WaitForSeconds(1.2f);
         AsyncOperation async = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        DontDestroyOnLoad(laika);
         //animator.SetTrigger("FadeIn");
         while (!async.isDone)
         {
@@ -37,6 +39,7 @@ public class LoadNextScene : MonoBehaviour
             text.text = print + "%";
             yield return null;           
         }
+        transform.parent.gameObject.SetActive(false);
     }
 
 }
