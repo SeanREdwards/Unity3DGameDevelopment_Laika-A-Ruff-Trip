@@ -5,12 +5,13 @@ using UnityEngine;
 public class LockRotation : MonoBehaviour
 {
     Quaternion rotation;
-    public GameObject Laika;
+    GameObject Laika;
     float originalY;
 
     // Start is called before the first frame update
     void Start()
     {
+        Laika = GameObject.Find("Player");
         rotation = transform.rotation;
         originalY = transform.position.y;
     }

@@ -1,28 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadNextLevelTrigger : MonoBehaviour
 {
-    GameObject loadNextScene;
+    GameObject loadingBar;
+    bool isColliding;
     // Start is called before the first frame update
     void Start()
     {
-        loadNextScene = GameObject.Find("Player").transform.GetChild(8).gameObject;
+        loadingBar = GameObject.Find("Player").transform.GetChild(8).gameObject;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.name == "Laika")
         {
-
-            loadNextScene.SetActive(true);
+            other.transform.parent.GetComponentInChildren<LoadNextScene>().NextScene();
+            loadingBar.SetActive(true);
 
         }
     }

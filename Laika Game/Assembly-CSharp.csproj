@@ -164,10 +164,12 @@
     <Compile Include="Assets\External Assets\Low Poly Animated Dog\Example\Scripts\ChangeShader.cs" />
     <Compile Include="Assets\External Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Consumer.cs" />
     <Compile Include="Assets\External Assets\RPG Food &amp; Drinks Pack\Assets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\FinaleCutscene.cs" />
     <Compile Include="Assets\FullMapCameraMovement.cs" />
     <Compile Include="Assets\IsBought.cs" />
     <Compile Include="Assets\LockRotation.cs" />
     <Compile Include="Assets\LockRotationWithOffset.cs" />
+    <Compile Include="Assets\LookAtPlayer.cs" />
     <Compile Include="Assets\LostFocus.cs" />
     <Compile Include="Assets\Low Poly Space Station\Components\Scripts\RotationScript.cs" />
     <Compile Include="Assets\MinimapSwitcher.cs" />

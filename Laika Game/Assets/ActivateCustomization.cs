@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class ActivateCustomization : MonoBehaviour
 {
     public GameObject custom, player, customizationCam, minimap;
-    public GameObject headNub;
+    GameObject headNub;
     public Text text;
     Vector3 originalPos;
     // Start is called before the first frame update
     void Start()
     {
-        
+        headNub = GameObject.Find("Bip01 HeadNub");
     }
 
     void SetLayerRecursively(GameObject obj, int layer)
@@ -55,8 +55,13 @@ public class ActivateCustomization : MonoBehaviour
         this.transform.GetChild(0).gameObject.SetActive(false);
         SetLayerRecursively(player, 9);
         player.layer = 9;
-        player.GetComponent<PlayerMovementController>().enabled = false;
-        player.GetComponentInChildren<CinemachineFreeLook>().enabled = false;
+
+            player.GetComponent<PlayerMovementController>().enabled = false;
+        if (player.GetComponentInChildren<CinemachineFreeLook>() != null)
+        {
+
+            player.GetComponentInChildren<CinemachineFreeLook>().enabled = false;
+        }
         Time.timeScale = 1f;
     }
 
@@ -66,7 +71,10 @@ public class ActivateCustomization : MonoBehaviour
         customizationCam.SetActive(false);
 
         this.transform.GetChild(0).gameObject.SetActive(true);
-        player.GetComponentInChildren<CinemachineFreeLook>().enabled = true;
+        if (player.GetComponentInChildren<CinemachineFreeLook>() != null)
+        {
+            player.GetComponentInChildren<CinemachineFreeLook>().enabled = true;
+        }
         Time.timeScale = 0f;
         player.layer = 0;
         SetLayerRecursively(player, 0);

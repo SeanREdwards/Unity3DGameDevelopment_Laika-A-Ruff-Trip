@@ -23,7 +23,7 @@ public class IntroCutsceneDialogue : MonoBehaviour
     public GameObject skipText;
     public GameObject shakeWindow, cameraShaker;
     public GameObject skipWindow;
-    public GameObject playerCam, doorCam, rocketCrashCam, cinemachineBrain;
+    public GameObject playerCam, roomCam, doorCam, rocketCrashCam, cinemachineBrain;
     public GameObject rocket;
     public GameObject crashLandingSpot;
 
@@ -49,7 +49,9 @@ public class IntroCutsceneDialogue : MonoBehaviour
 
     public void CameraSwitch()
     {
+        roomCam.SetActive(false);
         doorCam.SetActive(true);
+        
         alarmSound.SetActive(false);
         Invoke("RocketMoveToWormhole", 0.4f);
     }
@@ -102,7 +104,7 @@ public class IntroCutsceneDialogue : MonoBehaviour
         {
             player.transform.position = new Vector3(7.05f, 11.2f, 58.87559f);
         }
-        player.transform.GetChild(7).gameObject.SetActive(true);
+        playerCam.SetActive(true);
         Invoke("FinalRocketExplosion", 4f);
         rocket.transform.GetChild(9).gameObject.SetActive(false);
         explosionSound.SetActive(false);

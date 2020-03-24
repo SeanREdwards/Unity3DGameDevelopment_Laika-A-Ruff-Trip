@@ -27,6 +27,11 @@ public class ScrollHats : MonoBehaviour
     void ResetText()
     {
         text.text = ogText;
+        while (text.text.Contains("<b>") || text.text.Contains("</b>")){
+            text.text = text.text.Replace("<b><color=#ffa500ff><size=25>", "");
+            text.text = text.text.Replace("</size></color></b>", "");
+
+        }
     }
 
     public void NextHat()

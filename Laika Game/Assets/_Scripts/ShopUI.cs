@@ -9,14 +9,16 @@ public class ShopUI : MonoBehaviour
 
     private string Item = "";
     public GameObject minimap;
-    public GameObject headNub, hatsListText;
+    GameObject headNub, hatsListText;
     public Vector3 SpawnVector;
     private GameObject purchase;
     private int price;
+    [HideInInspector]
     public PlayerHandler Player;
+    [HideInInspector]
     public PlayerMovementController Movement;
-    public GameObject magicHat, cowboyHat, pajamaHat, crown;
-    public GameObject vikingHelmet, pillboxHat, policeCap, showerCap;
+    GameObject magicHat, cowboyHat, pajamaHat, crown;
+    GameObject vikingHelmet, pillboxHat, policeCap, showerCap;
     public Animator ButtonsAnimator;
     [TextArea]
     Text t;
@@ -29,10 +31,20 @@ public class ShopUI : MonoBehaviour
     public void Start()
     {
         GameObject Laika = GameObject.Find("Player");
+        headNub = GameObject.Find("Bip01 HeadNub");
+        pajamaHat = headNub.transform.GetChild(0).gameObject;
+        magicHat = headNub.transform.GetChild(1).gameObject;
+        cowboyHat = headNub.transform.GetChild(2).gameObject;
+        crown = headNub.transform.GetChild(3).gameObject;
+        vikingHelmet = headNub.transform.GetChild(4).gameObject;
+        policeCap = headNub.transform.GetChild(5).gameObject;
+        showerCap = headNub.transform.GetChild(6).gameObject;
+        pillboxHat = headNub.transform.GetChild(7).gameObject;
         Player = Laika.GetComponentInChildren<PlayerHandler>();
         Movement = Laika.GetComponent<PlayerMovementController>();
         childInd = 0;
         purchases = new List<string>();
+        hatsListText = GameObject.Find("Pause").transform.GetChild(1).transform.GetChild(4).gameObject;
         t = hatsListText.GetComponent<Text>();
 
     }
@@ -74,6 +86,10 @@ public class ShopUI : MonoBehaviour
         }
         Player.Spend(price);
         ads.Play();
+        /*
+        headNub.GetComponent<ScrollHats>().ogText = headNub.GetComponent<ScrollHats>().ogText.Replace("<b><color=#ffa500ff><size=25>", "");
+        headNub.GetComponent<ScrollHats>().ogText = headNub.GetComponent<ScrollHats>().ogText.Replace("</size></color></b>", "");
+        */
         headNub.GetComponent<ScrollHats>().ogText = t.text;
         //Exit();
     }

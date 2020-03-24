@@ -13,7 +13,15 @@ public class LoadNextScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+    }
+
+    public void NextScene()
+    {
+
+        slider.value = 0;
+        text.text = "0%";
         StartCoroutine(LoadNewScene());
+
     }
 
     // Update is called once per frame
@@ -39,7 +47,8 @@ public class LoadNextScene : MonoBehaviour
             text.text = print + "%";
             yield return null;           
         }
-        transform.parent.gameObject.SetActive(false);
+        laika.transform.GetChild(8).gameObject.SetActive(false);
+        //transform.parent.gameObject.SetActive(false);
     }
 
 }
