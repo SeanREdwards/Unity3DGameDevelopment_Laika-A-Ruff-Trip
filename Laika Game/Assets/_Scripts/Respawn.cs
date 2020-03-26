@@ -19,10 +19,10 @@ public class Respawn : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //If object enters the water floor
-        if(other.gameObject.name == "WaterFloor")
+        if(other.gameObject.name == "WaterFloor" || other.gameObject.tag == "Respawn")
         {
             transform.gameObject.GetComponent<Rigidbody>().isKinematic = true;
-            waterSplash.SetActive(true); //Play water splash sound effect
+            if(waterSplash != null) waterSplash.SetActive(true); //Play water splash sound effect
             Invoke("spawn", 1.5f); //Respawn in 1.5s
         }
     }
@@ -32,6 +32,6 @@ public class Respawn : MonoBehaviour
         transform.gameObject.GetComponent<Rigidbody>().isKinematic = false;
         transform.rotation = originalRot;
         transform.position = originalPos; //Puts object back at original position
-        waterSplash.SetActive(false); //Readies water splash sound effect for next occurrence
+        if (waterSplash != null)  waterSplash.SetActive(false); //Readies water splash sound effect for next occurrence
     }
 }

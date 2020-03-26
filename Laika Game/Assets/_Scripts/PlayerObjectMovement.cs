@@ -75,7 +75,7 @@ public class PlayerObjectMovement : MonoBehaviour
         ball.transform.SetParent(guide);
         if (transform.childCount >= 10 && transform.GetChild(9).gameObject.name == "Pickup Particles")
         {
-            print(transform.childCount);
+
             ppParticles = transform.GetChild(9).gameObject;
             ppParticles.SetActive(true);
             ppParticles.transform.SetParent(ball.transform);

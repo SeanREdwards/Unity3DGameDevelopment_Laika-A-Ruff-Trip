@@ -7,22 +7,37 @@ public class ButtonDoor : MonoBehaviour
 {
     public Text helpText;
     public PuzzleDoor Door;
+    public GameObject doorCam;
     Animator DoorAnimator;
-
+    GameObject player;
     private void Awake() {
         DoorAnimator = Door.GetComponent<Animator>();
+        player = GameObject.Find("Player");
+        helpText = player.transform.GetChild(5).GetChild(0).gameObject.GetComponent<Text>();
     }
 
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.name == "Laika") {
             helpText.gameObject.SetActive(true);
+
+            if(doorCam != null)
+            {
+                doorCam.SetActive(true);
+            }
+
         }
     }
 
     private void OnTriggerExit(Collider other) {
         if (other.gameObject.name == "Laika") {
             helpText.gameObject.SetActive(false);
+            if (doorCam != null)
+            {
+                doorCam.SetActive(false);
+            }
+
         }
+
     }
 
 

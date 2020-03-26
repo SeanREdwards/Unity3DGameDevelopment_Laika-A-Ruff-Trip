@@ -94,6 +94,7 @@
     <Compile Include="Assets\_Scripts\GameHandler.cs" />
     <Compile Include="Assets\_Scripts\GiveQuest.cs" />
     <Compile Include="Assets\_Scripts\GoalScript.cs" />
+    <Compile Include="Assets\_Scripts\HideCursor.cs" />
     <Compile Include="Assets\_Scripts\INPCState.cs" />
     <Compile Include="Assets\_Scripts\IntroCutsceneDialogue.cs" />
     <Compile Include="Assets\_Scripts\JailedNPCDialogue.cs" />

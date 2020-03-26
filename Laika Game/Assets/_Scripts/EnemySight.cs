@@ -28,7 +28,7 @@ public class EnemySight : MonoBehaviour
         if (Input.GetKey("left shift"))
         {
             gameObject.transform.localScale = new Vector3(2,2,2);
-
+            print("left shift");
         }
         else
         {
