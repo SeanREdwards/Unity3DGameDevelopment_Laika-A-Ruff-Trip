@@ -16,7 +16,7 @@ public class BossHealth : MonoBehaviour
     {
         healthBar.value = 100;
         health = 100;
-        anim = this.transform.GetChild(0).GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         audS = this.GetComponent<AudioSource>();
     }
     private void OnTriggerEnter(Collider other)

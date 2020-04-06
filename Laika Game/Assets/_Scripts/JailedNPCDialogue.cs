@@ -16,6 +16,9 @@ public class JailedNPCDialogue : MonoBehaviour
     private List<Quest> q;
     private int sentencesNum;
     public string questTitle_ToUpdate;
+    public bool isMechanic;
+    [HideInInspector]
+    public bool dialogueEnded;
     
     public void TriggerDialogue() {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue, transform.gameObject);
@@ -25,7 +28,7 @@ public class JailedNPCDialogue : MonoBehaviour
         FindObjectOfType<DialogueManager>().DisplayNextSentence();
     }
 
-    void updateDialogue()
+    public void updateDialogue()
     {
         for(int i = 0; i<sentencesNum; i++)
         {

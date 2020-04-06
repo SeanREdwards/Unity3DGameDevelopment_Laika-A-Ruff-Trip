@@ -30,6 +30,7 @@ public class LaikaChildOfPlatform : MonoBehaviour
         if (other.gameObject == Laika)
         {
             Laika.transform.parent.parent = null;
+            DontDestroyOnLoad(Laika.transform.parent.gameObject);
         }
     }
 

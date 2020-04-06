@@ -150,6 +150,7 @@
     <Compile Include="Assets\ActivateCustomization.cs" />
     <Compile Include="Assets\Cannon\CannonProjectileScript.cs" />
     <Compile Include="Assets\Cannon\ShootCannonProjectile.cs" />
+    <Compile Include="Assets\CitySceneStart.cs" />
     <Compile Include="Assets\CustomizationCameraRotation.cs" />
     <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\CameraFollow.cs" />
@@ -173,6 +174,7 @@
     <Compile Include="Assets\LookAtPlayer.cs" />
     <Compile Include="Assets\LostFocus.cs" />
     <Compile Include="Assets\Low Poly Space Station\Components\Scripts\RotationScript.cs" />
+    <Compile Include="Assets\MechanicDialogueUpdater.cs" />
     <Compile Include="Assets\MinimapSwitcher.cs" />
     <Compile Include="Assets\OutlineEffect\Demo\MaterialSwitcher.cs" />
     <Compile Include="Assets\OutlineEffect\Demo\OutlineAnimation.cs" />
@@ -183,6 +185,7 @@
     <Compile Include="Assets\OutlineEffect\OutlineEffect.cs" />
     <Compile Include="Assets\Pictures\Switcher.cs" />
     <Compile Include="Assets\PlayerStartingSpawn.cs" />
+    <Compile Include="Assets\ResetLevel.cs" />
     <Compile Include="Assets\RotateAroundLaika.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\OverTheShoulderAim\ActivateOnKeypress.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
@@ -197,6 +200,7 @@
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
     <Compile Include="Assets\ScrollHats.cs" />
+    <Compile Include="Assets\StartedGame.cs" />
     <Compile Include="Assets\SwitchToFullMap.cs" />
     <None Include="Assets\Wormhole\worm_hole_core.shader" />
     <None Include="Assets\Wormhole\worm_hole_core_LOCAL_713.shader" />

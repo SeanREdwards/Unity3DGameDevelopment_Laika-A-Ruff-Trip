@@ -4802,6 +4802,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   helpText: {fileID: 0}
   Door: {fileID: 133207584}
+  doorCam: {fileID: 0}
 --- !u!1001 &1985893110
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -134,6 +134,7 @@ public class IntroCutsceneDialogue : MonoBehaviour
         originalRot = transform.rotation;
         sentencesNum = dialogue.sentences.Length;
         player = GameObject.Find("Player");
+        playerCam = player.transform.GetChild(6).gameObject;
         q = player.GetComponent<QuestHolder>().quests;
         d = Vector3.Distance(player.transform.position, transform.position);
         TalkDistance = 500;
@@ -221,12 +222,13 @@ public class IntroCutsceneDialogue : MonoBehaviour
             skipText.SetActive(false);
         }
 
+        /*
         if (Input.GetKeyDown(KeyCode.Backspace) && inCutscene)
         {
             skipWindow.SetActive(true);
             Time.timeScale = 0;
         }
-
+        */
 
         d = Vector3.Distance(player.transform.position, transform.position);
         if (d < TalkDistance) {

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Loading : MonoBehaviour
 {
+    public GameObject laika;
     private bool loadScene = false;
     private bool oneInvoke = true;
     [SerializeField]
@@ -90,7 +91,7 @@ public class Loading : MonoBehaviour
         
         for(float f = 0.0f; f <= 1.0f; f = f + 0.05f)
         {
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.01f);
             slider.value = f;
             float print = f * 100f;
             print = Mathf.RoundToInt(print);
@@ -152,7 +153,9 @@ public class Loading : MonoBehaviour
         text.text = "100%";
         */
         animator.SetTrigger("FadeOut");
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(0.5f);
+        DontDestroyOnLoad(laika);
+
         AsyncOperation async = SceneManager.LoadSceneAsync(scene);
 
         while (!async.isDone)

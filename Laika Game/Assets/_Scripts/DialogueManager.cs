@@ -11,11 +11,12 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public GameObject hold;
     public Text dialogueText;
-    private Queue<string> sentences;
+    private Queue<string> sentences = new Queue<string>();
     private IntroCutsceneDialogue intro;
 
     private Quest_Dialogue_Logic q2d;
     private GiveQuest gq;
+    private MechanicDialogueUpdater mechD;
 
     [HideInInspector]
     public bool talking;
@@ -31,13 +32,16 @@ public class DialogueManager : MonoBehaviour
 
         gq = talkingNPC.GetComponent<GiveQuest>();
         intro = talkingNPC.GetComponent<IntroCutsceneDialogue>();
+        q2d = talkingNPC.GetComponent<Quest_Dialogue_Logic>();
+        mechD = talkingNPC.GetComponent<MechanicDialogueUpdater>();
 
         talking = true;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", true);
-        q2d = talkingNPC.GetComponent<Quest_Dialogue_Logic>();
         nameText.text = dialogue.name;
-
-        sentences.Clear();
+        if (sentences != null)
+        {
+            sentences.Clear();
+        }
 
         foreach(string sentence in dialogue.sentences) {
             sentences.Enqueue(sentence);
@@ -92,7 +96,10 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
-
+        if(mechD != null)
+        {
+            mechD.dialogueEnded = true;
+        }
 
         if (gq != null)
         {

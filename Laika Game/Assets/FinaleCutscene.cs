@@ -82,6 +82,13 @@ public class FinaleCutscene : MonoBehaviour
         StartCoroutine(FadeTextToFullAlpha(1f, t));
         StartCoroutine(FadeImageToFullAlpha(1f, laikaGif.GetComponent<Image>()));
         StartCoroutine(FadeImageToFullAlpha(1f, logo.GetComponent<Image>()));
+        Invoke("Quit", 4.75f);
+    }
+
+    void Quit()
+    {
+        Application.Quit();
+        print("Quitting now");
     }
 
     public IEnumerator FadeTextToFullAlpha(float t, Text i)

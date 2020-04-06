@@ -1964,6 +1964,110 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb97467ae41b5416fbc3465f01164ec2, type: 3}
+--- !u!1001 &1140108089
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6635156
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -117.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6947479
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.71925336
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.01401
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561041276, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172089991561216248, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC_Standard
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842986164683177065, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842986164683177065, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: Well, the exit is over there. Good luck.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842986164683177065, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Watch your step around here.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842986164683177065, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: You really wouldn't want to fall in this ocean.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0cd0a7ed9d548034da11b185ca6e6e89, type: 3}
 --- !u!1001 &1156697930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2175,6 +2279,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 355833558359193565, guid: a5fd3220217aca0428bf819e0fe5b569,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2002893896567041394, guid: a5fd3220217aca0428bf819e0fe5b569,
         type: 3}
       propertyPath: m_Name
@@ -2238,6 +2347,11 @@ PrefabInstance:
     - target: {fileID: 2977818108031721236, guid: a5fd3220217aca0428bf819e0fe5b569,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127177760591710111, guid: a5fd3220217aca0428bf819e0fe5b569,
+        type: 3}
+      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3844,7 +3958,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2139372786
 MonoBehaviour:
   m_ObjectHideFlags: 0

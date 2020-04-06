@@ -48,6 +48,7 @@ public class PlayerHandler : MonoBehaviour
     }
 
     public void SetScene(int n) {
+        //DontDestroyOnLoad(this.transform.parent.gameObject);
         SceneManager.LoadScene(n);
     }
 

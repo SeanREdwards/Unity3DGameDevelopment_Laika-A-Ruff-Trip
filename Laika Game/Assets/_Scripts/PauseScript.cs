@@ -12,6 +12,7 @@ public class PauseScript : MonoBehaviour
     public GameObject PauseButtons;
     public GameObject options;
     public GameObject minimap;
+    public GameObject reset;
 
     // Update is called once per frame
     void Update()
@@ -66,6 +67,7 @@ public class PauseScript : MonoBehaviour
 
     public void Quit() {
         Game.Save();
+        PauseMenu.SetActive(false);
         SceneManager.LoadScene(1);
     }
 
