@@ -58,6 +58,7 @@ public class FinaleCutscene : MonoBehaviour
         transform.GetChild(9).gameObject.SetActive(true);
         GetComponent<Animator>().SetTrigger("RocketToEarth");
         Invoke("LastStretch", 2f);
+        GetComponent<AudioSource>().Play();
     }
 
     void LastStretch()

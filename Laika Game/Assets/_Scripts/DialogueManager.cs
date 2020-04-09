@@ -55,7 +55,7 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
-
+        GetComponent<AudioSource>().Play();
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
@@ -67,6 +67,8 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             yield return null;
         }
+        GetComponent<AudioSource>().Stop();
+
     }
 
     void IntroSceneCameraSwitch()
@@ -76,6 +78,8 @@ public class DialogueManager : MonoBehaviour
 
 
     public void EndDialogue() {
+        GetComponent<AudioSource>().Stop();
+
         talking = false;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", false);
         player.gameObject.GetComponent<PlayerMovementController>().enabled = true;

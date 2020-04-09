@@ -30,6 +30,7 @@ public class Restart : MonoBehaviour
 
     void FadeBlack()
     {
+        laika.transform.GetChild(15).gameObject.GetComponent<AudioSource>().Play();
         animator.SetTrigger("FadeOut");
         Invoke("TryAgainText", 1f);
     }

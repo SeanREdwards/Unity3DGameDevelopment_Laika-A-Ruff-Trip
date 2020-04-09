@@ -12,7 +12,7 @@ public class PlayerObjectMovement : MonoBehaviour
     float yHold;
     GameObject ppParticles;
     public GameObject head;
-    
+    public AudioSource ads;
 
     void Update()
     {
@@ -71,6 +71,11 @@ public class PlayerObjectMovement : MonoBehaviour
             return;
             */
 
+        if (!ads.isPlaying)
+        {
+            ads.Play();
+        }
+
         //We set the object parent to our guide empty object.
         ball.transform.SetParent(guide);
         if (transform.childCount >= 10 && transform.GetChild(9).gameObject.name == "Pickup Particles")
@@ -126,7 +131,13 @@ public class PlayerObjectMovement : MonoBehaviour
         ball.GetComponent<Rigidbody>().useGravity = true;
         ball.GetComponent<Rigidbody>().isKinematic = false;
 
-        if(ppParticles != null)
+        if (ads.isPlaying)
+        {
+            ads.Stop();
+        }
+
+
+        if (ppParticles != null)
         {
             ppParticles.transform.SetParent(transform);
             ppParticles.transform.SetSiblingIndex(9);

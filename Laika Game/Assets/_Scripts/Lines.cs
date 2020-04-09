@@ -45,7 +45,6 @@ public class Lines : MonoBehaviour
             pickupHold = pickup;
             originLocation = lineOrigin.transform.position;
             pickupLocation = pickup.transform.position;
-
             points[0] = originLocation;
             points[1] = pickupLocation;
             lineRenderer.SetPositions(points);

@@ -13,7 +13,7 @@ public class PlayerMovementController : MonoBehaviour
     public bool limiter;
     public float jump_power;
     public Vector3 jump_vector;
-
+    public AudioSource ads;
     public float glide_power;
 
     private Rigidbody rb;
@@ -21,8 +21,9 @@ public class PlayerMovementController : MonoBehaviour
     public bool isGrounded;
     public bool isSprinting;
     public bool isGliding;
-
+    bool onePlay = false;
     public bool isPaused;
+    Vector3 movement;
 
     // Start is called before the first frame update
     void Start()
@@ -43,9 +44,27 @@ public class PlayerMovementController : MonoBehaviour
     }
     void Update()
     {
+        if (isGrounded)
+        {
+            ads.Stop();
+        }
+
+        if (Input.GetKey("left shift"))
+        {
+            GetComponent<AudioSource>().pitch = 1.2f;
+        } else
+        {
+            GetComponent<AudioSource>().pitch = 0.9f;
+        }
 
         if (isPaused) {
             return;
+        }
+
+        if (onePlay)
+        {
+            onePlay = false;
+            GetComponent<AudioSource>().Play();
         }
 
         /*For jumping.*/
@@ -53,6 +72,28 @@ public class PlayerMovementController : MonoBehaviour
         {
             rb.AddForce(new Vector3(0, jump_power, 0), ForceMode.Impulse);
             isGrounded = false;
+            GetComponent<AudioSource>().Stop();
+            transform.GetChild(1).gameObject.GetComponent<AudioSource>().Play();
+        }
+
+    }
+
+    void FootStepSounds()
+    {
+        if (!movement.Equals(new Vector3(0f, 0f, 0f)) && isGrounded)
+        {
+           if (!GetComponent<AudioSource>().isPlaying)
+            {
+                onePlay = true;
+            }
+        }
+        else if (!isGrounded)
+        {
+            GetComponent<AudioSource>().Stop();
+        }
+        else
+        {
+            GetComponent<AudioSource>().Stop();
         }
 
     }
@@ -68,7 +109,7 @@ public class PlayerMovementController : MonoBehaviour
         float move_vertical = Input.GetAxis("Vertical");
         float move_horizontal = Input.GetAxis("Horizontal");
 
-        Vector3 movement = new Vector3(0.0f, 0.0f, move_vertical);
+        movement = new Vector3(0.0f, 0.0f, move_vertical);
         transform.Rotate(0, move_horizontal * rotate_speed * Time.deltaTime, 0);
 
         if (move_vertical < 0)
@@ -77,14 +118,18 @@ public class PlayerMovementController : MonoBehaviour
 
             //Dog moves slower when backing up
             transform.Translate(movement * (move_speed * .4f) * Time.deltaTime, Space.Self);
+            FootStepSounds();
         }
         else
         {
+            FootStepSounds();
+
             /*Allow for forward movement.*/
             if (!(Input.GetKey("left shift") || Input.GetButton("LeftBumper")))
             {
 
                 isSprinting = false;
+
                 transform.Translate(movement * move_speed * Time.deltaTime, Space.Self);
 
             }
@@ -109,9 +154,17 @@ public class PlayerMovementController : MonoBehaviour
                 isGliding = true;
                 rb.AddForce(Physics.gravity * 0.5f * rb.mass);
                 rb.AddForce(transform.forward * glide_power);
+                if (!ads.isPlaying)
+                {
+                    ads.Play();
+                }
             }
             else
             {
+                if (ads.isPlaying)
+                {
+                    ads.Stop();
+                }
                 //let go of jump button and gravity is reapplied.
                 rb.useGravity = true;
                 isGliding = false;

@@ -29,6 +29,8 @@ public class Quest_Dialogue_Logic : MonoBehaviour
     
     
     public void TriggerDialogue() {
+        player.GetComponent<AudioSource>().Stop();
+
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue, transform.gameObject);
     }
 
@@ -45,6 +47,32 @@ public class Quest_Dialogue_Logic : MonoBehaviour
         d = Vector3.Distance(player.transform.position, NPC.transform.position);
         originalRot = transform.rotation;
         sentencesNum = dialogue.sentences.Length;
+
+        List<Quest> qs = player.GetComponent<QuestHolder>().quests;
+        string title = gq.quest.title;
+        for(int i = 0; i < qs.Count; i++)
+        {
+            if(title.Equals(qs[i].title))
+            {
+                UpdateQuest(qs[i]);
+            }
+        }
+    }
+
+    void UpdateQuest(Quest q)
+    {
+        gq.questGiven = true;
+        if (!q.gotItem)
+        {
+            gq.SpawnItem();
+            UpdateDialogue_QuestStarted();
+        } else if(q.gotItem && !q.complete)
+        {
+            UpdateDialogue_QuestFinished_BeforeReward();
+        } else if(q.gotItem && q.complete)
+        {
+            UpdateDialogue_QuestFinished_AfterReward();
+        }
     }
 
     public void generateReward()

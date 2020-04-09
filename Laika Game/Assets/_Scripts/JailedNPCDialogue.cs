@@ -21,6 +21,7 @@ public class JailedNPCDialogue : MonoBehaviour
     public bool dialogueEnded;
     
     public void TriggerDialogue() {
+        player.GetComponent<AudioSource>().Stop();
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue, transform.gameObject);
     }
 

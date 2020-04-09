@@ -21,14 +21,17 @@ EditorBuildSettings:
     path: Assets/_Scenes/Dog_Free.unity
     guid: 34c7bb5c3ec654f41963341544080c3f
   - enabled: 1
-    path: Assets/_Scenes/FixedCameraTest.unity
-    guid: 8fe870d6fc9512240a6679a89b1e2143
-  - enabled: 1
     path: Assets/_Scenes/Wild West.unity
     guid: 8edcd5d5afcb5a04aa6b8a6a9362a6c6
   - enabled: 1
     path: Assets/_Scenes/Dock hop.unity
     guid: 2ae5a166b9414d849b5202f2587f109a
+  - enabled: 1
+    path: Assets/_Scenes/Roll puzzle_FixedCams.unity
+    guid: f7592a4c0ce1b214b9f3ed0da92d9baa
+  - enabled: 1
+    path: Assets/_Scenes/FixedCameraTest.unity
+    guid: 8fe870d6fc9512240a6679a89b1e2143
   - enabled: 1
     path: Assets/_Scenes/LightPuzzle_FixedCamera.unity
     guid: 22594d73a3c1b5349a47eff094398fcf
@@ -44,9 +47,6 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/_Scenes/Roll puzzle_FixedCams.unity
-    guid: f7592a4c0ce1b214b9f3ed0da92d9baa
   - enabled: 0
     path: Assets/_Scenes/Dialogue test.unity
     guid: c4e781f16d9c3e845b3779b1e59d3afd

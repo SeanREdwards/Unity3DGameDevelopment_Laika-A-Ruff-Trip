@@ -1852,7 +1852,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4410,7 +4410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &2018786687339177245
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4610,6 +4610,7 @@ MonoBehaviour:
   PauseButtons: {fileID: 0}
   options: {fileID: 0}
   minimap: {fileID: 0}
+  reset: {fileID: 0}
 --- !u!136 &2472336072200689176
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18186,6 +18187,7 @@ MonoBehaviour:
   ball: {fileID: 0}
   guide: {fileID: 171205368876856669}
   head: {fileID: 0}
+  ads: {fileID: 0}
 --- !u!222 &8454246776850911711
 CanvasRenderer:
   m_ObjectHideFlags: 0

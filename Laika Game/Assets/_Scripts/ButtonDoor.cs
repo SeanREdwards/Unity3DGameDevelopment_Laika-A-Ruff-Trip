@@ -45,6 +45,7 @@ public class ButtonDoor : MonoBehaviour
         if (other.gameObject.name == "Laika") {
             if (Input.GetKeyDown("f")) { 
                 Door.Open();
+                GetComponent<AudioSource>().Play();
             }
         }
     }
