@@ -67,8 +67,10 @@
     <Compile Include="Assets\_Scripts\ActivateQuestLog.cs" />
     <Compile Include="Assets\_Scripts\BackAndForthMovement.cs" />
     <Compile Include="Assets\_Scripts\BackForthWRotate.cs" />
+    <Compile Include="Assets\_Scripts\BallButtonMove.cs" />
     <Compile Include="Assets\_Scripts\BallSpawn.cs" />
     <Compile Include="Assets\_Scripts\BaseDialogueClass.cs" />
+    <Compile Include="Assets\_Scripts\Block.cs" />
     <Compile Include="Assets\_Scripts\BossBackAndForth.cs" />
     <Compile Include="Assets\_Scripts\BossHealth.cs" />
     <Compile Include="Assets\_Scripts\ButtonAudio.cs" />
@@ -94,6 +96,7 @@
     <Compile Include="Assets\_Scripts\GameHandler.cs" />
     <Compile Include="Assets\_Scripts\GiveQuest.cs" />
     <Compile Include="Assets\_Scripts\GoalScript.cs" />
+    <Compile Include="Assets\_Scripts\HideCursor.cs" />
     <Compile Include="Assets\_Scripts\INPCState.cs" />
     <Compile Include="Assets\_Scripts\IntroCutsceneDialogue.cs" />
     <Compile Include="Assets\_Scripts\JailedNPCDialogue.cs" />
@@ -197,6 +200,7 @@
     <Compile Include="Assets\SwitchToFullMap.cs" />
     <None Include="Assets\Wormhole\worm_hole_core.shader" />
     <None Include="Assets\Wormhole\worm_hole_core_LOCAL_713.shader" />
+    <None Include="Assets\MegaPack1Lite\RomanCityPack1Lite\README.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
@@ -221,6 +225,7 @@
     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassFree.shader" />
     <None Include="Assets\Wormhole\worm_hole_core_REMOTE_713.shader" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardAddSetup.cginc" />
+    <None Include="Assets\MegaPack1Lite\EnchantedForestPack1\README.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
@@ -229,76 +234,81 @@
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\MegaPack1Lite\TropicalIslandPack1\README.txt" />
     <None Include="Assets\OutlineShaders\UltimateOutline.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
+    <None Include="Assets\MegaPack1Lite\ToolsAndWeapons\README.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaSetup.cginc" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\External Assets\PolygonSciFiCity\_Shaders\Polygon_UVScroll.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\MegaPack1Lite\GreekPack1Lite\README.txt" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
     <None Include="Assets\AddOns\Mg3D_Hats\README.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\MegaPack1Lite\Steampunk\README.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\MegaPack1Lite\SciFiPack1\README.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLit.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
     <None Include="Assets\External Assets\PolygonSciFiCity\_Shaders\Polygon_Triplanar.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.CacheServer">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ResourceManager">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Addressables.Editor">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Addressables">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/tarun/Desktop/SP20/5912/Timebox 3/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Jhoj/Documents/GitHub/Laika/Laika Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -476,12 +486,6 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
