@@ -23,7 +23,9 @@ public class MechanicDialogueUpdater : MonoBehaviour
     {
         if (!onePress)
         {
+            laika.transform.GetChild(8).gameObject.SetActive(true);
             laika.GetComponentInChildren<LoadNextScene>().NextScene();
+            nextLevelWindow.SetActive(false);
         }
         onePress = true;
 
