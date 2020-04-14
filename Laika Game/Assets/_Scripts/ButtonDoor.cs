@@ -10,6 +10,20 @@ public class ButtonDoor : MonoBehaviour
     public GameObject doorCam;
     Animator DoorAnimator;
     GameObject player;
+    bool canPressButton = false;
+
+    private void Update()
+    {
+        if (canPressButton)
+        {
+            if (Input.GetKeyDown("f"))
+            {
+                Door.Open();
+                GetComponent<AudioSource>().Play();
+            }
+        }
+    }
+
     private void Awake() {
         DoorAnimator = Door.GetComponent<Animator>();
         player = GameObject.Find("Player");
@@ -19,7 +33,7 @@ public class ButtonDoor : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.name == "Laika") {
             helpText.gameObject.SetActive(true);
-
+            canPressButton = true;
             if(doorCam != null)
             {
                 doorCam.SetActive(true);
@@ -31,6 +45,7 @@ public class ButtonDoor : MonoBehaviour
     private void OnTriggerExit(Collider other) {
         if (other.gameObject.name == "Laika") {
             helpText.gameObject.SetActive(false);
+            canPressButton = false;
             if (doorCam != null)
             {
                 doorCam.SetActive(false);
@@ -40,7 +55,7 @@ public class ButtonDoor : MonoBehaviour
 
     }
 
-
+    /*
     private void OnTriggerStay(Collider other) {
         if (other.gameObject.name == "Laika") {
             if (Input.GetKeyDown("f")) { 
@@ -49,5 +64,5 @@ public class ButtonDoor : MonoBehaviour
             }
         }
     }
-
+    */
 }

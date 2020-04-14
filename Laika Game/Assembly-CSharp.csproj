@@ -73,6 +73,7 @@
     <Compile Include="Assets\_Scripts\BossHealth.cs" />
     <Compile Include="Assets\_Scripts\ButtonAudio.cs" />
     <Compile Include="Assets\_Scripts\ButtonDoor.cs" />
+    <Compile Include="Assets\_Scripts\ButtonDoor_BridgeUp.cs" />
     <Compile Include="Assets\_Scripts\CameraShake.cs" />
     <Compile Include="Assets\_Scripts\CameraShakeContinuous.cs" />
     <Compile Include="Assets\_Scripts\CameraTriggerSwitch.cs" />
@@ -236,9 +237,11 @@
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\MegaPack1Lite\TropicalIslandPack1\README.txt" />
     <None Include="Assets\OutlineShaders\UltimateOutline.shader" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
+    <None Include="Assets\MegaPack1Lite\ToolsAndWeapons\README.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaSetup.cginc" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -248,7 +251,9 @@
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
     <None Include="Assets\AddOns\Mg3D_Hats\README.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\MegaPack1Lite\Steampunk\README.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\MegaPack1Lite\SciFiPack1\README.txt" />
     <None Include="Assets\Text_Fonts\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLit.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
