@@ -72,6 +72,7 @@ public class Quest_Dialogue_Logic : MonoBehaviour
         } else if(q.gotItem && !q.complete)
         {
             UpdateDialogue_QuestFinished_BeforeReward();
+            questIndex = i;
         } else if(q.gotItem && q.complete)
         {
             UpdateDialogue_QuestFinished_AfterReward();
