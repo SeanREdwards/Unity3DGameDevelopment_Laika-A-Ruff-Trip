@@ -8,6 +8,7 @@ public class MainMenuButtons : MonoBehaviour
 
     public GameObject menu;
     public GameObject options;
+    public GameObject credits;
     public GameHandler Game;
     public GameObject laika;
     public GameObject reset;
@@ -53,4 +54,17 @@ public class MainMenuButtons : MonoBehaviour
         options.SetActive(false);
         menu.SetActive(true);
     }
+
+    public void OpenCredits()
+    {
+        menu.SetActive(false);
+        credits.SetActive(true);
+    }
+
+    public void CloseCredits()
+    {
+        credits.SetActive(false);
+        menu.SetActive(true);
+    }
+
 }

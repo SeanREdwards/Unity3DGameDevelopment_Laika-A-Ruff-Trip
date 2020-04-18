@@ -137,7 +137,7 @@ public class IntroCutsceneDialogue : MonoBehaviour
         playerCam = player.transform.GetChild(6).gameObject;
         q = player.GetComponent<QuestHolder>().quests;
         d = Vector3.Distance(player.transform.position, transform.position);
-        TalkDistance = 500;
+        TalkDistance = 5000;
 
 
     }

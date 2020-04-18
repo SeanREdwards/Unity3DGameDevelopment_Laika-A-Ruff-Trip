@@ -15,11 +15,11 @@ public class Quest
     public GameObject itemSpawnLocation;
     //public Vector3 itemSpawn;
     public GameObject collectibleItem;
-    [HideInInspector]
+    //[HideInInspector]
     public bool gotItem = false;
     [HideInInspector]
     public int questIndex;
-    [HideInInspector]
+    //[HideInInspector]
     public GameObject QuestGiver;
     [HideInInspector]
     public bool rewardReceived = false;

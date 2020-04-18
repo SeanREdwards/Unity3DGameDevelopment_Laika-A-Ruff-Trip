@@ -54,17 +54,20 @@ public class Quest_Dialogue_Logic : MonoBehaviour
         {
             if(title.Equals(qs[i].title))
             {
-                UpdateQuest(qs[i]);
+                UpdateQuest(qs[i], i);
             }
         }
     }
 
-    void UpdateQuest(Quest q)
+    void UpdateQuest(Quest q, int i)
     {
         gq.questGiven = true;
+        print(i);
+        print(q.title);
+        gq.quest.collectibleItem.GetComponent<QuestItem>().questIndex = i;
         if (!q.gotItem)
         {
-            gq.SpawnItem();
+            gq.SpawnItem(1);
             UpdateDialogue_QuestStarted();
         } else if(q.gotItem && !q.complete)
         {

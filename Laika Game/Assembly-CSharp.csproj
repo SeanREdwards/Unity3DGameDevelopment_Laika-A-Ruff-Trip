@@ -67,10 +67,14 @@
     <Compile Include="Assets\_Scripts\ActivateQuestLog.cs" />
     <Compile Include="Assets\_Scripts\BackAndForthMovement.cs" />
     <Compile Include="Assets\_Scripts\BackForthWRotate.cs" />
+    <Compile Include="Assets\_Scripts\BagQuestItem.cs" />
     <Compile Include="Assets\_Scripts\BallSpawn.cs" />
     <Compile Include="Assets\_Scripts\BaseDialogueClass.cs" />
+    <Compile Include="Assets\_Scripts\BeerQuestItem.cs" />
     <Compile Include="Assets\_Scripts\BossBackAndForth.cs" />
     <Compile Include="Assets\_Scripts\BossHealth.cs" />
+    <Compile Include="Assets\_Scripts\BottleQuestItem.cs" />
+    <Compile Include="Assets\_Scripts\BoxQuestItem.cs" />
     <Compile Include="Assets\_Scripts\ButtonAudio.cs" />
     <Compile Include="Assets\_Scripts\ButtonDoor.cs" />
     <Compile Include="Assets\_Scripts\ButtonDoor_BridgeUp.cs" />
@@ -81,6 +85,7 @@
     <Compile Include="Assets\_Scripts\CloseQuestCompleteWindow.cs" />
     <Compile Include="Assets\_Scripts\ColliderPickup.cs" />
     <Compile Include="Assets\_Scripts\CollisionChecker.cs" />
+    <Compile Include="Assets\_Scripts\ComputerQuestItem.cs" />
     <Compile Include="Assets\_Scripts\DestroySelf.cs" />
     <Compile Include="Assets\_Scripts\Dialogue.cs" />
     <Compile Include="Assets\_Scripts\DialogueManager.cs" />

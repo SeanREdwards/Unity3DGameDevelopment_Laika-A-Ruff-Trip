@@ -28,22 +28,25 @@ public class GiveQuest : MonoBehaviour
         player.GetComponent<QuestHolder>().quests.Add(quest);
         quest.questIndex = player.GetComponent<QuestHolder>().quests.Count-1;
         player.gameObject.GetComponent<PlayerMovementController>().enabled = true;
-        SpawnItem();
+        SpawnItem(0);
         transform.GetComponent<Quest_Dialogue_Logic>().questIndex = quest.questIndex;
 
     }
 
-    public void SpawnItem()
+    public void SpawnItem(int i)
     {
         GameObject questItem = Instantiate(quest.collectibleItem, quest.itemSpawnLocation.transform.position, Quaternion.identity);
-        questItem.GetComponent<QuestItem>().questIndex = quest.questIndex;
+        if (i != 1) { questItem.GetComponent<QuestItem>().questIndex = quest.questIndex; }
     }
 
     public void UpdateWindow()
     {
         questWindow.SetActive(true);
         questWindow.transform.GetChild(3).GetComponent<Text>().text = quest.completedTitle;
+        questWindow.transform.GetChild(3).GetComponent<Text>().color = Color.white;
+
         questWindow.transform.GetChild(2).GetComponent<Text>().text = quest.completedDescription;
+        questWindow.transform.GetChild(2).GetComponent<Text>().color = Color.white;
 
         //questTitleText.text = quest.completedTitle;
         //questDescriptionText.text = quest.completedDescription;
@@ -64,7 +67,7 @@ public class GiveQuest : MonoBehaviour
     {
         player = GameObject.Find("Player");
         quest.QuestGiver = transform.gameObject;
-        quest.giverName = transform.gameObject.name;
+        quest.giverName = transform.parent.gameObject.name;
         button = questWindow.transform.GetChild(1).GetComponent<Button>();
     }
 
@@ -73,7 +76,9 @@ public class GiveQuest : MonoBehaviour
 
         questWindow.SetActive(true);
         questWindow.transform.GetChild(3).GetComponent<Text>().text = quest.title;
+        questWindow.transform.GetChild(3).GetComponent<Text>().color = Color.white;
         questWindow.transform.GetChild(2).GetComponent<Text>().text = quest.description;
+        questWindow.transform.GetChild(2).GetComponent<Text>().color = Color.white;
         questIndex = quest.questIndex;
         GetComponent<Quest_Dialogue_Logic>().UpdateDialogue_QuestStarted();
         button.GetComponentInChildren<Text>().text = "Accept";
