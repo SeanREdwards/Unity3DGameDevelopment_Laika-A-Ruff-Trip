@@ -19,6 +19,8 @@ public class JailedNPCDialogue : MonoBehaviour
     public bool isMechanic;
     [HideInInspector]
     public bool dialogueEnded;
+    public bool bossFight;
+    public GameObject bossOverviewCam;
     
     public void TriggerDialogue() {
         player.GetComponent<AudioSource>().Stop();
@@ -45,14 +47,21 @@ public class JailedNPCDialogue : MonoBehaviour
         player = GameObject.Find("Player");
         q = player.GetComponent<QuestHolder>().quests;
         d = Vector3.Distance(player.transform.position, transform.position);
-        TalkDistance = 2;
+        TalkDistance = 3;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
+        if(bossFight && dialogueEnded)
+        {
+            player.transform.GetChild(6).gameObject.SetActive(true);
+            bossOverviewCam.SetActive(false);
+            dialogueEnded = false;
+        }
+        
         if (questTitle_ToUpdate != null)
         {
             for (int i = 0; i < q.Count; i++)

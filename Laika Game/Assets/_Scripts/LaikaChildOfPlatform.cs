@@ -19,6 +19,7 @@ public class LaikaChildOfPlatform : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        
         if (other.gameObject == Laika)
         {
             Laika.transform.parent.parent = transform;

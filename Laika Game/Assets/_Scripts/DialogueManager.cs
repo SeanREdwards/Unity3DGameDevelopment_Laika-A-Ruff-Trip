@@ -13,7 +13,7 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueText;
     private Queue<string> sentences = new Queue<string>();
     private IntroCutsceneDialogue intro;
-
+    private JailedNPCDialogue jailed;
     private Quest_Dialogue_Logic q2d;
     private GiveQuest gq;
     private MechanicDialogueUpdater mechD;
@@ -34,6 +34,7 @@ public class DialogueManager : MonoBehaviour
         intro = talkingNPC.GetComponent<IntroCutsceneDialogue>();
         q2d = talkingNPC.GetComponent<Quest_Dialogue_Logic>();
         mechD = talkingNPC.GetComponent<MechanicDialogueUpdater>();
+        jailed = talkingNPC.GetComponent<JailedNPCDialogue>();
 
         talking = true;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", true);
@@ -79,7 +80,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue() {
         GetComponent<AudioSource>().Stop();
-
+        print("enddd");
         talking = false;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", false);
         player.gameObject.GetComponent<PlayerMovementController>().enabled = true;
@@ -88,6 +89,11 @@ public class DialogueManager : MonoBehaviour
         if (intro != null)
         {
             Invoke("IntroSceneCameraSwitch", 1.3f);
+        }
+
+        if(jailed != null)
+        {
+            jailed.dialogueEnded = true;
         }
 
         if(q2d != null)

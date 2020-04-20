@@ -9,15 +9,25 @@ public class BossHealth : MonoBehaviour
     public int health;
     public Slider healthBar;
     Animator anim;
+    Color alphaColor;
+    float timeToFade = 1f;
+    bool canFade = false;
     AudioSource audS;
-    public GameObject victory;
+    public GameObject victory, bossDefeat;
     public GameObject bossMusic;
     private void Start()
     {
         healthBar.value = 100;
-        health = 100;
+        health = 25;
         anim = GetComponent<Animator>();
         audS = this.GetComponent<AudioSource>();
+        //alphaColor = transform.GetChild(1).GetComponent<SkinnedMeshRenderer>().material.color;
+        //alphaColor.a = 0;
+    }
+
+    private void Update()
+    {
+
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -32,15 +42,24 @@ public class BossHealth : MonoBehaviour
             } else { 
                             anim.SetTrigger("Death");
                 this.GetComponent<BossBackAndForth>().enabled = false;
+                BossDefeat();
                 Invoke("VictorySound", 0.5f);
             }
         }
     }
 
+    void BossDefeat()
+    {
+        canFade = true;
+    }
+
+
     void VictorySound()
     {
         victory.SetActive(true);
         bossMusic.SetActive(false);
+        GetComponent<BossWander>().enabled = false;
+        bossDefeat.SetActive(true);
     }
     
 

@@ -77,7 +77,15 @@ public class PlayerObjectMovement : MonoBehaviour
         }
 
         //We set the object parent to our guide empty object.
-        ball.transform.SetParent(guide);
+        if (ball != null)
+        {
+            ball.transform.SetParent(guide);
+        } else
+        {
+            throw_drop();
+            CancelInvoke();
+            return;
+        }
         if (transform.childCount >= 10 && transform.GetChild(9).gameObject.name == "Pickup Particles")
         {
 
@@ -128,9 +136,11 @@ public class PlayerObjectMovement : MonoBehaviour
             return;
 */
         //Set our Gravity to true again.
-        ball.GetComponent<Rigidbody>().useGravity = true;
-        ball.GetComponent<Rigidbody>().isKinematic = false;
-
+        if (ball != null)
+        {
+            ball.GetComponent<Rigidbody>().useGravity = true;
+            ball.GetComponent<Rigidbody>().isKinematic = false;
+        }
         if (ads.isPlaying)
         {
             ads.Stop();
@@ -148,10 +158,13 @@ public class PlayerObjectMovement : MonoBehaviour
         // we don't have anything to do with our ball field anymore
         ball = null;
         //Apply velocity on throwing
-        guide.GetChild(0).gameObject.GetComponent<Rigidbody>().velocity = transform.forward * speed;
+        if (guide.childCount != 0)
+        {
+            guide.GetChild(0).gameObject.GetComponent<Rigidbody>().velocity = transform.forward * speed;
 
-        //Unparent our ball
-        guide.GetChild(0).parent = null;
+            //Unparent our ball
+            guide.GetChild(0).parent = null;
+        }
         canHold = true;
         CancelInvoke();
     }

@@ -35,7 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/FixedCameraTest.unity
     guid: 8fe870d6fc9512240a6679a89b1e2143
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scenes/BossFight.unity
     guid: 167b0a4c483b3744e83d0afdaaf18724
   - enabled: 1
