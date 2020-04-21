@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public GameObject hold;
     public Text dialogueText;
+    public GameObject pause;
     private Queue<string> sentences = new Queue<string>();
     private IntroCutsceneDialogue intro;
     private JailedNPCDialogue jailed;
@@ -29,7 +30,7 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void StartDialogue(Dialogue dialogue, GameObject talkingNPC) {
-
+        pause.SetActive(false);
         gq = talkingNPC.GetComponent<GiveQuest>();
         intro = talkingNPC.GetComponent<IntroCutsceneDialogue>();
         q2d = talkingNPC.GetComponent<Quest_Dialogue_Logic>();
@@ -80,7 +81,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue() {
         GetComponent<AudioSource>().Stop();
-
+        pause.SetActive(true);
         talking = false;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", false);
         player.gameObject.GetComponent<PlayerMovementController>().enabled = true;

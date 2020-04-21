@@ -11,6 +11,8 @@ public class PlayerStartingSpawn : MonoBehaviour
         GameObject player  = GameObject.Find("Player");
         player.transform.position = transform.position;
 
+        player.transform.GetChild(4).gameObject.SetActive(true);
+
 
         if (fixedCameraLevel)
         {

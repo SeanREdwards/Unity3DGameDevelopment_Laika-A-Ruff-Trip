@@ -2379,6 +2379,11 @@ PrefabInstance:
       value: Well, it's over there... Try looking for a button to bring up the path
         to it.
       objectReference: {fileID: 0}
+    - target: {fileID: 5842986164683177065, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Leebrik
+      objectReference: {fileID: 0}
     - target: {fileID: 6655493885810375041, guid: 0cd0a7ed9d548034da11b185ca6e6e89,
         type: 3}
       propertyPath: m_LocalRotation.x

@@ -21659,7 +21659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Mechanic
+    name: Idul
     sentences:
     - Alright Laika, this is it...
     - It's been fun fixing up your rocket! Now it's good to go!
@@ -21686,7 +21686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Biker NPC
+    name: Edruk
     sentences:
     - Oh, it's you again! Heading home?
     - Safe travels! Try not to crash land again!

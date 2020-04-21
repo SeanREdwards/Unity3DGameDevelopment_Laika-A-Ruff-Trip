@@ -9,6 +9,7 @@ public class LoadNextScene : MonoBehaviour
     public Slider slider;
     public Text text;
     public GameObject laika;
+    public GameObject dialogueManager;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,7 @@ public class LoadNextScene : MonoBehaviour
 
     public void NextScene()
     {
-
+        dialogueManager.SetActive(false);
         slider.value = 0;
         text.text = "0%";
         StartCoroutine(LoadNewScene());

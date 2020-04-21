@@ -40604,6 +40604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e6e2fc7f77b014cb21df5a55d23813, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  paused: 0
   Game: {fileID: 5290363233401116443}
   PauseMenu: {fileID: 8719848387025584647}
   PauseButtons: {fileID: 0}
@@ -40611,6 +40612,11 @@ MonoBehaviour:
   minimap: {fileID: 0}
   reset: {fileID: 0}
   controls: {fileID: 0}
+  backstory: {fileID: 0}
+  talktip: {fileID: 0}
+  pickuptip: {fileID: 0}
+  pause: {fileID: 0}
+  ads: {fileID: 0}
 --- !u!136 &2472336073438190549
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -45944,6 +45950,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9222718059374321219, guid: 1c9e5489ba6ea5b41ab3f1c140150c56,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Onqix
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222718060552128316, guid: 1c9e5489ba6ea5b41ab3f1c140150c56,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Ignom
+      objectReference: {fileID: 0}
+    - target: {fileID: 9222718061268896068, guid: 1c9e5489ba6ea5b41ab3f1c140150c56,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Idul
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c9e5489ba6ea5b41ab3f1c140150c56, type: 3}
 --- !u!4 &3381035379742155701 stripped
@@ -47170,7 +47191,9 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 0}
   standard: {fileID: 0}
   outlined: {fileID: 4800000, guid: 64278aebde17998419ec614c148fd8ca, type: 3}
+  tooltip: {fileID: 0}
   lineDown: {fileID: 8529431541788369319}
+  pause: {fileID: 0}
   pointsLineDown:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
@@ -54266,6 +54289,7 @@ MonoBehaviour:
   guide: {fileID: 171205369786906768}
   head: {fileID: 0}
   ads: {fileID: 0}
+  tooltip: {fileID: 0}
 --- !u!222 &8454246777828301842
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -726,6 +726,7 @@ MonoBehaviour:
   slider: {fileID: 3400119808133634497}
   text: {fileID: 7877837688654786986}
   laika: {fileID: 2002893896567041394}
+  dialogueManager: {fileID: 2284992952083631207}
 --- !u!1 &467278494360139299
 GameObject:
   m_ObjectHideFlags: 0
@@ -15359,6 +15360,7 @@ MonoBehaviour:
   nameText: {fileID: 8662817291746879409}
   hold: {fileID: 0}
   dialogueText: {fileID: 7577855253582095510}
+  pause: {fileID: 6139875668222685108}
   talking: 0
 --- !u!82 &120000755
 AudioSource:
