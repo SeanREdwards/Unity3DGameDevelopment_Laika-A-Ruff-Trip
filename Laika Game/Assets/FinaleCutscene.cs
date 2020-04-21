@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class FinaleCutscene : MonoBehaviour
 {
     public GameObject finalCam, laikaGif, logo;
+    public GameObject laikaText, laikaPic;
     GameObject player;
     public Animator animator;
     public GameObject fin;
@@ -85,7 +86,24 @@ public class FinaleCutscene : MonoBehaviour
         StartCoroutine(FadeTextToFullAlpha(1f, t));
         StartCoroutine(FadeImageToFullAlpha(1f, laikaGif.GetComponent<Image>()));
         StartCoroutine(FadeImageToFullAlpha(1f, logo.GetComponent<Image>()));
-        Invoke("Quit", 4.75f);
+        Invoke("Fadeout", 6f);
+    }
+
+    void Fadeout()
+    {
+        StartCoroutine(FadeTextToZeroAlpha(1f, t));
+        StartCoroutine(FadeImageToZeroAlpha(1f, laikaGif.GetComponent<Image>()));
+        StartCoroutine(FadeImageToZeroAlpha(1f, logo.GetComponent<Image>()));
+        Invoke("LaikaHonor", 2f);
+    }
+
+    void LaikaHonor()
+    {
+        laikaText.SetActive(true);
+        laikaPic.SetActive(true);
+        StartCoroutine(FadeTextToFullAlpha(1f, laikaText.GetComponent<Text>()));
+        StartCoroutine(FadeImageToFullAlpha(1f, laikaPic.GetComponent<Image>()));
+        Invoke("Quit", 6f);
     }
 
     void Quit()
@@ -109,12 +127,33 @@ public class FinaleCutscene : MonoBehaviour
         }
     }
 
+    public IEnumerator FadeTextToZeroAlpha(float t, Text i)
+    {
+        i.color = new Color(i.color.r, i.color.g, i.color.b, 1);
+        while (i.color.a > 0.0f)
+        {
+            i.color = new Color(i.color.r, i.color.g, i.color.b, i.color.a - (Time.deltaTime / t));
+            yield return null;
+        }
+    }
+
+
     public IEnumerator FadeImageToFullAlpha(float t, Image i)
     {
         i.color = new Color(i.color.r, i.color.g, i.color.b, 0);
         while (i.color.a < 1.0f)
         {
             i.color = new Color(i.color.r, i.color.g, i.color.b, i.color.a + (Time.deltaTime / t));
+            yield return null;
+        }
+    }
+
+    public IEnumerator FadeImageToZeroAlpha(float t, Image i)
+    {
+        i.color = new Color(i.color.r, i.color.g, i.color.b, 1);
+        while (i.color.a > 0f)
+        {
+            i.color = new Color(i.color.r, i.color.g, i.color.b, i.color.a - (Time.deltaTime / t));
             yield return null;
         }
     }

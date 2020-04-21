@@ -1094,13 +1094,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: b62f369504a84724683543aa0c4e3dff, type: 3}
+      objectReference: {fileID: 8300000, guid: 0daee76b87c803e438d8cbe9d688cdf2, type: 3}
     - target: {fileID: 5926014593251714210, guid: 46d63c19f482ed04daaef4ba15058d88,
         type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: 24300002, guid: b4add57703713864ca4dca409368cb02,
         type: 2}
+    - target: {fileID: 5926014593251714210, guid: 46d63c19f482ed04daaef4ba15058d88,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.198
+      objectReference: {fileID: 0}
     - target: {fileID: 5926014593251714211, guid: 46d63c19f482ed04daaef4ba15058d88,
         type: 3}
       propertyPath: m_Name
@@ -1193,7 +1198,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542364289}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &1542364291
 Camera:
   m_ObjectHideFlags: 0

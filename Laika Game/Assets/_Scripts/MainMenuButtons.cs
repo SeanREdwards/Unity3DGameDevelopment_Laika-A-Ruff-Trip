@@ -22,6 +22,8 @@ public class MainMenuButtons : MonoBehaviour
     public void PlayButton() {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         //print(laika.name);
+        laika.transform.GetChild(8).gameObject.SetActive(true);
+
         laika.GetComponentInChildren<LoadNextScene>().NextScene();
         //DontDestroyOnLoad(laika);
         reset.SetActive(true);

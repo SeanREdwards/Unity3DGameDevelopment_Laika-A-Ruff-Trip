@@ -15,6 +15,7 @@ public class SettingsMenu : MonoBehaviour
     {
         resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
+        QualitySettings.SetQualityLevel(5);
 
         List<string> options = new List<string>();
         for (int i = 0; i < resolutions.Length; i++)
@@ -41,5 +42,6 @@ public class SettingsMenu : MonoBehaviour
     public void SetFullscreen (bool isFullscreen)
     {
         Screen.fullScreen = isFullscreen;
+        print(QualitySettings.GetQualityLevel());
     }
 }

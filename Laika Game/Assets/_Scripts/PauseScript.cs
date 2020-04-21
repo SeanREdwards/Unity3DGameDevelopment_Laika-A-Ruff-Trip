@@ -15,26 +15,32 @@ public class PauseScript : MonoBehaviour
     public GameObject minimap;
     public GameObject reset;
     public GameObject controls;
+    public GameObject backstory;
     public GameObject talktip;
     public GameObject pickuptip;
+    public CanvasGroup pause;
+    public AudioSource ads;
     bool resettalk = false;
     bool resetpickup = false;
 
     private void Awake()
     {
         paused = false;
+        isPaused = false;
     }
 
     private void Start()
     {
        minimap = GameObject.Find("Quest and Map Canva");
         paused = false;
+        isPaused = false;
     }
     // Update is called once per frame
     void Update()
     {
         if(Input.GetButtonDown("Cancel")) {
             if (isPaused) {
+
                 Resume();
             } else {
                 Pause();
@@ -47,6 +53,7 @@ public class PauseScript : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false;
         paused = false;
+
         if (minimap != null)
         {
             minimap.SetActive(true);
@@ -71,6 +78,13 @@ public class PauseScript : MonoBehaviour
         Time.timeScale = 0f;
         isPaused = true;
         paused = true;
+        minimap = GameObject.Find("Quest and Map Canva");
+
+        if (ads.isPlaying)
+        {
+            ads.Pause();
+        }
+
         if (minimap != null)
         {
             minimap.SetActive(false);
@@ -107,29 +121,50 @@ public class PauseScript : MonoBehaviour
         PauseButtons.SetActive(true);
     }
 
+    public void OpenBackstory()
+    {
+        isPaused = true;
+
+
+
+        backstory.SetActive(true);
+        pause.alpha = 0f;
+        pause.blocksRaycasts = false;
+        //PauseMenu.SetActive(false);
+    }
+
+    public void CloseBackstory()
+    {
+
+
+        backstory.SetActive(false);
+        pause.alpha = 1f;
+        pause.blocksRaycasts = true;
+
+        //PauseMenu.SetActive(true);
+    }
+
     public void OpenControls()
     {
 
-        if (minimap != null)
-        {
-            minimap.SetActive(false);
-        }
 
 
         controls.SetActive(true);
-        PauseMenu.SetActive(false);
+        pause.alpha = 0f;
+        pause.blocksRaycasts = false;
+
+        //PauseMenu.SetActive(false);
     }
 
     public void CloseControls()
     {
-        if (minimap != null)
-        {
-            minimap.SetActive(true);
-        }
 
 
         controls.SetActive(false);
-        PauseMenu.SetActive(true);
+        pause.alpha = 1f;
+        pause.blocksRaycasts = true;
+
+        //PauseMenu.SetActive(true);
     }
 
     public void Quit() {
