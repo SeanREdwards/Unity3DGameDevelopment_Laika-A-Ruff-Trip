@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class BossHealth : MonoBehaviour
 {
+    public GameObject bossText, bossSlider;
+
     [HideInInspector]
     public int health;
     public Slider healthBar;
@@ -18,7 +20,7 @@ public class BossHealth : MonoBehaviour
     private void Start()
     {
         healthBar.value = 100;
-        health = 25;
+        health = 100;
         anim = GetComponent<Animator>();
         audS = this.GetComponent<AudioSource>();
         //alphaColor = transform.GetChild(1).GetComponent<SkinnedMeshRenderer>().material.color;
@@ -33,7 +35,7 @@ public class BossHealth : MonoBehaviour
     {
         if(other.tag == "Cannon_Projectile")
         {
-            health = health - 25;
+            health = health - 20;
             audS.Play();
             healthBar.value = health;
             if (health != 0)
@@ -60,6 +62,14 @@ public class BossHealth : MonoBehaviour
         bossMusic.SetActive(false);
         GetComponent<BossWander>().enabled = false;
         bossDefeat.SetActive(true);
+        Invoke("SliderOff", 1f);
+    }
+
+    void SliderOff()
+    {
+        bossText.SetActive(false);
+        bossSlider.SetActive(false);
+            
     }
     
 

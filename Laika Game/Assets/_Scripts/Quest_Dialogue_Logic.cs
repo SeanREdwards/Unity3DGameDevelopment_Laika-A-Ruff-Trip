@@ -17,6 +17,9 @@ public class Quest_Dialogue_Logic : MonoBehaviour
     public int questIndex;
     public Dialogue questStarted;
     public Dialogue questFinished_NoReward;
+    public GameObject talktip;
+    bool canTalk = false;
+    bool activated = false;
     public Dialogue questFinished_Reward;
     public GameObject reward;
     private Quaternion originalRot;
@@ -43,6 +46,8 @@ public class Quest_Dialogue_Logic : MonoBehaviour
         NPC = this.gameObject;
         gq = GetComponent<GiveQuest>();
         player = GameObject.Find("Player");
+        talktip = player.transform.GetChild(5).GetChild(2).gameObject;
+
         TalkDistance = 2;
         d = Vector3.Distance(player.transform.position, NPC.transform.position);
         originalRot = transform.rotation;
@@ -118,11 +123,37 @@ public class Quest_Dialogue_Logic : MonoBehaviour
 
 
     }
+
+    void ActivateTalkTip()
+    {
+        talktip.SetActive(true);
+    }
+
+    void DeactivateTalkTip()
+    {
+        talktip.SetActive(false);
+    }
+
+
     // Update is called once per frame
     void Update()
     {
 
-        if(finalDialogue && dialogueEnded)
+
+
+        if (canTalk && !activated)
+        {
+            activated = true;
+            ActivateTalkTip();
+        }
+        else if (!canTalk && activated)
+        {
+            activated = false;
+            DeactivateTalkTip();
+        }
+
+
+        if (finalDialogue && dialogueEnded)
         {
             generateReward();
             finalDialogue = false;
@@ -130,11 +161,18 @@ public class Quest_Dialogue_Logic : MonoBehaviour
             dialogueUpdatedBeforeReward = false;
         }
 
+        if (dialogueEnded)
+        {
+            talktip.SetActive(true);
+            dialogueEnded = false;
+        }
+
         d = Vector3.Distance(player.transform.position, NPC.transform.position);
         if (d < TalkDistance) {
+            canTalk = true;
             if (!FindObjectOfType<DialogueManager>().IsTalking()) {
                 if (Input.GetButtonDown("Interact")) {
-
+                    talktip.SetActive(false);
                     TriggerDialogue();
                     player.gameObject.GetComponent<PlayerMovementController>().enabled = false;
                     player.transform.GetChild(1).GetComponent<Animator>().SetFloat("Speed", 0f);
@@ -150,6 +188,8 @@ public class Quest_Dialogue_Logic : MonoBehaviour
             }
             
         } else {
+            // talktip.SetActive(false);
+            canTalk = false;
             transform.rotation = Quaternion.Slerp(transform.rotation, originalRot, 0.1f);
 
         }

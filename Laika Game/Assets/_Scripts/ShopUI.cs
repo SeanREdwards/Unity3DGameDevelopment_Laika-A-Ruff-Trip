@@ -31,6 +31,7 @@ public class ShopUI : MonoBehaviour
     public void Start()
     {
         GameObject Laika = GameObject.Find("Player");
+        PlayerCam = Laika.transform.GetChild(6).gameObject;
         headNub = GameObject.Find("Bip01 HeadNub");
         pajamaHat = headNub.transform.GetChild(0).gameObject;
         magicHat = headNub.transform.GetChild(1).gameObject;
@@ -55,6 +56,7 @@ public class ShopUI : MonoBehaviour
         ButtonsAnimator.SetTrigger("Open");
 
         ShopCam.SetActive(true);
+        PlayerCam = GameObject.Find("Player").transform.GetChild(6).gameObject;
         PlayerCam.SetActive(false);
         
         ShopCam.GetComponent<CinemachineVirtualCamera>().LookAt = Merchant.transform;

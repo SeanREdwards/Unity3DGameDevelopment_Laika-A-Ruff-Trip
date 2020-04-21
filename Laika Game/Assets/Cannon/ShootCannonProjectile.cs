@@ -68,7 +68,7 @@ public class ShootCannonProjectile : MonoBehaviour
         }else if(isCharged == false && other.gameObject.name == "Battery")
         {
             isCharged = true;
-            shots = 200;
+            shots = 3;
             transform.GetChild(0).gameObject.SetActive(true);
             Destroy(other.gameObject);
         }

@@ -13,6 +13,7 @@ public class PlayerObjectMovement : MonoBehaviour
     GameObject ppParticles;
     public GameObject head;
     public AudioSource ads;
+    public GameObject tooltip;
 
     void Update()
     {
@@ -66,6 +67,7 @@ public class PlayerObjectMovement : MonoBehaviour
 
     private void Pickup()
     {
+        tooltip.SetActive(false);
         /*
         if (!ball)
             return;

@@ -85,6 +85,7 @@
     <Compile Include="Assets\_Scripts\CloseQuestCompleteWindow.cs" />
     <Compile Include="Assets\_Scripts\ColliderPickup.cs" />
     <Compile Include="Assets\_Scripts\CollisionChecker.cs" />
+    <Compile Include="Assets\_Scripts\CompleteRestart_Ast.cs" />
     <Compile Include="Assets\_Scripts\ComputerQuestItem.cs" />
     <Compile Include="Assets\_Scripts\DestroySelf.cs" />
     <Compile Include="Assets\_Scripts\Dialogue.cs" />
@@ -140,6 +141,7 @@
     <Compile Include="Assets\_Scripts\RedLightFlashing.cs" />
     <Compile Include="Assets\_Scripts\Respawn.cs" />
     <Compile Include="Assets\_Scripts\Restart.cs" />
+    <Compile Include="Assets\_Scripts\Restart_Ast.cs" />
     <Compile Include="Assets\_Scripts\rotate.cs" />
     <Compile Include="Assets\_Scripts\Rotator.cs" />
     <Compile Include="Assets\_Scripts\Selector.cs" />
@@ -159,6 +161,7 @@
     <Compile Include="Assets\BossFightStart.cs" />
     <Compile Include="Assets\BossWander.cs" />
     <Compile Include="Assets\Cannon\CannonProjectileScript.cs" />
+    <Compile Include="Assets\Cannon\CannonProjectileScript1.cs" />
     <Compile Include="Assets\Cannon\ShootCannonProjectile.cs" />
     <Compile Include="Assets\ChildBattery.cs" />
     <Compile Include="Assets\CitySceneStart.cs" />

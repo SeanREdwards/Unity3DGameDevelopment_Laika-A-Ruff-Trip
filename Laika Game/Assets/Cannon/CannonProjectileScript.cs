@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class CannonProjectileScript : MonoBehaviour
 {
-
+    
     // Start is called before the first frame update
     void Start()
     {
         //Destroy(gameObject, 5f);
+
     }
 
     // Update is called once per frame
@@ -17,9 +18,13 @@ public class CannonProjectileScript : MonoBehaviour
         
     }
 
+   
+
     void OnCollisionEnter(Collision collision)
     {
-        Instantiate(Resources.Load("ProjectileExplosion(Purple)"), gameObject.transform.position, gameObject.transform.rotation);
-        Destroy(gameObject);
+        print(collision.gameObject);
+            Instantiate(Resources.Load("ProjectileExplosion(Purple)"), gameObject.transform.position, gameObject.transform.rotation);
+            Destroy(gameObject);
+        
     }
 }

@@ -15,11 +15,14 @@ public class JailedNPCDialogue : MonoBehaviour
     private float d;
     private List<Quest> q;
     private int sentencesNum;
+    public GameObject talktip;
     public string questTitle_ToUpdate;
     public bool isMechanic;
     [HideInInspector]
     public bool dialogueEnded;
     public bool bossFight;
+    bool canTalk = false;
+    bool activated = false;
     public GameObject bossOverviewCam;
     
     public void TriggerDialogue() {
@@ -45,23 +48,54 @@ public class JailedNPCDialogue : MonoBehaviour
         originalRot = transform.rotation;
         sentencesNum = dialogue.sentences.Length;
         player = GameObject.Find("Player");
+        talktip = player.transform.GetChild(5).GetChild(2).gameObject;
         q = player.GetComponent<QuestHolder>().quests;
         d = Vector3.Distance(player.transform.position, transform.position);
         TalkDistance = 3;
 
     }
 
+    void ActivateTalkTip()
+    {
+        talktip.SetActive(true);
+    }
+
+    void DeactivateTalkTip()
+    {
+        talktip.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {
-        
-        if(bossFight && dialogueEnded)
+
+
+        if (canTalk && !activated)
+        {
+            activated = true;
+            ActivateTalkTip();
+
+        }
+        else if (!canTalk && activated)
+        {
+            activated = false;
+            DeactivateTalkTip();
+        }
+
+        if (bossFight && dialogueEnded)
         {
             player.transform.GetChild(6).gameObject.SetActive(true);
             bossOverviewCam.SetActive(false);
+            talktip.SetActive(true);
             dialogueEnded = false;
         }
-        
+
+        if (dialogueEnded)
+        {
+            talktip.SetActive(true);
+            dialogueEnded = false;
+        }
+
         if (questTitle_ToUpdate != null)
         {
             for (int i = 0; i < q.Count; i++)
@@ -74,8 +108,12 @@ public class JailedNPCDialogue : MonoBehaviour
         }
         d = Vector3.Distance(player.transform.position, transform.position);
         if (d < TalkDistance) {
+            canTalk = true;
+
             if (!FindObjectOfType<DialogueManager>().IsTalking()) {
                 if (Input.GetButtonDown("Interact")) {
+                    talktip.SetActive(false);
+
                     TriggerDialogue();
                     player.gameObject.GetComponent<PlayerMovementController>().enabled = false;
                     player.transform.GetChild(1).GetComponent<Animator>().SetFloat("Speed", 0f);
@@ -91,6 +129,9 @@ public class JailedNPCDialogue : MonoBehaviour
             }
             
         } else {
+            canTalk = false;
+
+            //talktip.SetActive(false);
             transform.rotation = Quaternion.Slerp(transform.rotation, originalRot, 0.1f);
 
         }

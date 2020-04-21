@@ -3152,9 +3152,12 @@ MonoBehaviour:
   updatedDialogue:
     name: 
     sentences: []
+  talktip: {fileID: 0}
   questTitle_ToUpdate: 
   isMechanic: 0
   dialogueEnded: 0
+  bossFight: 0
+  bossOverviewCam: {fileID: 0}
 --- !u!114 &1108130028
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -17,6 +17,7 @@ public class GiveQuest : MonoBehaviour
     public int questIndex;
     [HideInInspector]
     public bool dialogueEnded = false;
+    GameObject talktip;
 
 
 
@@ -42,6 +43,8 @@ public class GiveQuest : MonoBehaviour
     public void UpdateWindow()
     {
         questWindow.SetActive(true);
+        talktip.SetActive(false);
+
         questWindow.transform.GetChild(3).GetComponent<Text>().text = quest.completedTitle;
         questWindow.transform.GetChild(3).GetComponent<Text>().color = Color.white;
 
@@ -66,6 +69,7 @@ public class GiveQuest : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
+        talktip = player.transform.GetChild(5).GetChild(2).gameObject;
         quest.QuestGiver = transform.gameObject;
         quest.giverName = transform.parent.gameObject.name;
         button = questWindow.transform.GetChild(1).GetComponent<Button>();
@@ -75,6 +79,7 @@ public class GiveQuest : MonoBehaviour
     {
 
         questWindow.SetActive(true);
+        talktip.SetActive(false);
         questWindow.transform.GetChild(3).GetComponent<Text>().text = quest.title;
         questWindow.transform.GetChild(3).GetComponent<Text>().color = Color.white;
         questWindow.transform.GetChild(2).GetComponent<Text>().text = quest.description;

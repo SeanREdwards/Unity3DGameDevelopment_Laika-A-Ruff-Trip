@@ -61,7 +61,12 @@ public class BossDefeated : MonoBehaviour
     void SpawnMechanic()
     {
         victoryMusic.SetActive(true);
-        mesh1.transform.localPosition = new Vector3(0, -0.03f, 0);
+        mesh1.GetComponent<Animator>().SetTrigger("Down");
+        Invoke("MechanicAppear", 1.5f);
+    }
+
+    void MechanicAppear()
+    {
         mechanic.SetActive(true);
         Invoke("PlayerControl", 1f);
     }

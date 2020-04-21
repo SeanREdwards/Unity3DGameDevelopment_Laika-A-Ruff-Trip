@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class FinaleCutscene : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class FinaleCutscene : MonoBehaviour
     public Animator animator;
     public GameObject fin;
     public Text t;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -88,8 +90,13 @@ public class FinaleCutscene : MonoBehaviour
 
     void Quit()
     {
-        Application.Quit();
-        print("Quitting now");
+        //Application.Quit();
+        print("QUIT");
+        player.SetActive(true);
+        DontDestroyOnLoad(player);
+        //player.transform.GetChild(10).GetComponent<PauseScript>().Quit();
+        SceneManager.LoadScene(1);
+
     }
 
     public IEnumerator FadeTextToFullAlpha(float t, Text i)

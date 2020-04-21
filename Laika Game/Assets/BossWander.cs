@@ -17,6 +17,7 @@ public class BossWander : MonoBehaviour
     public Transform ProjectileAnchor3;
     private GameObject Laika;
     GameObject player;
+    Animator animator;
     // Use this for initialization
     void Start()
     {
@@ -29,24 +30,19 @@ public class BossWander : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animator = GetComponent<Animator>();
         timer += Time.deltaTime;
 
         if (timer >= wanderTimer)
         {
+            animator.SetBool("Wandering", true);
             Vector3 newPos = RandomNavSphere(transform.position, wanderRadius, -1);
             agent.SetDestination(newPos);
             if (timer >= wanderTimer * 1.5f)
             {
-                ProjectileAnchor1.transform.rotation = Quaternion.Slerp(ProjectileAnchor1.transform.rotation, Quaternion.LookRotation(player.transform.position - ProjectileAnchor1.transform.position), 0.09f);
-                ProjectileAnchor2.transform.rotation = Quaternion.Slerp(ProjectileAnchor2.transform.rotation, Quaternion.LookRotation(player.transform.position - ProjectileAnchor2.transform.position), 0.09f);
-                ProjectileAnchor3.transform.rotation = Quaternion.Slerp(ProjectileAnchor3.transform.rotation, Quaternion.LookRotation(player.transform.position - ProjectileAnchor3.transform.position), 0.09f);
-
-                GameObject projectile1 = (GameObject)Instantiate(cannonBall, ProjectileAnchor1.position, ProjectileAnchor1.rotation);
-                projectile1.GetComponent<Rigidbody>().AddForce(projectile1.transform.forward * force);
-                GameObject projectile2 = (GameObject)Instantiate(cannonBall, ProjectileAnchor2.position, ProjectileAnchor2.rotation);
-                projectile2.GetComponent<Rigidbody>().AddForce(projectile2.transform.forward * force);
-                GameObject projectile3 = (GameObject)Instantiate(cannonBall, ProjectileAnchor3.position, ProjectileAnchor3.rotation);
-                projectile3.GetComponent<Rigidbody>().AddForce(projectile3.transform.forward * force);
+                animator.SetBool("Wandering", false);
+                animator.SetTrigger("Attack");
+                Invoke("Attack", 1.9f);
                 timer = 0;
             }
         }       
@@ -63,5 +59,15 @@ public class BossWander : MonoBehaviour
         NavMesh.SamplePosition(randDirection, out navHit, dist, layermask);
 
         return navHit.position;
+    }
+
+    private void Attack()
+    {
+        GameObject projectile1 = (GameObject)Instantiate(cannonBall, ProjectileAnchor1.position, ProjectileAnchor1.rotation);
+        projectile1.GetComponent<Rigidbody>().AddForce(projectile1.transform.forward * force);
+        GameObject projectile2 = (GameObject)Instantiate(cannonBall, ProjectileAnchor2.position, ProjectileAnchor2.rotation);
+        projectile2.GetComponent<Rigidbody>().AddForce(projectile2.transform.forward * force);
+        GameObject projectile3 = (GameObject)Instantiate(cannonBall, ProjectileAnchor3.position, ProjectileAnchor3.rotation);
+        projectile3.GetComponent<Rigidbody>().AddForce(projectile3.transform.forward * force);
     }
 }

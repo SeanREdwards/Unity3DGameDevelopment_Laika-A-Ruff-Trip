@@ -15,7 +15,9 @@ public class Lines : MonoBehaviour
     public Vector3[] points;
     public Shader standard;
     public Shader outlined;
+    public GameObject tooltip;
     public GameObject lineDown;
+    public GameObject pause;
     public Vector3[] pointsLineDown;
     GameObject player;
     private GameObject playerBall;
@@ -35,6 +37,13 @@ public class Lines : MonoBehaviour
     {
         if (player.GetComponent<PlayerObjectMovement>().ball != null)
         {
+            if (player.GetComponent<PlayerObjectMovement>().canHold)
+            {
+                if (!pause.GetComponent<PauseScript>().paused)
+                {
+                    tooltip.SetActive(true);
+                }
+            }
             //Player to pickup
             pickup = player.GetComponent<PlayerObjectMovement>().ball;
             if (pickup != pickupHold && pickupHold != null)
@@ -61,6 +70,7 @@ public class Lines : MonoBehaviour
             
         } else
         {
+            tooltip.SetActive(false);
             lineRenderer.enabled = false;
             lineRendererDown.enabled = false;
             if (pickup != null)

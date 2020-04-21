@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/MainMenu.unity
     guid: 62496c87a9bd18442922a42ae3b6baef
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scenes/Character Select.unity
     guid: ea7ec207a65f0ad498c75f0de8e1a98a
-  - enabled: 0
+  - enabled: 1
     path: Assets/_Scenes/IntroCutscene.unity
     guid: 93874831c56a0e5468bd0185b0be9e68
   - enabled: 1

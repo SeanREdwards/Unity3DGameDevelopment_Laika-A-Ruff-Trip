@@ -80,7 +80,7 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue() {
         GetComponent<AudioSource>().Stop();
-        print("enddd");
+
         talking = false;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", false);
         player.gameObject.GetComponent<PlayerMovementController>().enabled = true;

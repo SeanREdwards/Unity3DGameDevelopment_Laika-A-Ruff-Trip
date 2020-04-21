@@ -1667,6 +1667,8 @@ MonoBehaviour:
   questTitle_ToUpdate: 
   isMechanic: 0
   dialogueEnded: 0
+  bossFight: 0
+  bossOverviewCam: {fileID: 0}
 --- !u!1001 &241531724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3558,7 +3560,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435299796}
-  m_LocalRotation: {x: 0.07118517, y: 0.90014005, z: -0.16078061, w: 0.39853507}
+  m_LocalRotation: {x: 0.071185164, y: 0.90014005, z: -0.1607806, w: 0.39853507}
   m_LocalPosition: {x: -2.829998, y: 0.29999924, z: -2.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -38502,7 +38504,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185858150}
-  m_LocalRotation: {x: 0.07118517, y: 0.90014005, z: -0.16078061, w: 0.39853507}
+  m_LocalRotation: {x: 0.071185164, y: 0.90014005, z: -0.1607806, w: 0.39853507}
   m_LocalPosition: {x: -54.06524, y: 62.384693, z: -1.2736409}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -66732,6 +66734,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NextLevelTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162309486278939662, guid: d8ae6aab81324d34386260e60d94f3c0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8ae6aab81324d34386260e60d94f3c0, type: 3}

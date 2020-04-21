@@ -10,13 +10,19 @@ public class BallSpawn : MonoBehaviour
     public Text helpText;
     public GameObject ballCam, playerCam;
     private Rigidbody rb;
+    bool canPress;
     void Awake() {
         rb = ball.GetComponent<Rigidbody>();
+        canPress = false;
     }
 
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.name == "Laika") {
             helpText.gameObject.SetActive(true);
+            ballCam.SetActive(true);
+            playerCam.SetActive(false);
+            ballCam.GetComponent<CinemachineVirtualCamera>().LookAt = ball.transform;
+            canPress = true;
         }
     }
 
@@ -26,12 +32,26 @@ public class BallSpawn : MonoBehaviour
             ballCam.SetActive(false);
             playerCam.SetActive(true);
             ballCam.GetComponent<CinemachineVirtualCamera>().LookAt = null;
+            canPress = false;
 
 
         }
     }
 
+    private void Update()
+    {
+        if (canPress)
+        {
+            if (Input.GetKeyDown("f"))
+            {
+                Invoke("SpawnBall", 0.5f);
+                this.GetComponent<AudioSource>().Play();
+            }
+        }
 
+    }
+
+    /*
     private void OnTriggerStay(Collider other) {
         if (other.gameObject.name == "Laika") {
             ballCam.SetActive(true);
@@ -44,6 +64,7 @@ public class BallSpawn : MonoBehaviour
             }
         }
     }
+    */
 
     void SpawnBall()
     {
