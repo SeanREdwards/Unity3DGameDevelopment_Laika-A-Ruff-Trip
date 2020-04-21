@@ -5,14 +5,16 @@ using UnityEngine;
 public class PlayerStartingSpawn : MonoBehaviour
 {
     public bool fixedCameraLevel;
+    //public bool visibleCursor;
     // Start is called before the first frame update
     void Start()
     {
         GameObject player  = GameObject.Find("Player");
         player.transform.position = transform.position;
-
+        player.transform.GetChild(10).gameObject.SetActive(true);
         player.transform.GetChild(4).gameObject.SetActive(true);
-
+        player.transform.GetChild(1).gameObject.GetComponent<BoxCollider>().enabled = true;
+        player.transform.GetChild(5).GetChild(1).GetChild(0).gameObject.SetActive(true);
 
         if (fixedCameraLevel)
         {
@@ -22,6 +24,15 @@ public class PlayerStartingSpawn : MonoBehaviour
             player.transform.GetChild(6).gameObject.SetActive(true);
 
         }
+
+        Cursor.visible = false;
+
+        /*
+        if (visibleCursor)
+        {
+            Cursor.visible = true;
+        }
+        */
     }
 
     // Update is called once per frame

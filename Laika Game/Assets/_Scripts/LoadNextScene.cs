@@ -8,9 +8,10 @@ public class LoadNextScene : MonoBehaviour
 {
     public Slider slider;
     public Text text;
+    public GameObject pause;
     public GameObject laika;
     public GameObject dialogueManager;
-
+    public BoxCollider laikaCollider;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,8 @@ public class LoadNextScene : MonoBehaviour
 
     public void NextScene()
     {
+        laikaCollider.enabled = false;
+        pause.SetActive(false);
         dialogueManager.SetActive(false);
         slider.value = 0;
         text.text = "0%";

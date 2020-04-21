@@ -12,12 +12,15 @@ public class DialogueManager : MonoBehaviour
     public GameObject hold;
     public Text dialogueText;
     public GameObject pause;
+    public GameObject reset;
     private Queue<string> sentences = new Queue<string>();
     private IntroCutsceneDialogue intro;
     private JailedNPCDialogue jailed;
     private Quest_Dialogue_Logic q2d;
     private GiveQuest gq;
+    public ResetLevel rl;
     private MechanicDialogueUpdater mechD;
+    public BoxCollider laikaCollider;
 
     [HideInInspector]
     public bool talking;
@@ -31,6 +34,9 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue, GameObject talkingNPC) {
         pause.SetActive(false);
+        reset.SetActive(false);
+        rl.enabled = false;
+        laikaCollider.enabled = false;
         gq = talkingNPC.GetComponent<GiveQuest>();
         intro = talkingNPC.GetComponent<IntroCutsceneDialogue>();
         q2d = talkingNPC.GetComponent<Quest_Dialogue_Logic>();
@@ -81,7 +87,11 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue() {
         GetComponent<AudioSource>().Stop();
+        rl.enabled = true;
+        reset.SetActive(true);
         pause.SetActive(true);
+        laikaCollider.enabled = true;
+
         talking = false;
         animator.gameObject.GetComponent<Animator>().SetBool("IsOpen", false);
         player.gameObject.GetComponent<PlayerMovementController>().enabled = true;

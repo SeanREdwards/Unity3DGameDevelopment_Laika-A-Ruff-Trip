@@ -25,6 +25,7 @@ public class GiveQuest : MonoBehaviour
     {
 
         questWindow.SetActive(false);
+        Cursor.visible = false;
         quest.isActive = true;
         player.GetComponent<QuestHolder>().quests.Add(quest);
         quest.questIndex = player.GetComponent<QuestHolder>().quests.Count-1;
@@ -44,6 +45,7 @@ public class GiveQuest : MonoBehaviour
     {
         questWindow.SetActive(true);
         talktip.SetActive(false);
+        Cursor.visible = true;
 
         questWindow.transform.GetChild(3).GetComponent<Text>().text = quest.completedTitle;
         questWindow.transform.GetChild(3).GetComponent<Text>().color = Color.white;
@@ -63,6 +65,7 @@ public class GiveQuest : MonoBehaviour
     void CloseWindow()
     {
         questWindow.SetActive(false);
+        Cursor.visible = false;
     }
 
     // Start is called before the first frame update
@@ -77,7 +80,7 @@ public class GiveQuest : MonoBehaviour
 
     void BeginQuest()
     {
-
+        Cursor.visible = true;
         questWindow.SetActive(true);
         talktip.SetActive(false);
         questWindow.transform.GetChild(3).GetComponent<Text>().text = quest.title;

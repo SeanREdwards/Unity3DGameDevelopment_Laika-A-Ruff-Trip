@@ -29,7 +29,7 @@ public class SettingsMenu : MonoBehaviour
     }
 
     public void SetVolume(float vol) {
-
+        vol = vol / 2.5f;
         audioMixer.SetFloat("Volume", vol);
 
     }

@@ -49,6 +49,7 @@ public class PauseScript : MonoBehaviour
     }
 
     public void Resume() {
+        Cursor.visible = false;
         PauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
@@ -75,6 +76,8 @@ public class PauseScript : MonoBehaviour
 
     public void Pause() {
         PauseMenu.SetActive(true);
+        Cursor.visible = true;
+
         Time.timeScale = 0f;
         isPaused = true;
         paused = true;
@@ -112,13 +115,18 @@ public class PauseScript : MonoBehaviour
     }
 
     public void OpenOptions() {
-        PauseButtons.SetActive(false);
+        //PauseButtons.SetActive(false);
+        pause.alpha = 0f;
+        pause.blocksRaycasts = false;
         options.SetActive(true);
     }
 
     public void CloseOptions() {
         options.SetActive(false);
-        PauseButtons.SetActive(true);
+        pause.alpha = 1f;
+        pause.blocksRaycasts = true;
+
+        //PauseButtons.SetActive(true);
     }
 
     public void OpenBackstory()
