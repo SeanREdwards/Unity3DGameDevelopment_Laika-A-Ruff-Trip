@@ -138,6 +138,7 @@ public class IntroCutsceneDialogue : MonoBehaviour
         q = player.GetComponent<QuestHolder>().quests;
         d = Vector3.Distance(player.transform.position, transform.position);
         TalkDistance = 5000;
+        Cursor.visible = true;
 
 
     }
@@ -161,7 +162,6 @@ public class IntroCutsceneDialogue : MonoBehaviour
         rocketFlyingSound.SetActive(true);
         alarmSound.SetActive(true);
         Time.timeScale = 1;
-
 
     }
 

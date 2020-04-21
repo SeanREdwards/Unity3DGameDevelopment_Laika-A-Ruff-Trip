@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerStartingSpawn : MonoBehaviour
 {
     public bool fixedCameraLevel;
+    public bool startCursorVisible;
     //public bool visibleCursor;
     // Start is called before the first frame update
     void Start()
@@ -25,7 +26,10 @@ public class PlayerStartingSpawn : MonoBehaviour
 
         }
 
-        Cursor.visible = false;
+        if (!startCursorVisible)
+        {
+            Cursor.visible = false;
+        }
 
         /*
         if (visibleCursor)

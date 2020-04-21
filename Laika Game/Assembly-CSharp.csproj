@@ -165,8 +165,10 @@
     <Compile Include="Assets\Cannon\ShootCannonProjectile.cs" />
     <Compile Include="Assets\ChildBattery.cs" />
     <Compile Include="Assets\CitySceneStart.cs" />
+    <Compile Include="Assets\CursorLock.cs" />
     <Compile Include="Assets\CursorVisibleOnHover.cs" />
     <Compile Include="Assets\CustomizationCameraRotation.cs" />
+    <Compile Include="Assets\DisablePause.cs" />
     <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\External Assets\Do not shoot Aliens\Game assets\Scripts\Enemy.cs" />

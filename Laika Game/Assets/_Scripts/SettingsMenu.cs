@@ -13,18 +13,19 @@ public class SettingsMenu : MonoBehaviour
 
     void Start()
     {
-        resolutions = Screen.resolutions;
-        resolutionDropdown.ClearOptions();
+        //resolutions = Screen.resolutions;
+        //resolutionDropdown.ClearOptions();
         QualitySettings.SetQualityLevel(5);
 
         List<string> options = new List<string>();
+        /*
         for (int i = 0; i < resolutions.Length; i++)
         {
             string option = resolutions[i].width + " x " + resolutions[i].height;
             options.Add(option);
         }
-
-        resolutionDropdown.AddOptions(options); //list
+        */
+        //resolutionDropdown.AddOptions(options); //list
 
     }
 
@@ -42,6 +43,6 @@ public class SettingsMenu : MonoBehaviour
     public void SetFullscreen (bool isFullscreen)
     {
         Screen.fullScreen = isFullscreen;
-        print(QualitySettings.GetQualityLevel());
+        
     }
 }
