@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1109517887, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 1
+<<<<<<< HEAD
+  lastUpdatedAtString: 2020-01-18T21:04:48.548-05:00
+  initializedAtString: 2020-01-18T21:04:48.548-05:00
+=======
+  lastUpdatedAtString: 2020-01-18T14:37:42.325-05:00
+  initializedAtString: 2020-01-18T14:37:42.325-05:00
+>>>>>>> e68c10015442902fb06ee4005d2c3c72a127decb
+  currentGitRemote:
+    name: origin
+    url: https://github.com/nathanrauf/Laika.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  currentGitBranch:
+    name: tarun
+    tracking: origin/tarun
+  currentConfigBranch:
+    name: tarun
+    remote:
+      name: origin
+      url: https://github.com/nathanrauf/Laika.git
+    trackingBranch: tarun
+  currentConfigRemote:
+    name: origin
+    url: https://github.com/nathanrauf/Laika.git
+  currentHead: 

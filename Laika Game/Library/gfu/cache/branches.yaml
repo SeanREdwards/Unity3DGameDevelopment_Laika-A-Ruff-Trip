@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2020-01-21T16:56:37.232-05:00
+  initializedAtString: 2020-01-21T16:49:05.192-05:00
+  localBranches:
+  - name: MainMenu
+    tracking: origin/MainMenu
+  - name: master
+    tracking: origin/master
+  - name: tarun
+    tracking: origin/tarun
+  remoteBranches:
+  - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/MainMenu
+    tracking: '[None]'
+  - name: origin/Shawn
+    tracking: '[None]'
+  - name: origin/tarun
+    tracking: '[None]'
+  - name: origin/Tutorial
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/nathanrauf/Laika
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - MainMenu
+    - master
+    - tarun
+    values:
+    - name: MainMenu
+      remote:
+        name: origin
+        url: https://github.com/nathanrauf/Laika
+      trackingBranch: MainMenu
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/nathanrauf/Laika
+      trackingBranch: master
+    - name: tarun
+      remote:
+        name: origin
+        url: https://github.com/nathanrauf/Laika
+      trackingBranch: tarun
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - HEAD
+      - MainMenu
+      - Shawn
+      - tarun
+      - Tutorial
+    subKeyValues:
+    - Values:
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/nathanrauf/Laika
+        trackingBranch: 
+      - name: MainMenu
+        remote:
+          name: origin
+          url: https://github.com/nathanrauf/Laika
+        trackingBranch: 
+      - name: Shawn
+        remote:
+          name: origin
+          url: https://github.com/nathanrauf/Laika
+        trackingBranch: 
+      - name: tarun
+        remote:
+          name: origin
+          url: https://github.com/nathanrauf/Laika
+        trackingBranch: 
+      - name: Tutorial
+        remote:
+          name: origin
+          url: https://github.com/nathanrauf/Laika
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/nathanrauf/Laika
